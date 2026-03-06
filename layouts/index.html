@@ -1,0 +1,72 @@
+{{ define "main" }}
+
+<main class="main home-main">
+    <div class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Practice Languages. Meet Friends. Build Community.</h1>
+            <p class="hero-subtitle">The premier in-person Vietnamese and English exchange in Da Nang. A friendly space for all levels.</p>
+            <div class="hero-buttons">
+                <a href="/join/" class="button button-primary">Join the Next Exchange</a>
+                <a href="/resources/" class="button button-secondary">Get Free Resources</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="home-section how-it-works">
+        <h2 class="section-title">How It Works</h2>
+        <div class="grid-3">
+            <div class="grid-item">
+                <h3>1. Join the Chat</h3>
+                <p>Join our Zalo or WhatsApp to find out the upcoming meetup location in Da Nang.</p>
+            </div>
+            <div class="grid-item">
+                <h3>2. Check the Topic</h3>
+                <p>We provide a weekly rotating topic with vocabulary and questions to help you break the ice.</p>
+            </div>
+            <div class="grid-item">
+                <h3>3. Show Up & Talk</h3>
+                <p>Half Vietnamese, half English. Just show up, grab a drink, and start practicing in a supportive environment.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-section upcoming-events">
+        <h2 class="section-title">Upcoming Events</h2>
+        <div class="event-list">
+            {{ $events := where site.RegularPages "Type" "events" }}
+            {{ range first 2 $events }}
+                <a href="{{ .RelPermalink }}" class="card event-card">
+                    <h3>{{ .Title }}</h3>
+                    <p class="meta">📅 {{ .Date.Format "January 2, 2006" }}{{ if .Params.time }} at {{ .Params.time }}{{ end }}</p>
+                    <p class="meta">📍 {{ .Params.venue }}</p>
+                    <p>{{ .Summary }}</p>
+                </a>
+            {{ else }}
+                <p>No upcoming events announced yet. Check our <a href="/join/">Zalo/WhatsApp</a>!</p>
+            {{ end }}
+        </div>
+        <div class="center-cta">
+            <a href="/events/" class="button button-outline">View All Events</a>
+        </div>
+    </section>
+
+    <section class="home-section topic-preview">
+        <h2 class="section-title">Featured Topic</h2>
+        <div class="topic-grid">
+            {{ $topics := where (where site.RegularPages "Type" "topics") ".Params.featured" true }}
+            {{ range first 1 $topics }}
+                <div class="card topic-featured-card">
+                    <span class="badge">{{ .Params.level }}</span>
+                    <h3>{{ .Title }}</h3>
+                    <p>{{ .Params.summary }}</p>
+                    <a href="{{ .RelPermalink }}" class="button button-small">View Vocabulary</a>
+                </div>
+            {{ else }}
+                <p>Check out our <a href="/topics/">conversation topics</a> library.</p>
+            {{ end }}
+        </div>
+    </section>
+
+</main>
+
+{{ end }}

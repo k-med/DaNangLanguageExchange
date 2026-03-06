@@ -1,0 +1,73 @@
+baseURL = 'https://danang-language-exchange.pages.dev/'
+languageCode = 'en-us'
+title = 'Da Nang Language Exchange Club'
+theme = 'PaperMod'
+
+[params]
+  env = 'production'
+  title = 'Da Nang Language Exchange Club'
+  description = 'A community for practicing Vietnamese and English in Da Nang.'
+  author = 'Da Nang Language Exchange'
+  images = ['/images/banner.jpg']
+  defaultTheme = 'auto'
+  ShowShareButtons = false
+  ShowReadingTime = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  disableThemeToggle = false
+  disableSpecial1stPost = true
+  displayFullLangName = true
+
+  [params.profileMode]
+    enabled = false # We'll use a custom homepage, but can fallback on this
+    title = 'Da Nang Language Exchange'
+    subtitle = 'Practice Vietnamese and English, meet new friends, and learn together.'
+    imageUrl = 'favicon.ico'
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = 'Language Exchange Logo'
+    
+  [params.homeInfoParams]
+    Title = "Welcome to the Da Nang Language Exchange Club"
+    Content = "We are an active, in-person community for foreigners learning Vietnamese and locals practicing English. Let's talk!"
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[[menu.main]]
+    identifier = "events"
+    name = "Events"
+    url = "/events/"
+    weight = 20
+
+[[menu.main]]
+    identifier = "resources"
+    name = "Resources"
+    url = "/resources/"
+    weight = 30
+
+[[menu.main]]
+    identifier = "topics"
+    name = "Topics"
+    url = "/topics/"
+    weight = 40
+
+[[menu.main]]
+    identifier = "gallery"
+    name = "Gallery"
+    url = "/gallery/"
+    weight = 50
+
+[[menu.main]]
+    identifier = "join"
+    name = "Join Us"
+    url = "/join/"
+    weight = 60
+
+[taxonomies]
+  tag = 'tags'
+  level = 'levels'

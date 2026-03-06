@@ -1,0 +1,231 @@
+/* Base Overrides for a calmer, Cafe vibe */
+:root {
+    --theme: #FAF9F6;
+    --entry: #FFFFFF;
+    --primary: #2C3E50;
+    --secondary: #5D6D7E;
+    --tertiary: #A6ACAF;
+    --background: #FAF9F6;
+    --content: #34495E;
+    --hl-color: #EBF5FB;
+    --border: #E5E7EB;
+    
+    --accent: #2980B9;
+    --accent-hover: #1A5276;
+    --border-radius: 12px;
+}
+
+.dark {
+    --theme: #1E222A;
+    --entry: #282C34;
+    --primary: #E5E9F0;
+    --secondary: #ABB2BF;
+    --tertiary: #5C6370;
+    --background: #1E222A;
+    --content: #D7DAE0;
+    --hl-color: #3E4451;
+    --border: #3E4451;
+    
+    --accent: #4EA8DE;
+    --accent-hover: #56B6C2;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* Typography refinements */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+/* Layout Utilities */
+.home-main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 var(--gap);
+}
+
+.home-section {
+    margin: 4rem 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.center-cta {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 6rem 1rem;
+    background: linear-gradient(to bottom, var(--hl-color), var(--theme));
+    border-radius: var(--border-radius);
+    margin-bottom: 4rem;
+    margin-top: 2rem;
+}
+
+.hero-title {
+    font-size: 2.8rem;
+    line-height: 1.2;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    font-size: 1.25rem;
+    color: var(--secondary);
+    margin-bottom: 2.5rem;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 600;
+    text-decoration: none !important;
+    transition: all 0.2s ease;
+}
+
+.button-small {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+}
+
+.button-primary {
+    background-color: var(--accent);
+    color: #fff !important;
+    border: 2px solid var(--accent);
+}
+
+.button-primary:hover {
+    background-color: var(--accent-hover);
+    border-color: var(--accent-hover);
+}
+
+.button-secondary {
+    background-color: var(--entry);
+    color: var(--primary) !important;
+    border: 2px solid var(--border);
+}
+
+.button-secondary:hover {
+    border-color: var(--accent);
+}
+
+.button-outline {
+    background: transparent;
+    color: var(--accent) !important;
+    border: 2px solid var(--accent);
+}
+
+.button-outline:hover {
+    background: var(--accent);
+    color: #fff !important;
+}
+
+/* Grids */
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.grid-item {
+    background: var(--entry);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--border);
+}
+
+.grid-item h3 {
+    margin-top: 0;
+    color: var(--accent);
+}
+
+/* Cards (Events, Topics, Resources) */
+.card {
+    display: block;
+    background: var(--entry);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin-bottom: 1.5rem;
+    border: 1px solid var(--border);
+    text-decoration: none !important;
+    color: inherit;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: var(--accent);
+}
+
+.card h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.card .meta {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin: 0.25rem 0;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: var(--hl-color);
+    color: var(--accent);
+    border-radius: 4px;
+    margin-bottom: 0.5rem;
+}
+
+/* Event List on Homepage */
+.event-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Topic Featured Card */
+.topic-featured-card {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.topic-featured-card .badge {
+    margin-top: -0.5rem;
+}
+
+@media (max-width: 600px) {
+    .hero {
+        padding: 4rem 1rem;
+    }
+    .hero-title {
+        font-size: 2rem;
+    }
+}
