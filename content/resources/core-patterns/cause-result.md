@@ -10,12 +10,17 @@ template: "[Situation] nên [Result]"
 literal_translation: "[Situation], so [Result]"
 practice_question: "Tại sao [Situation]?"
 examples:
-  - "Tôi mệt nên tôi về nhà sớm."
-  - "Tôi đói nên tôi ăn phở."
+  - vi: "Tôi mệt nên tôi về nhà sớm."
+    en: "I am tired, so I go home early."
+  - vi: "Tôi đói nên tôi ăn phở."
+    en: "I am hungry, so I eat pho."
 prompts:
-  - "Tại sao bạn học tiếng Việt?"
-  - "Hôm nay bạn mệt nên bạn làm gì?"
-  - "Bạn thích sống ở Đà Nẵng nên cuộc sống của bạn thay đổi thế nào?"
+  - vi: "Tại sao bạn học tiếng Việt?"
+    en: "Why are you learning Vietnamese?"
+  - vi: "Hôm nay bạn mệt nên bạn làm gì?"
+    en: "You are tired today, so what do you do?"
+  - vi: "Bạn thích sống ở Đà Nẵng nên cuộc sống của bạn thay đổi thế nào?"
+    en: "Because you like living in Da Nang, how has your life changed?"
 ---
 
 Use this when you want answers to sound more complete without becoming complicated.

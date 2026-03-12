@@ -580,6 +580,26 @@ small {
     padding-left: 1.1rem;
 }
 
+.bilingual-item + .bilingual-item {
+    margin-top: 0.75rem;
+}
+
+.bilingual-item-vi,
+.bilingual-item-en {
+    display: block;
+}
+
+.bilingual-item-vi {
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.bilingual-item-en {
+    margin-top: 0.18rem;
+    color: var(--secondary);
+    font-style: italic;
+}
+
 .topic-worksheet hr {
     margin: 2rem 0;
     opacity: 0.16;

@@ -10,12 +10,17 @@ template: "Nếu [Condition], [Result]"
 literal_translation: "If [Condition], [Result]"
 practice_question: "Nếu [Condition], bạn làm gì?"
 examples:
-  - "Nếu trời mưa, tôi ở nhà."
-  - "Nếu tôi rảnh, tôi đi biển."
+  - vi: "Nếu trời mưa, tôi ở nhà."
+    en: "If it rains, I stay home."
+  - vi: "Nếu tôi rảnh, tôi đi biển."
+    en: "If I am free, I go to the beach."
 prompts:
-  - "Nếu bạn rảnh cuối tuần, bạn làm gì?"
-  - "Nếu bạn có thêm một ngày ở Đà Nẵng, bạn sẽ đi đâu?"
-  - "Nếu bạn học tiếng Việt tốt hơn, bạn muốn làm gì trước?"
+  - vi: "Nếu bạn rảnh cuối tuần, bạn làm gì?"
+    en: "If you are free this weekend, what do you do?"
+  - vi: "Nếu bạn có thêm một ngày ở Đà Nẵng, bạn sẽ đi đâu?"
+    en: "If you had one more day in Da Nang, where would you go?"
+  - vi: "Nếu bạn học tiếng Việt tốt hơn, bạn muốn làm gì trước?"
+    en: "If your Vietnamese gets better, what do you want to do first?"
 ---
 
 This pattern creates a lot of speaking from a very small amount of grammar.

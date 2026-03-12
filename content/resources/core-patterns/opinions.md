@@ -10,12 +10,17 @@ template: "Theo [Person], [Statement]"
 literal_translation: "According to [Person], [Statement]"
 practice_question: "Theo bạn, [Topic] thế nào?"
 examples:
-  - "Theo tôi, Đà Nẵng rất đẹp."
-  - "Theo tôi, tiếng Việt khó nhưng thú vị."
+  - vi: "Theo tôi, Đà Nẵng rất đẹp."
+    en: "In my opinion, Da Nang is very beautiful."
+  - vi: "Theo tôi, tiếng Việt khó nhưng thú vị."
+    en: "In my opinion, Vietnamese is difficult but interesting."
 prompts:
-  - "Theo bạn, Đà Nẵng thế nào?"
-  - "Theo bạn, học ở quán cà phê có tốt không?"
-  - "Theo bạn, món nào dễ giới thiệu cho người mới?"
+  - vi: "Theo bạn, Đà Nẵng thế nào?"
+    en: "What do you think of Da Nang?"
+  - vi: "Theo bạn, học ở quán cà phê có tốt không?"
+    en: "In your opinion, is studying in a cafe good?"
+  - vi: "Theo bạn, món nào dễ giới thiệu cho người mới?"
+    en: "Which dish do you think is easy to introduce to a newcomer?"
 ---
 
 Opinion frames help hosts keep tables alive with quick follow-up questions like why, really, and for example.

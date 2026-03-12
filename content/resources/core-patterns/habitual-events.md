@@ -10,12 +10,17 @@ template: "Mỗi khi [Event], [Action]"
 literal_translation: "Whenever [Event], [Action]"
 practice_question: "Mỗi khi [Event], bạn làm gì?"
 examples:
-  - "Mỗi khi rảnh, tôi đi uống cà phê."
-  - "Mỗi khi mệt, tôi nghe nhạc."
+  - vi: "Mỗi khi rảnh, tôi đi uống cà phê."
+    en: "Whenever I am free, I go for coffee."
+  - vi: "Mỗi khi mệt, tôi nghe nhạc."
+    en: "Whenever I am tired, I listen to music."
 prompts:
-  - "Mỗi khi buồn bạn làm gì?"
-  - "Mỗi khi cuối tuần đến, bạn thường đi đâu?"
-  - "Mỗi khi học lâu, bạn nghỉ như thế nào?"
+  - vi: "Mỗi khi buồn bạn làm gì?"
+    en: "What do you do whenever you feel sad?"
+  - vi: "Mỗi khi cuối tuần đến, bạn thường đi đâu?"
+    en: "When the weekend comes, where do you usually go?"
+  - vi: "Mỗi khi học lâu, bạn nghỉ như thế nào?"
+    en: "When you study for a long time, how do you take a break?"
 ---
 
 This is one of the easiest ways to turn routine vocabulary into full sentences.

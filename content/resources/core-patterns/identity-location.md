@@ -10,12 +10,17 @@ template: "[Subject] là người [Country] nhưng sống ở [Place]"
 literal_translation: "[Subject] is person [Country] but lives in [Place]"
 practice_question: "[Subject] là người nước nào nhưng sống ở đâu?"
 examples:
-  - "Tôi là người Úc nhưng sống ở Đà Nẵng."
-  - "Anh ấy là người Mỹ nhưng sống ở Việt Nam."
+  - vi: "Tôi là người Úc nhưng sống ở Đà Nẵng."
+    en: "I am Australian, but I live in Da Nang."
+  - vi: "Anh ấy là người Mỹ nhưng sống ở Việt Nam."
+    en: "He is American, but he lives in Vietnam."
 prompts:
-  - "Bạn là người nước nào?"
-  - "Bạn sống ở đâu?"
-  - "Bạn đang sống ở Đà Nẵng hay du lịch ở đây?"
+  - vi: "Bạn là người nước nào?"
+    en: "What country are you from?"
+  - vi: "Bạn sống ở đâu?"
+    en: "Where do you live?"
+  - vi: "Bạn đang sống ở Đà Nẵng hay du lịch ở đây?"
+    en: "Are you living in Da Nang or traveling here?"
 ---
 
 Use this pattern when the table is still warming up and people need a clean first sentence.
