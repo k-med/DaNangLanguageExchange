@@ -14,12 +14,12 @@ Until a full photo gallery is published, this page collects the kinds of moments
   <div class="proof-story-card">
     <span class="badge">Cafe tables</span>
     <h3>Small groups, not one loud crowd</h3>
-    <p>Most sessions run as several focused tables so beginners can hear clearly and stronger speakers still get room for deeper conversation.</p>
+    <p>Most sessions run as several focused tables so newer learners can hear clearly and stronger speakers still get room for deeper conversation.</p>
   </div>
   <div class="proof-story-card">
-    <span class="badge">Topic sheets</span>
+    <span class="badge">Topic pages</span>
     <h3>Phones out for prompts, not distractions</h3>
-    <p>Members often keep the weekly worksheet open beside their coffee so they can grab vocabulary or a follow-up question when needed.</p>
+    <p>Members often keep the weekly topic page open beside their coffee so they can grab a pattern, vocabulary, or a follow-up question when needed.</p>
   </div>
   <div class="proof-story-card">
     <span class="badge">Local energy</span>

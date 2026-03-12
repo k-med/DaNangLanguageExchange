@@ -537,7 +537,8 @@ a {
 .resource-group,
 .event-stack-card,
 .page-shell,
-.topic-worksheet {
+.topic-worksheet,
+.resource-detail-shell {
     padding: 2rem;
     border-radius: var(--radius-lg);
 }
@@ -584,7 +585,9 @@ a {
 }
 
 .challenge-box,
-.social-proof-banner {
+.social-proof-banner,
+.notebook-tip,
+.pattern-template {
     padding: 1rem 1.2rem;
     border-radius: var(--radius-sm);
 }
@@ -603,6 +606,90 @@ a {
     margin: 1.7rem 0;
     background: linear-gradient(90deg, rgba(42, 111, 151, 0.08), rgba(240, 228, 216, 0.7));
     border: 1px solid rgba(42, 111, 151, 0.12);
+}
+
+.resource-single,
+.topic-single {
+    max-width: 1100px;
+}
+
+.resource-detail-shell,
+.topic-pack-shell {
+    background: linear-gradient(180deg, rgba(255, 253, 249, 0.98), rgba(255, 248, 241, 0.96));
+    border: 1px solid rgba(220, 204, 191, 0.9);
+    box-shadow: var(--shadow-soft);
+}
+
+.pattern-hero {
+    margin-bottom: 1.4rem;
+}
+
+.pattern-hero h2,
+.detail-card h2,
+.detail-card h3 {
+    margin-top: 0;
+}
+
+.pattern-template {
+    margin-top: 0.9rem;
+    background: rgba(42, 111, 151, 0.08);
+    border: 1px solid rgba(42, 111, 151, 0.12);
+    color: var(--primary);
+    font-size: 1.05rem;
+    font-weight: 700;
+}
+
+.resource-detail-grid,
+.vocab-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+    margin: 1.4rem 0;
+}
+
+.detail-card {
+    padding: 1.4rem;
+}
+
+.vocab-card {
+    padding: 1.3rem;
+}
+
+.vocab-card p {
+    margin: 0;
+}
+
+.vocabulary-chip-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+}
+
+.vocab-chip {
+    display: inline-flex;
+    align-items: center;
+    min-height: 38px;
+    padding: 0.55rem 0.9rem;
+    border-radius: 999px;
+    background: rgba(240, 228, 216, 0.85);
+    color: var(--primary);
+    font-weight: 700;
+}
+
+.notebook-tip {
+    margin-top: 1.4rem;
+    background: linear-gradient(135deg, rgba(184, 106, 79, 0.12), rgba(42, 111, 151, 0.08));
+    border: 1px solid rgba(184, 106, 79, 0.16);
+}
+
+.plain-steps {
+    margin: 1rem 0 0;
+    padding-left: 1.15rem;
+}
+
+.meta-note {
+    margin-bottom: 0;
+    color: var(--secondary);
 }
 
 .footer {
@@ -641,6 +728,7 @@ a {
     .hero-shell,
     .page-shell,
     .topic-worksheet,
+    .resource-detail-shell,
     .resource-group,
     .event-stack-card,
     .next-event-card,

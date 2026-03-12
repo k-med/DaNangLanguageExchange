@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Core Vocabulary on Da Nang Language Exchange Club</title>
+    <link>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/</link>
+    <description>Recent content in Core Vocabulary on Da Nang Language Exchange Club</description>
+    <image>
+      <title>Da Nang Language Exchange Club</title>
+      <url>https://dananglanguageexchange.pages.dev/images/banner.jpg</url>
+      <link>https://dananglanguageexchange.pages.dev/images/banner.jpg</link>
+    </image>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 12 Mar 2026 10:13:00 +0700</lastBuildDate>
+    <atom:link href="https://dananglanguageexchange.pages.dev/resources/core-vocabulary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Verbs</title>
+      <link>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/daily-verbs/</link>
+      <pubDate>Thu, 12 Mar 2026 10:10:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/daily-verbs/</guid>
+      <description>Common action words that combine well with starter and conversation patterns.</description>
+    </item>
+    <item>
+      <title>Daily Nouns</title>
+      <link>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/daily-nouns/</link>
+      <pubDate>Thu, 12 Mar 2026 10:11:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/daily-nouns/</guid>
+      <description>Useful everyday nouns for cafe, city, routine, and meetup talk.</description>
+    </item>
+    <item>
+      <title>Time Words</title>
+      <link>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/time-words/</link>
+      <pubDate>Thu, 12 Mar 2026 10:12:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/time-words/</guid>
+      <description>Timing words that help members talk about routines, plans, and repeated events.</description>
+    </item>
+    <item>
+      <title>Connectors</title>
+      <link>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/connectors/</link>
+      <pubDate>Thu, 12 Mar 2026 10:13:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/resources/core-vocabulary/connectors/</guid>
+      <description>Linking words that turn short replies into longer, more natural conversation.</description>
+    </item>
+  </channel>
+</rss>

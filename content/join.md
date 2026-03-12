@@ -20,14 +20,14 @@ Da Nang Language Exchange is free to join. The only thing you need to do before 
 </div>
 
 <div class="social-proof-banner">
-  <strong>Before you arrive:</strong> Check the weekly event post, save the venue map, and open the topic worksheet on your phone so you can start talking immediately when you sit down.
+  <strong>Before you arrive:</strong> Check the weekly event post, save the venue map, and open the topic page on your phone so you can start talking immediately when you sit down.
 </div>
 
 ## Who This Is For
 
 - Foreigners in Da Nang who want real Vietnamese speaking practice.
 - Vietnamese locals who want consistent English conversation with international partners.
-- Beginners who want structure instead of being dropped into a loud social meetup.
+- Newer learners who want structure instead of being dropped into a loud social meetup.
 - Stronger speakers who enjoy deeper conversations and helping newer learners.
 
 ## What To Expect At Your First Meetup
@@ -37,7 +37,7 @@ Da Nang Language Exchange is free to join. The only thing you need to do before 
     <li><strong>Learning-focused:</strong> This is a language club first, not a party.</li>
     <li><strong>Small-group rotations:</strong> Hosts help move people so everyone gets speaking time.</li>
     <li><strong>Vietnamese + English balance:</strong> Both languages get dedicated practice time.</li>
-    <li><strong>Beginner support:</strong> Topic prompts and vocabulary are always available.</li>
+    <li><strong>Starter support:</strong> Topic prompts, core patterns, and vocabulary are always available.</li>
   </ul>
 </div>
 
@@ -45,14 +45,14 @@ Da Nang Language Exchange is free to join. The only thing you need to do before 
 
 1. Join the chat group and read the pinned event details.
 2. Arrive on time, order a drink, and tell the host it is your first session.
-3. Start with the weekly topic sheet and use the challenge prompts if conversation stalls.
+3. Start with the weekly topic page and use the pattern prompts if conversation stalls.
 4. Rotate tables when the hosts call the switch so you meet both Vietnamese and international members.
 
 ## Prepare Before Friday
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 1.5rem;">
   <a href="/topics/" class="button button-outline">View Weekly Conversation Topics</a>
-  <a href="/resources/" class="button button-secondary">Browse Beginner Resources</a>
+  <a href="/resources/" class="button button-secondary">Browse Core Resources</a>
 </div>
 
 </div>

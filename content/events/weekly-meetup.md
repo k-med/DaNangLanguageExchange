@@ -5,13 +5,13 @@ draft: false
 venue: "Quiet Time Cafe, 123 Nguyen Van Linh, Hai Chau, Da Nang"
 map_link: "https://maps.google.com/?q=Quiet+Time+Cafe+Da+Nang"
 time: "7:00 PM - 9:00 PM"
-level_focus: "Beginner to upper-intermediate"
+level_focus: "Starter, conversation, and story tables"
 venue_status: "Confirmed cafe venue"
 topic_of_week: "Food, dining, and favorite Da Nang spots"
 host_names: "Linh, Minh, and Alex"
 capacity_target: "18 to 24 people"
 recap_highlight: "Hosts are running a food-and-cafe topic night with beginner prompt sheets and deliberate table rotations."
-summary: "A structured Friday night session with English and Vietnamese practice, small-group rotations, and a food-themed worksheet that works well for first-timers."
+summary: "A structured Friday night session with English and Vietnamese practice, small-group rotations, and a food topic page built around three reusable conversation patterns."
 ---
 
 This is the next public session for the Da Nang Language Exchange Club.
@@ -19,9 +19,9 @@ This is the next public session for the Da Nang Language Exchange Club.
 ## Session Format
 
 - **7:00 PM - 7:20 PM:** Arrivals, welcome desk, and seating help for first-time members.
-- **7:20 PM - 8:05 PM:** English conversation round using the weekly topic sheet.
+- **7:20 PM - 8:05 PM:** English conversation round using the weekly topic page and three table patterns.
 - **8:05 PM - 8:15 PM:** Break and table rotation.
-- **8:15 PM - 9:00 PM:** Vietnamese conversation round with the same prompts adapted for level.
+- **8:15 PM - 9:00 PM:** Vietnamese-only conversation round using the same patterns and prompts.
 
 ## Practical Details
 
@@ -34,8 +34,9 @@ This is the next public session for the Da Nang Language Exchange Club.
 
 - A phone or notebook for new vocabulary.
 - Enough cash or card for your own drink.
-- The weekly topic sheet from the [Topics](/topics/) section if you want to prep in advance.
+- The weekly topic page from the [Topics](/topics/) section if you want to prep in advance.
+- A small notebook if you want to copy the patterns and write three example sentences.
 
 ## First-Time Advice
 
-If it is your first session, arrive close to 7:00 PM and tell the hosts. They will place you at a table that fits your level and make sure you have starter prompts ready.
+If it is your first session, arrive close to 7:00 PM and tell the hosts. They will place you at a suitable table and make sure you have starter prompts ready.

@@ -1,0 +1,81 @@
+{{ define "main" }}
+
+<article class="main topic-single">
+    <header class="page-header">
+        {{ partial "breadcrumbs.html" . }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
+    </header>
+
+    <section class="topic-worksheet topic-pack-shell">
+        <p class="topic-section-label">Topic Pack</p>
+        {{ with .Content }}{{ . }}{{ end }}
+
+        <div class="social-proof-banner">
+            <strong>Use this at the meetup:</strong> each table takes these three patterns, speaks for 20 minutes, then rotates.
+        </div>
+
+        <div class="resource-detail-grid">
+            <section class="card detail-card">
+                <h2>Patterns Used Today</h2>
+                <ul class="plain-list">
+                    {{ range .Params.patterns_used }}
+                    <li><a href="{{ .url }}">{{ .title }}</a></li>
+                    {{ end }}
+                </ul>
+            </section>
+
+            <section class="card detail-card">
+                <h2>Example Prompts</h2>
+                <ul class="plain-list">
+                    {{ range .Params.prompts }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </section>
+        </div>
+
+        <section class="card detail-card">
+            <h2>Vocabulary</h2>
+            <div class="vocabulary-chip-row">
+                {{ range .Params.vocabulary }}
+                <span class="vocab-chip">{{ . }}</span>
+                {{ end }}
+            </div>
+        </section>
+
+        <div class="resource-detail-grid">
+            <section class="card detail-card">
+                <h2>Meetup Flow</h2>
+                <ul class="plain-list">
+                    {{ range .Params.table_patterns }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+                <p class="meta-note">Rotate groups every 20 minutes. Run one Vietnamese-only round and one English-only round.</p>
+            </section>
+
+            <section class="card detail-card">
+                <h2>Host Prompts</h2>
+                <ul class="plain-list">
+                    {{ range .Params.host_prompts }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </section>
+        </div>
+
+        <div class="notebook-tip">
+            <span class="section-kicker">Pro tip</span>
+            <h2>Bring a small notebook</h2>
+            <ol class="plain-steps">
+                <li>Read the topic page before the meetup.</li>
+                <li>Copy the patterns into your notebook.</li>
+                <li>Write three example sentences before you arrive.</li>
+            </ol>
+            <p>You will speak more confidently during the exchange.</p>
+        </div>
+    </section>
+</article>
+
+{{ end }}

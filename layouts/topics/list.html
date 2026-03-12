@@ -17,13 +17,13 @@
             <h2>{{ .Title }}</h2>
             <p>{{ .Params.summary | default .Summary }}</p>
             <div class="inline-meta-list">
-                <span><strong>Level mix</strong> {{ .Params.level }}</span>
-                <span><strong>Format</strong> Worksheet with vocabulary and prompt ladder</span>
+                <span><strong>Track</strong> {{ .Params.track }}</span>
+                <span><strong>Patterns</strong> {{ len .Params.patterns_used }} core patterns</span>
             </div>
         </div>
         <div class="mini-panel">
             <h3>Why this topic works</h3>
-            <p>Food and cafe culture make first conversations easier because both locals and international members can share recommendations immediately.</p>
+            <p>People scan one QR code, see three patterns, a few prompts, and a short word list. That is enough to start speaking immediately.</p>
             <a href="{{ .RelPermalink }}" class="button button-primary">Open Featured Topic</a>
         </div>
     </section>
@@ -31,19 +31,20 @@
 
     <section class="home-section">
         <div class="topic-card-grid">
-            {{ range sort $rest "Date" "desc" }}
+            {{ range sort $rest "Weight" "asc" }}
             <article class="topic-card">
                 <div class="topic-card-header">
                     <div>
-                        <span class="badge">{{ .Params.level }}</span>
+                        <span class="badge">{{ .Params.track }}</span>
                         <h3>{{ .Title }}</h3>
                     </div>
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Format</strong> Cafe worksheet</span>
-                    <span><strong>Best use</strong> Weekly table discussion</span>
+                    <span><strong>Patterns</strong> {{ len .Params.patterns_used }}</span>
+                    <span><strong>Vocabulary</strong> {{ len .Params.vocabulary }} words</span>
+                    <span><strong>Best use</strong> Table rotation topic</span>
                 </div>
             </article>
             {{ end }}

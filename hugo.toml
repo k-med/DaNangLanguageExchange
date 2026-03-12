@@ -78,7 +78,6 @@ theme = 'PaperMod'
 
 [taxonomies]
   tag = 'tags'
-  level = 'levels'
 
 [markup]
   [markup.goldmark]

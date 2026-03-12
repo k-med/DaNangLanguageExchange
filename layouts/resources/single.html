@@ -1,0 +1,66 @@
+{{ define "main" }}
+
+<article class="main resource-single">
+    <header class="page-header">
+        {{ partial "breadcrumbs.html" . }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
+    </header>
+
+    <section class="resource-detail-shell">
+        {{ if eq .Params.resource_type "pattern" }}
+        <div class="pattern-hero">
+            <span class="badge">{{ .Params.pattern_band }}</span>
+            <h2>Template</h2>
+            <div class="pattern-template">{{ .Params.template }}</div>
+            <div class="inline-meta-list">
+                <span><strong>Practice question</strong> {{ .Params.practice_question }}</span>
+            </div>
+        </div>
+
+        <div class="resource-detail-grid">
+            <section class="card detail-card">
+                <h3>Examples</h3>
+                <ul class="plain-list">
+                    {{ range .Params.examples }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </section>
+
+            <section class="card detail-card">
+                <h3>Prompts</h3>
+                <ul class="plain-list">
+                    {{ range .Params.prompts }}
+                    <li>{{ . }}</li>
+                    {{ end }}
+                </ul>
+            </section>
+        </div>
+        {{ else if eq .Params.resource_type "vocabulary" }}
+        <div class="pattern-hero">
+            <span class="badge">Core Vocabulary</span>
+            <h2>Quick Drill</h2>
+            <div class="pattern-template">{{ .Params.quick_drill }}</div>
+        </div>
+
+        <section class="vocab-grid">
+            {{ range .Params.words }}
+            <article class="card vocab-card">
+                <h3>{{ .term }}</h3>
+                <p><strong>{{ .meaning }}</strong></p>
+                <p>{{ .sample }}</p>
+            </article>
+            {{ end }}
+        </section>
+        {{ end }}
+
+        {{ with .Content }}
+        <section class="card detail-card">
+            {{ . }}
+        </section>
+        {{ end }}
+    </section>
+</article>
+
+{{ end }}

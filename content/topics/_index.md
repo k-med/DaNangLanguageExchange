@@ -1,4 +1,4 @@
 ---
 title: "Topics"
-description: "Weekly discussion worksheets built for cafe table practice, from beginner vocabulary to advanced open prompts."
+description: "QR-friendly conversation pages built around three patterns, a short vocabulary list, and prompts people can start using immediately at the table."
 ---

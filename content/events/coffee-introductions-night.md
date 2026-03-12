@@ -5,7 +5,7 @@ draft: false
 venue: "Bikini Bottom Express Cafe, An Thuong, Da Nang"
 map_link: "https://maps.google.com/?q=An+Thuong+Da+Nang"
 time: "7:00 PM - 9:00 PM"
-level_focus: "Beginner-friendly mixed table"
+level_focus: "Starter pattern tables"
 venue_status: "Completed"
 topic_of_week: "Introductions, hometowns, and daily routines"
 host_names: "Linh and Bao"
@@ -18,12 +18,12 @@ This Friday session focused on helping new members settle in quickly.
 
 ## What Worked Well
 
-- Hosts grouped beginners with patient regulars instead of letting everyone self-sort.
-- The introductions worksheet kept tables moving without awkward pauses.
+- Hosts grouped new members with patient regulars instead of letting everyone self-sort.
+- The introductions pattern card kept tables moving without awkward pauses.
 - Several members stayed after the official close to exchange study tips and local cafe recommendations.
 
 ## Session Notes
 
 - Topic prompts about hometowns and daily routine were especially useful for early conversations.
-- The room was calm enough for lower-level Vietnamese learners to stay engaged.
+- The room was calm enough for newer Vietnamese learners to stay engaged.
 - The next event will continue the small-table format because feedback was strong.

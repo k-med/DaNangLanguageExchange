@@ -1,7 +1,8 @@
 {{ define "main" }}
 
-{{ $pages := where .RegularPages "Type" "resources" }}
-{{ $categories := slice "Beginner" "Intermediate" "Host Materials" "Quick Download Packs" }}
+{{ $pages := where site.RegularPages "Type" "resources" }}
+{{ $patterns := where $pages "Params.resource_type" "pattern" }}
+{{ $vocabulary := where $pages "Params.resource_type" "vocabulary" }}
 
 <section class="main">
     <header class="page-header">
@@ -10,36 +11,53 @@
         {{ with .Description }}<p class="section-intro">{{ . }}</p>{{ end }}
     </header>
 
-    {{ range $categories }}
-    {{ $category := . }}
-    {{ $group := where $pages "Params.category" $category }}
-    {{ if gt (len $group) 0 }}
     <section class="resource-group">
-        <span class="section-kicker">{{ $category }}</span>
-        <h2>{{ $category }}</h2>
+        <span class="section-kicker">Grammar engines</span>
+        <h2>Core Patterns</h2>
+        <p class="section-intro">Each meetup can run on three to five sentence patterns. Open a pattern, read two examples, and start talking.</p>
         <div class="resource-grid">
-            {{ range sort $group "Date" "desc" }}
+            {{ range sort $patterns "Weight" "asc" }}
             <article class="card resource-card">
                 <div class="resource-card-header">
                     <div>
-                        <span class="badge">{{ .Params.level }}</span>
+                        <span class="badge">{{ .Params.pattern_band }}</span>
                         <h3>{{ .Title }}</h3>
                     </div>
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Format</strong> {{ .Params.format }}</span>
-                    <span><strong>Prep time</strong> {{ .Params.prep_time }}</span>
-                    <span><strong>Table-friendly</strong> {{ cond .Params.table_friendly "Yes" "No" }}</span>
-                    <span><strong>Best use</strong> {{ $category }}</span>
+                    <span><strong>Template</strong> {{ .Params.template }}</span>
+                    <span><strong>Prompt count</strong> {{ len .Params.prompts }}</span>
                 </div>
             </article>
             {{ end }}
         </div>
     </section>
-    {{ end }}
-    {{ end }}
+
+    <section class="resource-group">
+        <span class="section-kicker">Word banks</span>
+        <h2>Core Vocabulary</h2>
+        <p class="section-intro">Small vocabulary sets that support the pattern pages without overwhelming people at the table.</p>
+        <div class="resource-grid">
+            {{ range sort $vocabulary "Weight" "asc" }}
+            <article class="card resource-card">
+                <div class="resource-card-header">
+                    <div>
+                        <span class="badge">Core Vocabulary</span>
+                        <h3>{{ .Title }}</h3>
+                    </div>
+                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
+                </div>
+                <p>{{ .Params.summary | default .Summary }}</p>
+                <div class="inline-meta-list">
+                    <span><strong>Word count</strong> {{ len .Params.words }}</span>
+                    <span><strong>Drill</strong> One quick practice set</span>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
 </section>
 
 {{ end }}

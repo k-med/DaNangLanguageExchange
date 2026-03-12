@@ -5,7 +5,7 @@ draft: false
 venue: "The Local Beans Cafe, near Dragon Bridge, Da Nang"
 map_link: "https://maps.google.com/?q=Dragon+Bridge+Da+Nang"
 time: "7:00 PM - 9:00 PM"
-level_focus: "All levels"
+level_focus: "Preference, opinion, and cause-result tables"
 venue_status: "Completed"
 topic_of_week: "Street food, cafe culture, and favorite local dishes"
 host_names: "Minh and Alex"
@@ -24,6 +24,6 @@ This session used food as an easy entry point for both Vietnamese and English le
 
 ## What We Learned
 
-- Food remains one of the strongest weekly topics for mixed-level groups.
+- Food remains one of the strongest weekly topics when each table stays focused on only three patterns.
 - Short printed vocabulary packs help nervous learners contribute earlier.
 - The next sessions should keep one practical challenge in every topic pack.

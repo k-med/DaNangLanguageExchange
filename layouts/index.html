@@ -10,7 +10,7 @@
         <div class="hero-copy">
             <span class="hero-kicker">Friday cafe practice in Da Nang</span>
             <h1 class="hero-title">Structured Vietnamese-English conversation for people who actually want to improve.</h1>
-            <p class="hero-subtitle">A calm weekly club with small-group rotations, balanced English and Vietnamese time, and topic sheets that help beginners join in quickly.</p>
+            <p class="hero-subtitle">A calm weekly club with small-group rotations, balanced English and Vietnamese time, and QR-friendly topic pages built around reusable conversation patterns.</p>
             <div class="hero-buttons hero-buttons-left">
                 <a href="{{ "/join/" | relLangURL }}" class="button button-primary">Join the Next Session</a>
                 <a href="{{ "/events/" | relLangURL }}" class="button button-secondary">See Upcoming Events</a>
@@ -25,8 +25,8 @@
                     <span>Drink purchase only, no ticket fee</span>
                 </div>
                 <div class="proof-chip">
-                    <strong>Mixed levels</strong>
-                    <span>Beginners welcome, hosts help with seating</span>
+                    <strong>Pattern-based tables</strong>
+                    <span>Three patterns per table, clear host guidance</span>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                     <span><strong>Date</strong> {{ .Date.Format "Friday, January 2, 2006" }}</span>
                     <span><strong>Time</strong> {{ .Params.time }}</span>
                     <span><strong>Venue</strong> {{ .Params.venue }}</span>
-                    <span><strong>Level mix</strong> {{ .Params.level_focus }}</span>
+                    <span><strong>Table focus</strong> {{ .Params.level_focus }}</span>
                     <span><strong>Topic</strong> {{ .Params.topic_of_week }}</span>
                 </div>
             </div>
@@ -127,7 +127,7 @@
             <div class="grid-item">
                 <span class="card-step">2</span>
                 <h3>Prep with the topic</h3>
-                <p>Each week includes a real discussion worksheet with vocabulary, beginner questions, and open-ended prompts for stronger speakers.</p>
+                <p>Each week includes three conversation patterns, example prompts, and a short word list that people can use immediately from a phone screen.</p>
             </div>
             <div class="grid-item">
                 <span class="card-step">3</span>
@@ -154,9 +154,9 @@
                 <p>Friday evenings in central Da Nang with a mix of Vietnamese locals, long-term residents, and motivated travelers.</p>
             </div>
             <div class="proof-story-card">
-                <span class="badge">Beginner support</span>
+                <span class="badge">Starter-friendly</span>
                 <h3>You do not need to improvise</h3>
-                <p>Hosts can suggest a table, starter questions are ready, and topic pages work well from a phone screen or QR code.</p>
+                <p>Hosts can suggest a table, starter questions are ready, and each topic page is built for quick QR-code use at the cafe.</p>
             </div>
         </div>
         <div class="quote-grid">
@@ -191,24 +191,24 @@
     <section class="home-section topic-preview">
         <div class="section-heading">
             <span class="section-kicker">Prep before Friday</span>
-            <h2 class="section-title">Featured Topic Pack</h2>
+            <h2 class="section-title">Featured Topic Page</h2>
         </div>
         {{ range $featuredTopic }}
         <div class="topic-spotlight">
             <div class="topic-spotlight-copy">
-                <span class="badge">{{ .Params.level }}</span>
+                <span class="badge">{{ .Params.track }}</span>
                 <h3>{{ .Title }}</h3>
                 <p>{{ .Params.summary }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Format</strong> Worksheet with vocabulary and prompts</span>
-                    <span><strong>Best for</strong> Mixed tables and first-time members</span>
+                    <span><strong>Format</strong> Three patterns, prompts, and vocabulary</span>
+                    <span><strong>Best for</strong> QR-code table practice</span>
                 </div>
             </div>
             <div class="mini-panel">
                 <h4>Why this topic works</h4>
-                <p>Food and cafe culture make first conversations easier because both locals and international members can share recommendations immediately.</p>
+                <p>People can see the pattern, copy one sentence into a notebook, and start speaking without waiting for a full lesson.</p>
                 <div class="hero-buttons hero-buttons-left">
-                    <a href="{{ .RelPermalink }}" class="button button-primary">Open Topic Worksheet</a>
+                    <a href="{{ .RelPermalink }}" class="button button-primary">Open Topic Page</a>
                     <a href="{{ "/resources/" | relLangURL }}" class="button button-outline">Browse Resources</a>
                 </div>
             </div>

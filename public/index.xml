@@ -2,113 +2,190 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Da Nang Language Exchange Club</title>
-    <link>https://dananglanguageexchange.pages.dev/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Da Nang Language Exchange Club</description>
     <image>
       <title>Da Nang Language Exchange Club</title>
-      <url>https://dananglanguageexchange.pages.dev/images/banner.jpg</url>
-      <link>https://dananglanguageexchange.pages.dev/images/banner.jpg</link>
+      <url>http://localhost:1313/images/banner.jpg</url>
+      <link>http://localhost:1313/images/banner.jpg</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Mar 2026 10:00:00 +0700</lastBuildDate>
-    <atom:link href="https://dananglanguageexchange.pages.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 12 Mar 2026 11:05:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Storytelling Prompt Ladder</title>
-      <link>https://dananglanguageexchange.pages.dev/resources/storytelling-prompts/</link>
-      <pubDate>Sun, 08 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/resources/storytelling-prompts/</guid>
-      <description>A set of prompts that move learners from simple descriptions to fuller personal stories and opinions.</description>
+      <title>Food</title>
+      <link>http://localhost:1313/topics/food/</link>
+      <pubDate>Thu, 12 Mar 2026 11:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/food/</guid>
+      <description>A low-pressure cafe topic built around preferences, opinions, and reasons.</description>
     </item>
     <item>
-      <title>First Meetup Prep Pack</title>
-      <link>https://dananglanguageexchange.pages.dev/resources/first-meetup-prep/</link>
-      <pubDate>Sat, 07 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/resources/first-meetup-prep/</guid>
-      <description>A quick-start pack covering self-introductions, cafe basics, and fallback questions for your first club night.</description>
+      <title>Daily Verbs</title>
+      <link>http://localhost:1313/resources/core-vocabulary/daily-verbs/</link>
+      <pubDate>Thu, 12 Mar 2026 10:10:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-vocabulary/daily-verbs/</guid>
+      <description>Common action words that combine well with starter and conversation patterns.</description>
+    </item>
+    <item>
+      <title>Identity and Location</title>
+      <link>http://localhost:1313/resources/core-patterns/identity-location/</link>
+      <pubDate>Thu, 12 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/identity-location/</guid>
+      <description>A simple way to introduce nationality, hometown, and where someone lives now.</description>
+    </item>
+    <item>
+      <title>Travel</title>
+      <link>http://localhost:1313/topics/travel/</link>
+      <pubDate>Thu, 12 Mar 2026 11:01:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/travel/</guid>
+      <description>Conversation practice about favorite places, future plans, and why certain trips matter.</description>
+    </item>
+    <item>
+      <title>Daily Nouns</title>
+      <link>http://localhost:1313/resources/core-vocabulary/daily-nouns/</link>
+      <pubDate>Thu, 12 Mar 2026 10:11:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-vocabulary/daily-nouns/</guid>
+      <description>Useful everyday nouns for cafe, city, routine, and meetup talk.</description>
+    </item>
+    <item>
+      <title>Preference</title>
+      <link>http://localhost:1313/resources/core-patterns/preference/</link>
+      <pubDate>Thu, 12 Mar 2026 10:01:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/preference/</guid>
+      <description>A fast pattern for comparisons, recommendations, and personal taste.</description>
+    </item>
+    <item>
+      <title>Work</title>
+      <link>http://localhost:1313/topics/work/</link>
+      <pubDate>Thu, 12 Mar 2026 11:02:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/work/</guid>
+      <description>A practical topic for routines, abilities, and how work shapes daily life.</description>
+    </item>
+    <item>
+      <title>Time Words</title>
+      <link>http://localhost:1313/resources/core-vocabulary/time-words/</link>
+      <pubDate>Thu, 12 Mar 2026 10:12:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-vocabulary/time-words/</guid>
+      <description>Timing words that help members talk about routines, plans, and repeated events.</description>
+    </item>
+    <item>
+      <title>Ability</title>
+      <link>http://localhost:1313/resources/core-patterns/ability/</link>
+      <pubDate>Thu, 12 Mar 2026 10:02:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/ability/</guid>
+      <description>Useful for talking about language skills, daily tasks, and what someone can or cannot do yet.</description>
+    </item>
+    <item>
+      <title>Daily Life</title>
+      <link>http://localhost:1313/topics/daily-life/</link>
+      <pubDate>Thu, 12 Mar 2026 11:03:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/daily-life/</guid>
+      <description>An easy topic for routines, feelings, and simple comparisons from ordinary life.</description>
+    </item>
+    <item>
+      <title>Connectors</title>
+      <link>http://localhost:1313/resources/core-vocabulary/connectors/</link>
+      <pubDate>Thu, 12 Mar 2026 10:13:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-vocabulary/connectors/</guid>
+      <description>Linking words that turn short replies into longer, more natural conversation.</description>
+    </item>
+    <item>
+      <title>Habitual Events</title>
+      <link>http://localhost:1313/resources/core-patterns/habitual-events/</link>
+      <pubDate>Thu, 12 Mar 2026 10:03:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/habitual-events/</guid>
+      <description>A dependable structure for routines, habits, and repeated situations.</description>
+    </item>
+    <item>
+      <title>Learning Languages</title>
+      <link>http://localhost:1313/topics/learning-languages/</link>
+      <pubDate>Thu, 12 Mar 2026 11:04:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/learning-languages/</guid>
+      <description>A reflective topic about goals, study habits, frustrations, and progress.</description>
+    </item>
+    <item>
+      <title>Opinions</title>
+      <link>http://localhost:1313/resources/core-patterns/opinions/</link>
+      <pubDate>Thu, 12 Mar 2026 10:04:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/opinions/</guid>
+      <description>A low-pressure frame for giving personal views about places, food, language, and culture.</description>
+    </item>
+    <item>
+      <title>Culture</title>
+      <link>http://localhost:1313/topics/culture/</link>
+      <pubDate>Thu, 12 Mar 2026 11:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/culture/</guid>
+      <description>A broader topic for opinions, contrasts, and small cultural stories from daily life in Da Nang.</description>
+    </item>
+    <item>
+      <title>Cause and Result</title>
+      <link>http://localhost:1313/resources/core-patterns/cause-result/</link>
+      <pubDate>Thu, 12 Mar 2026 10:05:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/cause-result/</guid>
+      <description>A practical way to explain reasons and natural consequences in one sentence.</description>
+    </item>
+    <item>
+      <title>Conditional</title>
+      <link>http://localhost:1313/resources/core-patterns/conditional/</link>
+      <pubDate>Thu, 12 Mar 2026 10:06:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/conditional/</guid>
+      <description>A high-value pattern for plans, possibilities, and simple imagination.</description>
+    </item>
+    <item>
+      <title>Contrast</title>
+      <link>http://localhost:1313/resources/core-patterns/contrast/</link>
+      <pubDate>Thu, 12 Mar 2026 10:07:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/contrast/</guid>
+      <description>A strong pattern for talking about exceptions, surprises, and mixed feelings.</description>
+    </item>
+    <item>
+      <title>Feelings</title>
+      <link>http://localhost:1313/resources/core-patterns/feelings/</link>
+      <pubDate>Thu, 12 Mar 2026 10:08:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/core-patterns/feelings/</guid>
+      <description>A direct pattern for emotions tied to real situations.</description>
     </item>
     <item>
       <title>Coffee and Introductions Night</title>
-      <link>https://dananglanguageexchange.pages.dev/events/coffee-introductions-night/</link>
+      <link>http://localhost:1313/events/coffee-introductions-night/</link>
       <pubDate>Fri, 06 Mar 2026 19:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/events/coffee-introductions-night/</guid>
+      <guid>http://localhost:1313/events/coffee-introductions-night/</guid>
       <description>A beginner-friendly session focused on introductions, routines, and hometown stories, with a particularly strong mix of first-time attendees.</description>
     </item>
     <item>
-      <title>Work and Study</title>
-      <link>https://dananglanguageexchange.pages.dev/topics/work-study/</link>
-      <pubDate>Fri, 06 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/topics/work-study/</guid>
-      <description>A structured worksheet about jobs, study habits, routines, and the kind of life people are building in Da Nang.</description>
-    </item>
-    <item>
-      <title>Travel and Places</title>
-      <link>https://dananglanguageexchange.pages.dev/topics/travel-places/</link>
-      <pubDate>Thu, 05 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/topics/travel-places/</guid>
-      <description>A discussion pack about favorite places, travel memories, local recommendations, and how tourism changes a city.</description>
-    </item>
-    <item>
-      <title>Food and Dining</title>
-      <link>https://dananglanguageexchange.pages.dev/topics/food-dining/</link>
-      <pubDate>Wed, 04 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/topics/food-dining/</guid>
-      <description>A cafe-friendly worksheet about favorite dishes, local recommendations, and how food habits reflect culture.</description>
-    </item>
-    <item>
-      <title>Icebreaker Question Cards</title>
-      <link>https://dananglanguageexchange.pages.dev/resources/icebreaker-cards/</link>
-      <pubDate>Tue, 03 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/resources/icebreaker-cards/</guid>
-      <description>Low-pressure starter questions for hosts and shy members who need the first five minutes to feel easier.</description>
-    </item>
-    <item>
-      <title>Common Cafe Vocabulary</title>
-      <link>https://dananglanguageexchange.pages.dev/resources/cafe-vocab/</link>
-      <pubDate>Mon, 02 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/resources/cafe-vocab/</guid>
-      <description>Useful Vietnamese and English phrases for ordering drinks, asking for seats, and handling simple cafe moments.</description>
-    </item>
-    <item>
-      <title>Basic Vietnamese Greetings</title>
-      <link>https://dananglanguageexchange.pages.dev/resources/basic-greetings/</link>
-      <pubDate>Sun, 01 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/resources/basic-greetings/</guid>
-      <description>A one-screen starter for greetings, introductions, and polite first questions.</description>
-    </item>
-    <item>
       <title>Da Nang Street Food Session</title>
-      <link>https://dananglanguageexchange.pages.dev/events/danang-street-food-session/</link>
+      <link>http://localhost:1313/events/danang-street-food-session/</link>
       <pubDate>Fri, 27 Feb 2026 19:00:00 +0700</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/events/danang-street-food-session/</guid>
+      <guid>http://localhost:1313/events/danang-street-food-session/</guid>
       <description>A lively but still structured cafe session centered on Da Nang food culture, recommendation sharing, and practical ordering vocabulary.</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://dananglanguageexchange.pages.dev/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>Why the club exists, how Friday sessions run, and what makes this Da Nang language exchange different from a generic meetup.</description>
     </item>
     <item>
       <title>Contact</title>
-      <link>https://dananglanguageexchange.pages.dev/contact/</link>
+      <link>http://localhost:1313/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/contact/</guid>
+      <guid>http://localhost:1313/contact/</guid>
       <description>The fastest way to reach the organizers, suggest a venue, or ask about the next Da Nang language exchange session.</description>
     </item>
     <item>
       <title>Gallery</title>
-      <link>https://dananglanguageexchange.pages.dev/gallery/</link>
+      <link>http://localhost:1313/gallery/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/gallery/</guid>
+      <guid>http://localhost:1313/gallery/</guid>
       <description>Atmosphere notes and social proof that show what Da Nang Language Exchange sessions actually feel like.</description>
     </item>
     <item>
       <title>Join Us</title>
-      <link>https://dananglanguageexchange.pages.dev/join/</link>
+      <link>http://localhost:1313/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://dananglanguageexchange.pages.dev/join/</guid>
+      <guid>http://localhost:1313/join/</guid>
       <description>Join the official Zalo or WhatsApp group, see the Friday cafe details, and get ready for your first Da Nang language exchange session.</description>
     </item>
   </channel>
