@@ -81,7 +81,7 @@
       <description>&lt;p&gt;Have questions about the club? Want to suggest a venue or a future topic?&lt;/p&gt;
 &lt;p&gt;The best way to reach us is by joining our &lt;a href=&#34;http://localhost:1313/join&#34;&gt;Zalo&lt;/a&gt; or &lt;a href=&#34;http://localhost:1313/join&#34;&gt;WhatsApp&lt;/a&gt; groups and messaging the admins directly.&lt;/p&gt;
 &lt;p&gt;Alternatively, you can email us at:
-&lt;strong&gt;&lt;a href=&#34;mailto:hello@danang-language-exchange.local&#34;&gt;hello@danang-language-exchange.local&lt;/a&gt;&lt;/strong&gt; (Placeholder)&lt;/p&gt;
+&lt;strong&gt;&lt;a href=&#34;mailto:hello@dananglanguageexchange.local&#34;&gt;hello@dananglanguageexchange.local&lt;/a&gt;&lt;/strong&gt; (Placeholder)&lt;/p&gt;
 &lt;p&gt;Follow us on social media:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;#&#34;&gt;Facebook&lt;/a&gt; (Placeholder)&lt;/li&gt;
@@ -93,11 +93,14 @@
       <link>http://localhost:1313/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/join/</guid>
-      <description>&lt;p&gt;We&amp;rsquo;d love to have you at our next meetup! Joining the Da Nang Language Exchange Club is easy and free.&lt;/p&gt;
-&lt;h2 id=&#34;how-we-coordinate&#34;&gt;How We Coordinate&lt;/h2&gt;
-&lt;p&gt;We use &lt;strong&gt;Zalo&lt;/strong&gt; and &lt;strong&gt;WhatsApp&lt;/strong&gt; to keep our community connected, announce events, and share resources.&lt;/p&gt;
-&lt;h3 id=&#34;1-zalo-community-best-for-locals-and-long-term-expats&#34;&gt;1. Zalo Community (Best for Locals and Long-term Expats)&lt;/h3&gt;
-&lt;p&gt;Zalo is the most popular app in Vietnam. We use our Zalo group for local coordination, event RSVPing, and sharing Vietnamese learning tips.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Welcome! Joining the Da Nang Language Exchange Club is free and easy. All our event locations and weekly topics are announced in our community chat groups.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;who-this-is-for&#34;&gt;Who This Is For&lt;/h2&gt;
+&lt;p&gt;We are a community of &lt;strong&gt;serious learners&lt;/strong&gt; who want to practice conversational Vietnamese and English in a structured, friendly environment. Whether you are a complete beginner or fluent, you are welcome here.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h2 id=&#34;prepare-for-your-next-meetup&#34;&gt;Prepare for Your Next Meetup&lt;/h2&gt;
+&lt;p&gt;Check out our resources to get ready for the next weekly cafe session!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
