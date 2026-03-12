@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Starter Patterns"
 summary: "A simple way to introduce nationality, hometown, and where someone lives now."
 template: "[Subject] là người [Country] nhưng sống ở [Place]"
+literal_translation: "[Subject] is person [Country] but lives in [Place]"
 practice_question: "[Subject] là người nước nào nhưng sống ở đâu?"
 examples:
   - "Tôi là người Úc nhưng sống ở Đà Nẵng."

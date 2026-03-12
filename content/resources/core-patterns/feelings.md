@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Conversation Patterns"
 summary: "A direct pattern for emotions tied to real situations."
 template: "[Subject] cảm thấy [Feeling] khi [Situation]"
+literal_translation: "[Subject] feels [Feeling] when [Situation]"
 practice_question: "Bạn cảm thấy thế nào khi [Situation]?"
 examples:
   - "Tôi cảm thấy vui khi nói tiếng Việt."

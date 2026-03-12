@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Story Patterns"
 summary: "A high-value pattern for plans, possibilities, and simple imagination."
 template: "Nếu [Condition], [Result]"
+literal_translation: "If [Condition], [Result]"
 practice_question: "Nếu [Condition], bạn làm gì?"
 examples:
   - "Nếu trời mưa, tôi ở nhà."

@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Story Patterns"
 summary: "A strong pattern for talking about exceptions, surprises, and mixed feelings."
 template: "Tuy [Fact], nhưng [Contrast]"
+literal_translation: "Although [Fact], [Contrast]"
 practice_question: "Tuy [Fact], nhưng [Contrast]?"
 examples:
   - "Tuy trời nóng, nhưng tôi vẫn đi bộ."

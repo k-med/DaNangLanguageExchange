@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Conversation Patterns"
 summary: "A practical way to explain reasons and natural consequences in one sentence."
 template: "[Situation] nên [Result]"
+literal_translation: "[Situation], so [Result]"
 practice_question: "Tại sao [Situation]?"
 examples:
   - "Tôi mệt nên tôi về nhà sớm."

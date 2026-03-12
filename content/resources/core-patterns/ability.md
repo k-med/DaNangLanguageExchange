@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Starter Patterns"
 summary: "Useful for talking about language skills, daily tasks, and what someone can or cannot do yet."
 template: "[Subject] có thể [Action]"
+literal_translation: "[Subject] can [Action]"
 practice_question: "Bạn có thể [Action] không?"
 examples:
   - "Tôi có thể gọi cà phê bằng tiếng Việt."

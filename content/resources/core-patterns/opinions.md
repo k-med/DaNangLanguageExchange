@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Conversation Patterns"
 summary: "A low-pressure frame for giving personal views about places, food, language, and culture."
 template: "Theo [Person], [Statement]"
+literal_translation: "According to [Person], [Statement]"
 practice_question: "Theo bạn, [Topic] thế nào?"
 examples:
   - "Theo tôi, Đà Nẵng rất đẹp."

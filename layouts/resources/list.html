@@ -26,9 +26,15 @@
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
-                <div class="inline-meta-list">
-                    <span><strong>Template</strong> {{ .Params.template }}</span>
-                    <span><strong>Prompt count</strong> {{ len .Params.prompts }}</span>
+                <div class="resource-preview-block">
+                    <p class="resource-preview-label">Vietnamese pattern</p>
+                    <div class="resource-preview-template">{{ .Params.template }}</div>
+                    <p class="resource-preview-label">Literal English</p>
+                    <div class="resource-preview-translation">{{ .Params.literal_translation }}</div>
+                </div>
+                <div class="resource-stat-row">
+                    <span class="resource-stat"><strong>Prompts</strong> {{ len .Params.prompts }}</span>
+                    <span class="resource-stat"><strong>Examples</strong> {{ len .Params.examples }}</span>
                 </div>
             </article>
             {{ end }}
@@ -50,9 +56,9 @@
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
-                <div class="inline-meta-list">
-                    <span><strong>Word count</strong> {{ len .Params.words }}</span>
-                    <span><strong>Drill</strong> One quick practice set</span>
+                <div class="resource-stat-row">
+                    <span class="resource-stat"><strong>Words</strong> {{ len .Params.words }}</span>
+                    <span class="resource-stat"><strong>Drill</strong> One quick practice set</span>
                 </div>
             </article>
             {{ end }}

@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Conversation Patterns"
 summary: "A dependable structure for routines, habits, and repeated situations."
 template: "Mỗi khi [Event], [Action]"
+literal_translation: "Whenever [Event], [Action]"
 practice_question: "Mỗi khi [Event], bạn làm gì?"
 examples:
   - "Mỗi khi rảnh, tôi đi uống cà phê."

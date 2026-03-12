@@ -7,6 +7,7 @@ resource_type: "pattern"
 pattern_band: "Starter Patterns"
 summary: "A fast pattern for comparisons, recommendations, and personal taste."
 template: "[Subject] thích [A] hơn [B]"
+literal_translation: "[Subject] likes [A] more than [B]"
 practice_question: "Bạn thích [A] hay [B] hơn?"
 examples:
   - "Tôi thích cà phê Việt Nam hơn cà phê Mỹ."
