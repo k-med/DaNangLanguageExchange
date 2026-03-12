@@ -706,6 +706,24 @@ small {
     font-weight: 700;
 }
 
+.vocab-chip-bilingual {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+}
+
+.vocab-chip-vi,
+.vocab-chip-en {
+    display: block;
+}
+
+.vocab-chip-en {
+    color: var(--secondary);
+    font-size: 0.88rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
 .notebook-tip {
     margin-top: 1.4rem;
     background: linear-gradient(135deg, rgba(184, 106, 79, 0.12), rgba(42, 111, 151, 0.08));

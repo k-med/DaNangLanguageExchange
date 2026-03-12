@@ -29,7 +29,10 @@
                 <h2>Example Prompts</h2>
                 <ul class="plain-list">
                     {{ range .Params.prompts }}
-                    <li>{{ . }}</li>
+                    <li class="bilingual-item">
+                        <span class="bilingual-item-vi">{{ .vi }}</span>
+                        <span class="bilingual-item-en">{{ .en }}</span>
+                    </li>
                     {{ end }}
                 </ul>
             </section>
@@ -39,7 +42,10 @@
             <h2>Vocabulary</h2>
             <div class="vocabulary-chip-row">
                 {{ range .Params.vocabulary }}
-                <span class="vocab-chip">{{ . }}</span>
+                <span class="vocab-chip vocab-chip-bilingual">
+                    <span class="vocab-chip-vi">{{ .vi }}</span>
+                    <span class="vocab-chip-en">{{ .en }}</span>
+                </span>
                 {{ end }}
             </div>
         </section>
@@ -59,7 +65,10 @@
                 <h2>Host Prompts</h2>
                 <ul class="plain-list">
                     {{ range .Params.host_prompts }}
-                    <li>{{ . }}</li>
+                    <li class="bilingual-item">
+                        <span class="bilingual-item-vi">{{ .vi }}</span>
+                        <span class="bilingual-item-en">{{ .en }}</span>
+                    </li>
                     {{ end }}
                 </ul>
             </section>
