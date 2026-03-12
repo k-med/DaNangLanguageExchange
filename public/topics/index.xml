@@ -1,1 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Topics on Da Nang Language Exchange Club</title><link>https://danang-language-exchange.pages.dev/topics/</link><description>Recent content in Topics on Da Nang Language Exchange Club</description><image><title>Da Nang Language Exchange Club</title><url>https://danang-language-exchange.pages.dev/images/banner.jpg</url><link>https://danang-language-exchange.pages.dev/images/banner.jpg</link></image><generator>Hugo -- 0.157.0</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2026 10:00:00 +0700</lastBuildDate><atom:link href="https://danang-language-exchange.pages.dev/topics/index.xml" rel="self" type="application/rss+xml"/><item><title>Topic 3: Work &amp; Study</title><link>https://danang-language-exchange.pages.dev/topics/work-study/</link><pubDate>Fri, 06 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/topics/work-study/</guid><description>Talk about your job, your studies, and your daily routine.</description></item><item><title>Topic 2: Travel &amp; Places</title><link>https://danang-language-exchange.pages.dev/topics/travel-places/</link><pubDate>Thu, 05 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/topics/travel-places/</guid><description>Share your travel stories and favorite places to visit in Vietnam.</description></item><item><title>Topic 1: Food &amp; Dining</title><link>https://danang-language-exchange.pages.dev/topics/food-dining/</link><pubDate>Wed, 04 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/topics/food-dining/</guid><description>Discuss your favorite local and international dishes.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Topics on Da Nang Language Exchange Club</title>
+    <link>http://localhost:1313/topics/</link>
+    <description>Recent content in Topics on Da Nang Language Exchange Club</description>
+    <image>
+      <title>Da Nang Language Exchange Club</title>
+      <url>http://localhost:1313/images/banner.jpg</url>
+      <link>http://localhost:1313/images/banner.jpg</link>
+    </image>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2026 10:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/topics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Topic 3: Work &amp; Study</title>
+      <link>http://localhost:1313/topics/work-study/</link>
+      <pubDate>Fri, 06 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/work-study/</guid>
+      <description>Talk about your job, your studies, and your daily routine.</description>
+    </item>
+    <item>
+      <title>Topic 2: Travel &amp; Places</title>
+      <link>http://localhost:1313/topics/travel-places/</link>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/travel-places/</guid>
+      <description>Share your travel stories and favorite places to visit in Vietnam.</description>
+    </item>
+    <item>
+      <title>Topic 1: Food &amp; Dining</title>
+      <link>http://localhost:1313/topics/food-dining/</link>
+      <pubDate>Wed, 04 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/food-dining/</guid>
+      <description>Discuss your favorite local and international dishes.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,24 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Da Nang Language Exchange Club</title><link>https://danang-language-exchange.pages.dev/</link><description>Recent content on Da Nang Language Exchange Club</description><image><title>Da Nang Language Exchange Club</title><url>https://danang-language-exchange.pages.dev/images/banner.jpg</url><link>https://danang-language-exchange.pages.dev/images/banner.jpg</link></image><generator>Hugo -- 0.157.0</generator><language>en-us</language><lastBuildDate>Fri, 06 Mar 2026 10:00:00 +0700</lastBuildDate><atom:link href="https://danang-language-exchange.pages.dev/index.xml" rel="self" type="application/rss+xml"/><item><title>Topic 3: Work &amp; Study</title><link>https://danang-language-exchange.pages.dev/topics/work-study/</link><pubDate>Fri, 06 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/topics/work-study/</guid><description>Talk about your job, your studies, and your daily routine.</description></item><item><title>Topic 2: Travel &amp; Places</title><link>https://danang-language-exchange.pages.dev/topics/travel-places/</link><pubDate>Thu, 05 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/topics/travel-places/</guid><description>Share your travel stories and favorite places to visit in Vietnam.</description></item><item><title>Topic 1: Food &amp; Dining</title><link>https://danang-language-exchange.pages.dev/topics/food-dining/</link><pubDate>Wed, 04 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/topics/food-dining/</guid><description>Discuss your favorite local and international dishes.</description></item><item><title>Icebreaker Question Cards</title><link>https://danang-language-exchange.pages.dev/resources/icebreaker-cards/</link><pubDate>Tue, 03 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/resources/icebreaker-cards/</guid><description>&lt;p&gt;Printable cards with 50 fun, low-pressure questions to start a conversation with anyone. Available in both English and Vietnamese.&lt;/p&gt;</description></item><item><title>Common Cafe Vocabulary</title><link>https://danang-language-exchange.pages.dev/resources/cafe-vocab/</link><pubDate>Mon, 02 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/resources/cafe-vocab/</guid><description>&lt;p&gt;Learn how to order coffee, tea, and ask for the WiFi password in Vietnamese and English.&lt;/p&gt;</description></item><item><title>Basic Vietnamese Greetings</title><link>https://danang-language-exchange.pages.dev/resources/basic-greetings/</link><pubDate>Sun, 01 Mar 2026 10:00:00 +0700</pubDate><guid>https://danang-language-exchange.pages.dev/resources/basic-greetings/</guid><description>&lt;p&gt;A simple, printable 1-page guide on how to say hello, ask &amp;ldquo;how are you?&amp;rdquo;, and introduce yourself in Southern Vietnamese. Great for complete beginners.&lt;/p&gt;</description></item><item><title>About</title><link>https://danang-language-exchange.pages.dev/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danang-language-exchange.pages.dev/about/</guid><description>&lt;p&gt;Welcome to the Da Nang Language Exchange Club! We are a friendly community built around real, in-person language practice in Da Nang, Vietnam.&lt;/p&gt;
-&lt;h2 id="our-mission"&gt;Our Mission&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Da Nang Language Exchange Club</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Da Nang Language Exchange Club</description>
+    <image>
+      <title>Da Nang Language Exchange Club</title>
+      <url>http://localhost:1313/images/banner.jpg</url>
+      <link>http://localhost:1313/images/banner.jpg</link>
+    </image>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 06 Mar 2026 10:00:00 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Topic 3: Work &amp; Study</title>
+      <link>http://localhost:1313/topics/work-study/</link>
+      <pubDate>Fri, 06 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/work-study/</guid>
+      <description>Talk about your job, your studies, and your daily routine.</description>
+    </item>
+    <item>
+      <title>Topic 2: Travel &amp; Places</title>
+      <link>http://localhost:1313/topics/travel-places/</link>
+      <pubDate>Thu, 05 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/travel-places/</guid>
+      <description>Share your travel stories and favorite places to visit in Vietnam.</description>
+    </item>
+    <item>
+      <title>Topic 1: Food &amp; Dining</title>
+      <link>http://localhost:1313/topics/food-dining/</link>
+      <pubDate>Wed, 04 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/topics/food-dining/</guid>
+      <description>Discuss your favorite local and international dishes.</description>
+    </item>
+    <item>
+      <title>Icebreaker Question Cards</title>
+      <link>http://localhost:1313/resources/icebreaker-cards/</link>
+      <pubDate>Tue, 03 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/icebreaker-cards/</guid>
+      <description>&lt;p&gt;Printable cards with 50 fun, low-pressure questions to start a conversation with anyone. Available in both English and Vietnamese.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Common Cafe Vocabulary</title>
+      <link>http://localhost:1313/resources/cafe-vocab/</link>
+      <pubDate>Mon, 02 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/cafe-vocab/</guid>
+      <description>&lt;p&gt;Learn how to order coffee, tea, and ask for the WiFi password in Vietnamese and English.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Basic Vietnamese Greetings</title>
+      <link>http://localhost:1313/resources/basic-greetings/</link>
+      <pubDate>Sun, 01 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>http://localhost:1313/resources/basic-greetings/</guid>
+      <description>&lt;p&gt;A simple, printable 1-page guide on how to say hello, ask &amp;ldquo;how are you?&amp;rdquo;, and introduce yourself in Southern Vietnamese. Great for complete beginners.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Welcome to the Da Nang Language Exchange Club! We are a friendly community built around real, in-person language practice in Da Nang, Vietnam.&lt;/p&gt;
+&lt;h2 id=&#34;our-mission&#34;&gt;Our Mission&lt;/h2&gt;
 &lt;p&gt;We believe the best way to learn a language is by speaking it. Our goal is to connect foreigners who want to practice Vietnamese with locals who want to practice English in a structured, beginner-friendly environment.&lt;/p&gt;
-&lt;h2 id="who-is-it-for"&gt;Who is it for?&lt;/h2&gt;
+&lt;h2 id=&#34;who-is-it-for&#34;&gt;Who is it for?&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Foreigners&lt;/strong&gt; living in or visiting Da Nang who want to learn or practice Vietnamese.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Vietnamese locals&lt;/strong&gt; who want to improve their spoken English.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Beginners&lt;/strong&gt; looking for structured practice materials.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Advanced speakers&lt;/strong&gt; looking for engaging conversations.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="why-join-us"&gt;Why join us?&lt;/h2&gt;
-&lt;p&gt;Unlike generic meetup groups or tourist-focused parties, our club focuses on &lt;strong&gt;intentional language exchange&lt;/strong&gt;. We provide:&lt;/p&gt;</description></item><item><title>Contact</title><link>https://danang-language-exchange.pages.dev/contact/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danang-language-exchange.pages.dev/contact/</guid><description>&lt;p&gt;Have questions about the club? Want to suggest a venue or a future topic?&lt;/p&gt;
-&lt;p&gt;The best way to reach us is by joining our &lt;a href="https://danang-language-exchange.pages.dev/join"&gt;Zalo&lt;/a&gt; or &lt;a href="https://danang-language-exchange.pages.dev/join"&gt;WhatsApp&lt;/a&gt; groups and messaging the admins directly.&lt;/p&gt;
+&lt;h2 id=&#34;why-join-us&#34;&gt;Why join us?&lt;/h2&gt;
+&lt;p&gt;Unlike generic meetup groups or tourist-focused parties, our club focuses on &lt;strong&gt;intentional language exchange&lt;/strong&gt;. We provide:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/contact/</guid>
+      <description>&lt;p&gt;Have questions about the club? Want to suggest a venue or a future topic?&lt;/p&gt;
+&lt;p&gt;The best way to reach us is by joining our &lt;a href=&#34;http://localhost:1313/join&#34;&gt;Zalo&lt;/a&gt; or &lt;a href=&#34;http://localhost:1313/join&#34;&gt;WhatsApp&lt;/a&gt; groups and messaging the admins directly.&lt;/p&gt;
 &lt;p&gt;Alternatively, you can email us at:
-&lt;strong&gt;&lt;a href="mailto:hello@danang-language-exchange.local"&gt;hello@danang-language-exchange.local&lt;/a&gt;&lt;/strong&gt; (Placeholder)&lt;/p&gt;
+&lt;strong&gt;&lt;a href=&#34;mailto:hello@danang-language-exchange.local&#34;&gt;hello@danang-language-exchange.local&lt;/a&gt;&lt;/strong&gt; (Placeholder)&lt;/p&gt;
 &lt;p&gt;Follow us on social media:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="#"&gt;Facebook&lt;/a&gt; (Placeholder)&lt;/li&gt;
-&lt;li&gt;&lt;a href="#"&gt;Instagram&lt;/a&gt; (Placeholder)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Join Us</title><link>https://danang-language-exchange.pages.dev/join/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://danang-language-exchange.pages.dev/join/</guid><description>&lt;p&gt;We&amp;rsquo;d love to have you at our next meetup! Joining the Da Nang Language Exchange Club is easy and free.&lt;/p&gt;
-&lt;h2 id="how-we-coordinate"&gt;How We Coordinate&lt;/h2&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Facebook&lt;/a&gt; (Placeholder)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;#&#34;&gt;Instagram&lt;/a&gt; (Placeholder)&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Join Us</title>
+      <link>http://localhost:1313/join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/join/</guid>
+      <description>&lt;p&gt;We&amp;rsquo;d love to have you at our next meetup! Joining the Da Nang Language Exchange Club is easy and free.&lt;/p&gt;
+&lt;h2 id=&#34;how-we-coordinate&#34;&gt;How We Coordinate&lt;/h2&gt;
 &lt;p&gt;We use &lt;strong&gt;Zalo&lt;/strong&gt; and &lt;strong&gt;WhatsApp&lt;/strong&gt; to keep our community connected, announce events, and share resources.&lt;/p&gt;
-&lt;h3 id="1-zalo-community-best-for-locals-and-long-term-expats"&gt;1. Zalo Community (Best for Locals and Long-term Expats)&lt;/h3&gt;
-&lt;p&gt;Zalo is the most popular app in Vietnam. We use our Zalo group for local coordination, event RSVPing, and sharing Vietnamese learning tips.&lt;/p&gt;</description></item></channel></rss>
+&lt;h3 id=&#34;1-zalo-community-best-for-locals-and-long-term-expats&#34;&gt;1. Zalo Community (Best for Locals and Long-term Expats)&lt;/h3&gt;
+&lt;p&gt;Zalo is the most popular app in Vietnam. We use our Zalo group for local coordination, event RSVPing, and sharing Vietnamese learning tips.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
