@@ -68,6 +68,15 @@ a {
     transition: color 0.2s ease, border-color 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
 }
 
+p,
+li,
+a,
+span,
+strong,
+small {
+    overflow-wrap: anywhere;
+}
+
 .main {
     max-width: 1220px;
     padding: 0 28px;
@@ -251,6 +260,7 @@ a {
     font-weight: 700;
     text-decoration: none !important;
     border: 1px solid transparent;
+    text-align: center;
 }
 
 .button-small {
@@ -692,6 +702,45 @@ a {
     color: var(--secondary);
 }
 
+.join-cta-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.join-cta-card {
+    min-height: 0;
+    padding: 1.35rem;
+    border-radius: 12px;
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.join-cta-card small {
+    opacity: 0.9;
+    font-weight: 400;
+}
+
+.expectations-box {
+    margin: 1.5rem 0 2rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: var(--hl-color);
+}
+
+.expectations-box ul {
+    margin: 0;
+    padding-left: 1.2rem;
+}
+
+.prep-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
 .footer {
     padding-top: 2.8rem;
     color: var(--secondary);
@@ -744,18 +793,69 @@ a {
     .session-grid,
     .resource-grid,
     .topic-card-grid,
-    .event-stack {
+    .event-stack,
+    .resource-detail-grid,
+    .vocab-grid,
+    .join-cta-container {
         grid-template-columns: 1fr;
     }
 
+    .hero-meta-list span,
+    .inline-meta-list span,
+    .vocab-chip {
+        width: 100%;
+        justify-content: flex-start;
+        border-radius: 16px;
+    }
+
+    .resource-card-header,
+    .topic-card-header {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .badge,
+    .hero-kicker,
+    .section-kicker {
+        max-width: 100%;
+        white-space: normal;
+        line-height: 1.3;
+    }
+
+    .pattern-template,
+    .social-proof-banner,
+    .notebook-tip,
+    .expectations-box {
+        padding: 1rem;
+    }
+
     .hero-buttons,
-    .hero-buttons-left {
+    .hero-buttons-left,
+    .prep-actions {
         justify-content: stretch;
     }
 
     .button,
     .button-small {
         width: 100%;
+    }
+
+    .join-cta-card {
+        font-size: 1rem;
+        padding: 1.1rem;
+    }
+
+    #menu {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 0.35rem;
+        gap: 0.3rem;
+        scrollbar-width: none;
+    }
+
+    #menu::-webkit-scrollbar {
+        display: none;
     }
 
     .page-header {
