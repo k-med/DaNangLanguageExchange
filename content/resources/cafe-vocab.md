@@ -4,10 +4,17 @@ date: 2026-03-02T10:00:00+07:00
 draft: false
 category: "Beginner"
 level: "Beginner"
-format: "PDF"
-prep_time: "10 mins"
+format: "Mini phrase pack"
+prep_time: "10 minutes"
 table_friendly: true
-download_link: "#"
+summary: "Useful Vietnamese and English phrases for ordering drinks, asking for seats, and handling simple cafe moments."
 ---
 
-Learn how to order coffee, tea, and ask for the WiFi password in Vietnamese and English.
+Made for real Da Nang meetup nights where members want to order naturally instead of pointing at the menu.
+
+## Includes
+
+- Drink names and ice/sugar preferences.
+- Asking if a seat is free.
+- Wi-Fi, bill, and takeaway language.
+- A short partner activity so learners can practice the phrases before the event starts.

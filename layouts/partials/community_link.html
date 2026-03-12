@@ -1,0 +1,6 @@
+{{- $kind := .kind -}}
+{{- if eq $kind "zalo" -}}
+{{- site.Params.community.zaloUrl -}}
+{{- else if eq $kind "whatsapp" -}}
+{{- site.Params.community.whatsappUrl -}}
+{{- end -}}

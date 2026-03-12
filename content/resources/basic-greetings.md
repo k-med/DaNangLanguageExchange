@@ -4,10 +4,17 @@ date: 2026-03-01T10:00:00+07:00
 draft: false
 category: "Beginner"
 level: "Beginner"
-format: "PDF"
-prep_time: "5 mins"
+format: "Cheat sheet"
+prep_time: "5 minutes"
 table_friendly: true
-download_link: "#"
+summary: "A one-screen starter for greetings, introductions, and polite first questions."
 ---
 
-A simple, printable 1-page guide on how to say hello, ask "how are you?", and introduce yourself in Southern Vietnamese. Great for complete beginners.
+Use this before your first Friday session if you want a quick confidence boost.
+
+## Includes
+
+- Hello, goodbye, and polite thank-you phrases.
+- Two simple self-introduction patterns.
+- Easy first questions for meeting someone at a cafe table.
+- Pronunciation-friendly transliteration for nervous beginners.

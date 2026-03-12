@@ -6,18 +6,26 @@ theme = 'PaperMod'
 [params]
   env = 'production'
   title = 'Da Nang Language Exchange Club'
-  description = 'A community for practicing Vietnamese and English in Da Nang.'
+  description = 'Weekly Vietnamese-English cafe meetups in Da Nang with structured conversation practice, beginner support, and real local community.'
   author = 'Da Nang Language Exchange'
   images = ['/images/banner.jpg']
-  defaultTheme = 'auto'
+  defaultTheme = 'light'
   ShowShareButtons = false
   ShowReadingTime = false
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = false
-  disableThemeToggle = false
+  disableThemeToggle = true
   disableSpecial1stPost = true
   displayFullLangName = true
+  productionHost = 'https://dananglanguageexchange.pages.dev'
+
+  [params.community]
+    zaloLabel = 'Join Zalo Group'
+    zaloUrl = 'https://zalo.me/g/danangexchange'
+    whatsappLabel = 'Join WhatsApp Group'
+    whatsappUrl = 'https://chat.whatsapp.com/danangexchange'
+    contactNote = 'For now, the fastest way to reach the organizers is through the community chat groups.'
 
   [params.profileMode]
     enabled = false # We'll use a custom homepage, but can fallback on this
@@ -71,3 +79,8 @@ theme = 'PaperMod'
 [taxonomies]
   tag = 'tags'
   level = 'levels'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

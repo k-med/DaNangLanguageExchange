@@ -1,62 +1,66 @@
 ---
-title: "Topic 2: Travel & Places"
+title: "Travel and Places"
 date: 2026-03-05T10:00:00+07:00
 draft: false
 level: "Intermediate"
-summary: "Share your travel stories and favorite places to visit in Vietnam."
+summary: "A discussion pack about favorite places, travel memories, local recommendations, and how tourism changes a city."
 featured: false
 ---
 
-<div class="topic-worksheet" style="max-width: 600px; margin: 0 auto; background: var(--entry); padding: 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+<div class="topic-worksheet">
 
-Everyone loves to travel. Discuss your past trips and future dream destinations.
+<p class="topic-section-label">Weekly topic pack</p>
 
-<hr style="margin: 2rem 0; opacity: 0.2;">
+Travel is a strong mixed-level topic because everyone can name a place they love. In Da Nang, it also gives locals and internationals a useful reason to exchange recommendations.
 
-### 📚 Beginner Vocabulary
-*Use these words to build simple sentences.*
+### Beginner Vocabulary
 
-- **du lịch** - to travel
-- **phong cảnh** - scenery
-- **điểm đến** - destination
-- **kỷ niệm** - memory
-- **máy bay** - airplane
-- **khách sạn** - hotel
+- **du lich**: to travel
+- **dia diem**: place
+- **bai bien**: beach
+- **thanh pho**: city
+- **khach san**: hotel
+- **ky niem**: memory
+- **duong di**: route
 
-### 🟢 Beginner Questions
-*Focus on short, simple answers.*
+### Beginner Questions
 
-1. Where is the most beautiful place you have visited in Vietnam?
-2. Do you prefer the mountains or the beach?
-3. How do you usually travel (by plane, train, motorbike)?
-4. Where do you want to travel next?
+1. What is your favorite place in Da Nang?
+2. Do you prefer the beach, mountains, or city center?
+3. How do you usually travel: motorbike, train, bus, or plane?
+4. Where do you want to go next in Vietnam?
+5. Do you like traveling alone or with friends?
 
-### 🟡 Intermediate Questions
-*Focus on explaining "why" and sharing stories.*
+### Intermediate Questions
 
-1. What was your worst travel experience? What went wrong?
-2. Do you prefer traveling alone or with a group of friends? Why?
-3. What is the most important thing you pack when you go on a trip?
-4. How has traveling changed you as a person?
+1. Which place in central Vietnam do you recommend most and why?
+2. What is one travel memory you still think about often?
+3. How does travel change the way people understand another culture?
+4. What makes a place feel authentic instead of over-touristed?
 
-### 🔴 Advanced Prompts
-*Open-ended discussions.*
+### Advanced / Open Prompts
 
-- Discuss the impact of tourism on local communities in popular destinations like Hoi An or Da Nang.
-- "The journey is more important than the destination." Do you agree with this statement?
+- How should cities like Da Nang balance tourism growth with local quality of life?
+- Does travel make people more open-minded, or is that overstated?
+- Are social media recommendations making travel better or worse?
 
-<hr style="margin: 2rem 0; opacity: 0.2;">
+### Vietnamese Challenge
 
-### 🎯 Challenges of the Week
-
-<div style="background: rgba(46, 204, 113, 0.1); padding: 1rem; border-left: 4px solid #2ecc71; margin-bottom: 1rem; border-radius: 0 4px 4px 0;">
-  <strong>🇻🇳 Vietnamese Challenge:</strong> <br>
-  Ask your partner about their dream vacation: <i>"Bạn muốn đi du lịch ở đâu nhất?" (Where do you want to travel to the most?)</i>
+<div class="challenge-box vietnamese">
+  Ask your partner <em>Ban muon di dau tiep theo?</em> Where do you want to go next? Keep the follow-up in Vietnamese for at least one more exchange.
 </div>
 
-<div style="background: rgba(52, 152, 219, 0.1); padding: 1rem; border-left: 4px solid #3498db; border-radius: 0 4px 4px 0;">
-  <strong>🇬🇧 English Challenge:</strong> <br>
-  Describe a place you visited using the five senses (sight, sound, smell, taste, touch).
+### English Challenge
+
+<div class="challenge-box english">
+  Describe one memorable place using all five senses instead of only saying it was beautiful or interesting.
 </div>
+
+### QR-Friendly Prompt Set
+
+- Best day trip from Da Nang?
+- Hidden cafe or neighborhood worth recommending?
+- A place you expected to love but did not?
+- One place you would happily revisit every year?
 
 </div>

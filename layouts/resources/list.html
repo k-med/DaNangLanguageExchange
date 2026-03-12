@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+{{ $pages := where .RegularPages "Type" "resources" }}
+{{ $categories := slice "Beginner" "Intermediate" "Host Materials" "Quick Download Packs" }}
+
+<section class="main">
+    <header class="page-header">
+        {{ partial "breadcrumbs.html" . }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Description }}<p class="section-intro">{{ . }}</p>{{ end }}
+    </header>
+
+    {{ range $categories }}
+    {{ $category := . }}
+    {{ $group := where $pages "Params.category" $category }}
+    {{ if gt (len $group) 0 }}
+    <section class="resource-group">
+        <span class="section-kicker">{{ $category }}</span>
+        <h2>{{ $category }}</h2>
+        <div class="resource-grid">
+            {{ range sort $group "Date" "desc" }}
+            <article class="card resource-card">
+                <div class="resource-card-header">
+                    <div>
+                        <span class="badge">{{ .Params.level }}</span>
+                        <h3>{{ .Title }}</h3>
+                    </div>
+                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
+                </div>
+                <p>{{ .Params.summary | default .Summary }}</p>
+                <div class="inline-meta-list">
+                    <span><strong>Format</strong> {{ .Params.format }}</span>
+                    <span><strong>Prep time</strong> {{ .Params.prep_time }}</span>
+                    <span><strong>Table-friendly</strong> {{ cond .Params.table_friendly "Yes" "No" }}</span>
+                    <span><strong>Best use</strong> {{ $category }}</span>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+    {{ end }}
+</section>
+
+{{ end }}

@@ -1,62 +1,66 @@
 ---
-title: "Topic 3: Work & Study"
+title: "Work and Study"
 date: 2026-03-06T10:00:00+07:00
 draft: false
 level: "All Levels"
-summary: "Talk about your job, your studies, and your daily routine."
+summary: "A structured worksheet about jobs, study habits, routines, and the kind of life people are building in Da Nang."
 featured: false
 ---
 
-<div class="topic-worksheet" style="max-width: 600px; margin: 0 auto; background: var(--entry); padding: 2rem; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+<div class="topic-worksheet">
 
-A classic topic to help people get to know each other better. Discuss your daily life, career goals, and work-life balance.
+<p class="topic-section-label">Weekly topic pack</p>
 
-<hr style="margin: 2rem 0; opacity: 0.2;">
+This topic helps members move beyond surface-level introductions. It works well once the table has warmed up and people are ready to talk about routine, ambition, and work-life tradeoffs.
 
-### 📚 Beginner Vocabulary
-*Use these words to build simple sentences.*
+### Beginner Vocabulary
 
-- **làm việc** - to work
-- **học** - to study
-- **bạn cùng phòng / đồng nghiệp** - roommate / colleague
-- **nghề nghiệp** - career / profession
-- **bận rộn** - busy
-- **mệt mỏi** - tired
+- **lam viec**: to work
+- **hoc**: to study
+- **nghe nghiep**: profession
+- **dong nghiep**: colleague
+- **ban ron**: busy
+- **lich hoc**: study schedule
+- **tan ca**: finish work
 
-### 🟢 Beginner Questions
-*Focus on short, simple answers.*
+### Beginner Questions
 
-1. What do you do for work or what do you study?
-2. Do you like your job/studies?
-3. What time do you usually wake up?
-4. How do you travel to work/school?
+1. What do you do for work or study?
+2. Do you work in Da Nang?
+3. What time do you usually start your day?
+4. Do you like studying in the morning or at night?
+5. What is one thing you want to improve this year?
 
-### 🟡 Intermediate Questions
-*Focus on explaining "why" and sharing stories.*
+### Intermediate Questions
 
-1. If you could have any job in the world, what would it be? Why?
-2. What is the most difficult part of your job or major?
-3. How has your career path changed since you were a child?
-4. Do you prefer working from home or going to the office?
+1. What part of your job or studies gives you the most energy?
+2. How has your career path changed over time?
+3. What is difficult about balancing work, study, and personal life?
+4. Do you prefer remote work, office work, or something mixed? Why?
 
-### 🔴 Advanced Prompts
-*Open-ended discussions.*
+### Advanced / Open Prompts
 
-- Discuss the concept of "work-life balance" in your home country versus in Vietnam.
-- Will AI change or replace your current profession? How are you preparing for it?
+- How is ambition viewed differently in Vietnam and in your home culture?
+- Is university still the best path for young people, or is that changing?
+- What skills matter more now than they did five years ago?
 
-<hr style="margin: 2rem 0; opacity: 0.2;">
+### Vietnamese Challenge
 
-### 🎯 Challenges of the Week
-
-<div style="background: rgba(46, 204, 113, 0.1); padding: 1rem; border-left: 4px solid #2ecc71; margin-bottom: 1rem; border-radius: 0 4px 4px 0;">
-  <strong>🇻🇳 Vietnamese Challenge:</strong> <br>
-  Ask about your partner's job using this sentence structure: <i>"Bạn làm nghề gì?" (What is your profession?)</i>
+<div class="challenge-box vietnamese">
+  Ask someone about their job using <em>Ban lam nghe gi?</em> Then ask one follow-up question in Vietnamese instead of switching back immediately.
 </div>
 
-<div style="background: rgba(52, 152, 219, 0.1); padding: 1rem; border-left: 4px solid #3498db; border-radius: 0 4px 4px 0;">
-  <strong>🇬🇧 English Challenge:</strong> <br>
-  Explain what a typical day looks like for you using time sequencing words (first, then, after that, finally).
+### English Challenge
+
+<div class="challenge-box english">
+  Explain a normal weekday step by step using sequencing words such as first, after that, usually, and by the end of the day.
 </div>
+
+### QR-Friendly Prompt Set
+
+- Dream job if money was not the main issue?
+- What skill are you trying to improve this month?
+- Best place in Da Nang to study or work quietly?
+- What makes a good colleague or classmate?
 
 </div>

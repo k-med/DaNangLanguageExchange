@@ -1,30 +1,39 @@
 ---
 title: "About"
 layout: "page"
+description: "Why the club exists, how Friday sessions run, and what makes this Da Nang language exchange different from a generic meetup."
 ---
 
-Welcome to the Da Nang Language Exchange Club! We are a friendly community built around real, in-person language practice in Da Nang, Vietnam.
+<div class="page-shell">
 
-## Our Mission
+Da Nang Language Exchange is a weekly in-person club for Vietnamese locals practicing English and international members practicing Vietnamese. We meet in cafes, keep the format calm and structured, and design each session so people actually get useful speaking time.
 
-We believe the best way to learn a language is by speaking it. Our goal is to connect foreigners who want to practice Vietnamese with locals who want to practice English in a structured, beginner-friendly environment.
+## Why This Club Exists
 
-## Who is it for?
+Most language meetups drift into the same pattern: a big noisy table, a few confident speakers taking over, and beginners quietly checking out. This club is built to avoid that.
 
-- **Foreigners** living in or visiting Da Nang who want to learn or practice Vietnamese.
-- **Vietnamese locals** who want to improve their spoken English.
-- **Beginners** looking for structured practice materials.
-- **Advanced speakers** looking for engaging conversations.
+We use rotating small groups, one topic each week, and clear time blocks so both Vietnamese and English learners know what kind of practice they are getting.
 
-## Why join us?
+## What Makes It Different
 
-Unlike generic meetup groups or tourist-focused parties, our club focuses on **intentional language exchange**. We provide:
-- **Structure:** Weekly rotating topics to help you break the ice.
-- **Resources:** Downloadable vocabulary sheets and question prompts available before each event.
-- **Respect:** A welcoming environment for learners of all levels. We are a language club first and foremost.
+- Weekly topic sheets with beginner vocabulary, guided questions, and open prompts.
+- Balanced Vietnamese and English time instead of one language dominating the whole night.
+- Hosts who help new people find the right table and keep the energy welcoming.
+- Quiet cafe venues in Da Nang that are easy to reach and comfortable for conversation.
 
-## What to Expect
-- Arrive at the venue (usually a quiet cafe).
-- Grab a drink and find a seat. 
-- We typically spend time speaking English, then switch to Vietnamese (or vice versa depending on the group's dynamic that day), using our weekly topics as a guide.
-- Relax, make mistakes, and learn!
+## Who Comes
+
+- Vietnamese learners improving spoken English.
+- Foreign residents building daily-life Vietnamese.
+- Travelers who want one serious conversation night while in Da Nang.
+- Return members who like structured language exchange more than generic social events.
+
+## What A Typical Friday Looks Like
+
+1. People arrive from 7:00 PM, order a drink, and get settled.
+2. Hosts introduce the weekly topic and seat new members.
+3. English practice runs first or second depending on the room mix that night.
+4. Groups rotate so you meet new partners without losing structure.
+5. Members leave with new vocabulary, new contacts, and a clearer reason to come back next week.
+
+</div>

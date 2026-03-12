@@ -2,37 +2,51 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Resources on Da Nang Language Exchange Club</title>
-    <link>http://localhost:1313/resources/</link>
+    <link>https://dananglanguageexchange.pages.dev/resources/</link>
     <description>Recent content in Resources on Da Nang Language Exchange Club</description>
     <image>
       <title>Da Nang Language Exchange Club</title>
-      <url>http://localhost:1313/images/banner.jpg</url>
-      <link>http://localhost:1313/images/banner.jpg</link>
+      <url>https://dananglanguageexchange.pages.dev/images/banner.jpg</url>
+      <link>https://dananglanguageexchange.pages.dev/images/banner.jpg</link>
     </image>
     <generator>Hugo -- 0.157.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Mar 2026 10:00:00 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Mar 2026 10:00:00 +0700</lastBuildDate>
+    <atom:link href="https://dananglanguageexchange.pages.dev/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Storytelling Prompt Ladder</title>
+      <link>https://dananglanguageexchange.pages.dev/resources/storytelling-prompts/</link>
+      <pubDate>Sun, 08 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/resources/storytelling-prompts/</guid>
+      <description>A set of prompts that move learners from simple descriptions to fuller personal stories and opinions.</description>
+    </item>
+    <item>
+      <title>First Meetup Prep Pack</title>
+      <link>https://dananglanguageexchange.pages.dev/resources/first-meetup-prep/</link>
+      <pubDate>Sat, 07 Mar 2026 10:00:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/resources/first-meetup-prep/</guid>
+      <description>A quick-start pack covering self-introductions, cafe basics, and fallback questions for your first club night.</description>
+    </item>
     <item>
       <title>Icebreaker Question Cards</title>
-      <link>http://localhost:1313/resources/icebreaker-cards/</link>
+      <link>https://dananglanguageexchange.pages.dev/resources/icebreaker-cards/</link>
       <pubDate>Tue, 03 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/resources/icebreaker-cards/</guid>
-      <description>&lt;p&gt;Printable cards with 50 fun, low-pressure questions to start a conversation with anyone. Available in both English and Vietnamese.&lt;/p&gt;</description>
+      <guid>https://dananglanguageexchange.pages.dev/resources/icebreaker-cards/</guid>
+      <description>Low-pressure starter questions for hosts and shy members who need the first five minutes to feel easier.</description>
     </item>
     <item>
       <title>Common Cafe Vocabulary</title>
-      <link>http://localhost:1313/resources/cafe-vocab/</link>
+      <link>https://dananglanguageexchange.pages.dev/resources/cafe-vocab/</link>
       <pubDate>Mon, 02 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/resources/cafe-vocab/</guid>
-      <description>&lt;p&gt;Learn how to order coffee, tea, and ask for the WiFi password in Vietnamese and English.&lt;/p&gt;</description>
+      <guid>https://dananglanguageexchange.pages.dev/resources/cafe-vocab/</guid>
+      <description>Useful Vietnamese and English phrases for ordering drinks, asking for seats, and handling simple cafe moments.</description>
     </item>
     <item>
       <title>Basic Vietnamese Greetings</title>
-      <link>http://localhost:1313/resources/basic-greetings/</link>
+      <link>https://dananglanguageexchange.pages.dev/resources/basic-greetings/</link>
       <pubDate>Sun, 01 Mar 2026 10:00:00 +0700</pubDate>
-      <guid>http://localhost:1313/resources/basic-greetings/</guid>
-      <description>&lt;p&gt;A simple, printable 1-page guide on how to say hello, ask &amp;ldquo;how are you?&amp;rdquo;, and introduce yourself in Southern Vietnamese. Great for complete beginners.&lt;/p&gt;</description>
+      <guid>https://dananglanguageexchange.pages.dev/resources/basic-greetings/</guid>
+      <description>A one-screen starter for greetings, introductions, and polite first questions.</description>
     </item>
   </channel>
 </rss>

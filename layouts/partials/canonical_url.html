@@ -1,0 +1,3 @@
+{{- $host := strings.TrimSuffix "/" (site.Params.productionHost | default site.BaseURL) -}}
+{{- $path := .RelPermalink | default "/" -}}
+{{- printf "%s%s" $host $path -}}
