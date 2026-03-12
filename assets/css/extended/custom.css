@@ -800,6 +800,55 @@ small {
     margin-right: 0.35rem;
 }
 
+.topic-pattern-list {
+    display: grid;
+    gap: 0.9rem;
+}
+
+.topic-pattern-link {
+    display: block;
+    padding: 1rem 1.1rem;
+    border-radius: var(--radius-sm);
+    background: linear-gradient(180deg, rgba(240, 228, 216, 0.5), rgba(255, 255, 255, 0.88));
+    border: 1px solid rgba(220, 204, 191, 0.85);
+    text-decoration: none !important;
+}
+
+.topic-pattern-link:hover {
+    transform: translateY(-2px);
+    border-color: rgba(42, 111, 151, 0.3);
+    box-shadow: 0 12px 24px rgba(89, 61, 44, 0.08);
+}
+
+.topic-pattern-name,
+.topic-pattern-template,
+.topic-pattern-gloss {
+    display: block;
+}
+
+.topic-pattern-name {
+    color: var(--accent);
+    font-size: 0.84rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+.topic-pattern-template {
+    margin-top: 0.4rem;
+    color: var(--primary);
+    font-size: 1.02rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.topic-pattern-gloss {
+    margin-top: 0.25rem;
+    color: var(--secondary);
+    font-style: italic;
+    line-height: 1.5;
+}
+
 .literal-translation-card {
     margin-top: 0.9rem;
     padding: 1rem 1.2rem;

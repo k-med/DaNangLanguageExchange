@@ -18,11 +18,20 @@
         <div class="resource-detail-grid">
             <section class="card detail-card">
                 <h2>Patterns Used Today</h2>
-                <ul class="plain-list">
+                <div class="topic-pattern-list">
                     {{ range .Params.patterns_used }}
-                    <li><a href="{{ .url }}">{{ .title }}</a></li>
+                    {{ $patternPage := site.GetPage .url }}
+                    <a class="topic-pattern-link" href="{{ .url }}">
+                        <span class="topic-pattern-name">{{ .title }}</span>
+                        {{ with $patternPage }}
+                        <span class="topic-pattern-template">{{ .Params.template }}</span>
+                        {{ with .Params.literal_translation }}
+                        <span class="topic-pattern-gloss">{{ . }}</span>
+                        {{ end }}
+                        {{ end }}
+                    </a>
                     {{ end }}
-                </ul>
+                </div>
             </section>
 
             <section class="card detail-card">
