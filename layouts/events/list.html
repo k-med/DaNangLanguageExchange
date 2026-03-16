@@ -9,7 +9,7 @@
         {{ $upcomingItems = $upcomingItems | append $eventItem }}
     {{ else if ge $displayDate.Unix now.Unix }}
         {{ $upcomingItems = $upcomingItems | append $eventItem }}
-    {{ else }}
+    {{ else if .Params.show_in_past_events }}
         {{ $pastItems = $pastItems | append $eventItem }}
     {{ end }}
 {{ end }}
@@ -51,6 +51,7 @@
         {{ end }}
     </section>
 
+    {{ if gt (len $past) 0 }}
     <section class="event-stack-card home-section">
         <span class="section-kicker">{{ i18n "events_recent_proof" }}</span>
         <h2>{{ i18n "events_past" }}</h2>
@@ -74,6 +75,7 @@
             {{ end }}
         </div>
     </section>
+    {{ end }}
 </section>
 
 {{ end }}
