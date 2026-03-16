@@ -1,0 +1,41 @@
+{{ define "main" }}
+
+{{ $displayDate := partial "event_display_date.html" . }}
+
+<article class="main event-single">
+    <header class="page-header">
+        {{ partial "breadcrumbs.html" . }}
+        <h1>{{ .Title }}</h1>
+        {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
+        {{ partial "translation_list.html" . }}
+    </header>
+
+    <section class="page-shell">
+        <div class="resource-detail-grid">
+            <section class="card detail-card">
+                <h2>{{ i18n "event_meta_title" }}</h2>
+                <div class="inline-meta-list">
+                    <span><strong>{{ i18n "label_date" }}</strong> {{ $displayDate | time.Format ":date_full" }}</span>
+                    <span><strong>{{ i18n "label_time" }}</strong> {{ .Params.time }}</span>
+                    <span><strong>{{ i18n "label_venue" }}</strong> {{ .Params.venue }}</span>
+                    <span><strong>{{ i18n "label_table_focus" }}</strong> {{ .Params.level_focus }}</span>
+                    <span><strong>{{ i18n "label_topic" }}</strong> {{ .Params.topic_of_week }}</span>
+                    <span><strong>{{ i18n "events_hosts" }}</strong> {{ .Params.host_names }}</span>
+                </div>
+                {{ with .Params.map_link }}
+                <div class="card-actions">
+                    <a href="{{ . }}" target="_blank" rel="noopener" class="button button-outline">{{ i18n "event_map" }}</a>
+                </div>
+                {{ end }}
+            </section>
+        </div>
+
+        {{ with .Content }}
+        <section class="card detail-card">
+            {{ . }}
+        </section>
+        {{ end }}
+    </section>
+</article>
+
+{{ end }}

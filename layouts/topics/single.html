@@ -5,19 +5,20 @@
         {{ partial "breadcrumbs.html" . }}
         <h1>{{ .Title }}</h1>
         {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
+        {{ partial "translation_list.html" . }}
     </header>
 
     <section class="topic-worksheet topic-pack-shell">
-        <p class="topic-section-label">Topic Pack</p>
+        <p class="topic-section-label">{{ i18n "topic_pack_label" }}</p>
         {{ with .Content }}{{ . }}{{ end }}
 
         <div class="social-proof-banner">
-            <strong>Use this at the meetup:</strong> each table takes these three patterns, speaks for 20 minutes, then rotates.
+            <strong>{{ i18n "meetup_use_intro" }}</strong> {{ i18n "meetup_use_body" }}
         </div>
 
         <div class="resource-detail-grid">
             <section class="card detail-card">
-                <h2>Patterns Used Today</h2>
+                <h2>{{ i18n "topic_patterns_today" }}</h2>
                 <div class="topic-pattern-list">
                     {{ range .Params.patterns_used }}
                     {{ $patternPage := site.GetPage .url }}
@@ -35,12 +36,12 @@
             </section>
 
             <section class="card detail-card">
-                <h2>Example Prompts</h2>
+                <h2>{{ i18n "topic_example_prompts" }}</h2>
                 <ul class="plain-list">
                     {{ range .Params.prompts }}
                     <li class="bilingual-item">
-                        <span class="bilingual-item-vi">{{ .vi }}</span>
-                        <span class="bilingual-item-en">{{ .en }}</span>
+                        <span class="bilingual-item-vi">{{ or .target .vi }}</span>
+                        <span class="bilingual-item-en">{{ or .support .en }}</span>
                     </li>
                     {{ end }}
                 </ul>
@@ -48,12 +49,12 @@
         </div>
 
         <section class="card detail-card">
-            <h2>Vocabulary</h2>
+            <h2>{{ i18n "topic_vocabulary" }}</h2>
             <div class="vocabulary-chip-row">
                 {{ range .Params.vocabulary }}
                 <span class="vocab-chip vocab-chip-bilingual">
-                    <span class="vocab-chip-vi">{{ .vi }}</span>
-                    <span class="vocab-chip-en">{{ .en }}</span>
+                    <span class="vocab-chip-vi">{{ or .target .vi }}</span>
+                    <span class="vocab-chip-en">{{ or .support .en }}</span>
                 </span>
                 {{ end }}
             </div>
@@ -61,22 +62,22 @@
 
         <div class="resource-detail-grid">
             <section class="card detail-card">
-                <h2>Meetup Flow</h2>
+                <h2>{{ i18n "topic_meetup_flow" }}</h2>
                 <ul class="plain-list">
                     {{ range .Params.table_patterns }}
                     <li>{{ . }}</li>
                     {{ end }}
                 </ul>
-                <p class="meta-note">Rotate groups every 20 minutes. Run one Vietnamese-only round and one English-only round.</p>
+                <p class="meta-note">{{ i18n "topic_flow_note" }}</p>
             </section>
 
             <section class="card detail-card">
-                <h2>Host Prompts</h2>
+                <h2>{{ i18n "topic_host_prompts" }}</h2>
                 <ul class="plain-list">
                     {{ range .Params.host_prompts }}
                     <li class="bilingual-item">
-                        <span class="bilingual-item-vi">{{ .vi }}</span>
-                        <span class="bilingual-item-en">{{ .en }}</span>
+                        <span class="bilingual-item-vi">{{ or .target .vi }}</span>
+                        <span class="bilingual-item-en">{{ or .support .en }}</span>
                     </li>
                     {{ end }}
                 </ul>
@@ -84,14 +85,14 @@
         </div>
 
         <div class="notebook-tip">
-            <span class="section-kicker">Pro tip</span>
-            <h2>Bring a small notebook</h2>
+            <span class="section-kicker">{{ i18n "topic_pro_tip" }}</span>
+            <h2>{{ i18n "topic_notebook_title" }}</h2>
             <ol class="plain-steps">
-                <li>Read the topic page before the meetup.</li>
-                <li>Copy the patterns into your notebook.</li>
-                <li>Write three example sentences before you arrive.</li>
+                <li>{{ i18n "topic_notebook_1" }}</li>
+                <li>{{ i18n "topic_notebook_2" }}</li>
+                <li>{{ i18n "topic_notebook_3" }}</li>
             </ol>
-            <p>You will speak more confidently during the exchange.</p>
+            <p>{{ i18n "topic_notebook_body" }}</p>
         </div>
     </section>
 </article>

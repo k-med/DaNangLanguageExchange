@@ -1,100 +1,133 @@
 {{ define "main" }}
 
 {{ $events := where site.RegularPages "Type" "events" }}
-{{ $upcoming := first 1 (sort (where $events "Date" "ge" now) "Date" "asc") }}
-{{ $pastEvents := first 3 (sort (where $events "Date" "lt" now) "Date" "desc") }}
+{{ $upcomingEvents := slice }}
+{{ $pastEventItems := slice }}
+{{ range $events }}
+    {{ $displayDate := partial "event_display_date.html" . }}
+    {{ $eventItem := dict "page" . "displayDate" $displayDate }}
+    {{ if .Params.recurring_weekly }}
+        {{ $upcomingEvents = $upcomingEvents | append $eventItem }}
+    {{ else if ge $displayDate.Unix now.Unix }}
+        {{ $upcomingEvents = $upcomingEvents | append $eventItem }}
+    {{ else }}
+        {{ $pastEventItems = $pastEventItems | append $eventItem }}
+    {{ end }}
+{{ end }}
+{{ $upcoming := first 1 (sort $upcomingEvents "displayDate" "asc") }}
+{{ $pastEvents := first 3 (sort $pastEventItems "displayDate" "desc") }}
 {{ $featuredTopic := first 1 (where (where site.RegularPages "Type" "topics") ".Params.featured" true) }}
+{{ $beginnerStart := first 1 (where (where site.RegularPages "Type" "resources") "Params.resource_type" "starter") }}
 
 <main class="main home-main">
     <section class="hero-shell">
         <div class="hero-copy">
-            <span class="hero-kicker">Friday cafe practice in Da Nang</span>
-            <h1 class="hero-title">Structured Vietnamese-English conversation for people who actually want to improve.</h1>
-            <p class="hero-subtitle">A calm weekly club with small-group rotations, balanced English and Vietnamese time, and QR-friendly topic pages built around reusable conversation patterns.</p>
+            <span class="hero-kicker">{{ i18n "home_hero_kicker" }}</span>
+            <h1 class="hero-title">{{ i18n "home_hero_title" }}</h1>
+            <p class="hero-subtitle">{{ i18n "home_hero_subtitle" }}</p>
             <div class="hero-buttons hero-buttons-left">
-                <a href="{{ "/join/" | relLangURL }}" class="button button-primary">Join the Next Session</a>
-                <a href="{{ "/events/" | relLangURL }}" class="button button-secondary">See Upcoming Events</a>
+                <a href="{{ "/join/" | relLangURL }}" class="button button-primary">{{ i18n "home_join_next" }}</a>
+                <a href="{{ "/events/" | relLangURL }}" class="button button-secondary">{{ i18n "home_see_events" }}</a>
             </div>
             <div class="hero-proof-strip">
                 <div class="proof-chip">
-                    <strong>Every Friday</strong>
-                    <span>7:00 PM to 9:00 PM</span>
+                    <strong>{{ i18n "home_every_friday" }}</strong>
+                    <span>{{ i18n "home_every_friday_detail" }}</span>
                 </div>
                 <div class="proof-chip">
-                    <strong>Quiet cafe format</strong>
-                    <span>Drink purchase only, no ticket fee</span>
+                    <strong>{{ i18n "home_quiet_format" }}</strong>
+                    <span>{{ i18n "home_quiet_format_detail" }}</span>
                 </div>
                 <div class="proof-chip">
-                    <strong>Pattern-based tables</strong>
-                    <span>Three patterns per table, clear host guidance</span>
+                    <strong>{{ i18n "home_pattern_tables" }}</strong>
+                    <span>{{ i18n "home_pattern_tables_detail" }}</span>
                 </div>
             </div>
         </div>
 
         <aside class="hero-panel">
             <div class="hero-photo-card">
-                <div class="hero-photo hero-photo-large">
-                    <span>Central Da Nang cafe tables</span>
+                <div class="hero-photo hero-photo-large hero-photo-tables">
+                    <span>{{ i18n "home_photo_tables" }}</span>
                 </div>
                 <div class="hero-photo-row">
-                    <div class="hero-photo hero-photo-small"><span>Topic sheets</span></div>
-                    <div class="hero-photo hero-photo-small"><span>Friday night energy</span></div>
+                    <div class="hero-photo hero-photo-small hero-photo-topics"><span>{{ i18n "home_photo_topics" }}</span></div>
+                    <div class="hero-photo hero-photo-small hero-photo-energy"><span>{{ i18n "home_photo_energy" }}</span></div>
                 </div>
             </div>
 
             {{ range $upcoming }}
+            {{ $event := .page }}
             <div class="hero-event-spotlight">
-                <span class="badge">Next meetup</span>
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Summary }}</p>
+                <span class="badge">{{ i18n "home_next_meetup" }}</span>
+                <h3>{{ $event.Title }}</h3>
+                <p>{{ $event.Summary }}</p>
                 <div class="hero-meta-list">
-                    <span>{{ .Date.Format "Friday, Jan 2" }}</span>
-                    <span>{{ .Params.time }}</span>
-                    <span>{{ .Params.venue_status }}</span>
+                    <span>{{ .displayDate | time.Format ":date_medium" }}</span>
+                    <span>{{ $event.Params.time }}</span>
+                    <span>{{ $event.Params.venue_status }}</span>
                 </div>
-                <a href="{{ .RelPermalink }}" class="button button-outline">Open Event Details</a>
+                <a href="{{ $event.RelPermalink }}" class="button button-outline">{{ i18n "home_open_event" }}</a>
             </div>
             {{ else }}
             <div class="hero-event-spotlight">
-                <span class="badge">Weekly meetup</span>
-                <h3>Friday cafe session</h3>
-                <p>The next event is being finalized. Join the community chat to get the confirmed venue first.</p>
-                <a href="{{ "/join/" | relLangURL }}" class="button button-outline">Join the Community</a>
+                <span class="badge">{{ i18n "home_weekly_meetup" }}</span>
+                <h3>{{ i18n "home_friday_session" }}</h3>
+                <p>{{ i18n "home_event_pending" }}</p>
+                <a href="{{ "/join/" | relLangURL }}" class="button button-outline">{{ i18n "home_join_community" }}</a>
             </div>
             {{ end }}
         </aside>
     </section>
 
+    {{ range $beginnerStart }}
+    <section class="home-section">
+        <div class="topic-spotlight">
+            <div class="topic-spotlight-copy">
+                <span class="badge">{{ i18n "resource_group_beginner_kicker" }}</span>
+                <h3>{{ .Title }}</h3>
+                <p>{{ i18n "home_beginner_cta" }}</p>
+            </div>
+            <div class="mini-panel">
+                <h4>{{ i18n "resource_group_beginner_title" }}</h4>
+                <p>{{ .Params.summary | default .Summary }}</p>
+                <a href="{{ .RelPermalink }}" class="button button-primary">{{ i18n "home_beginner_button" }}</a>
+            </div>
+        </div>
+    </section>
+    {{ end }}
+
     <section class="home-section next-event-section">
         <div class="section-heading">
-            <span class="section-kicker">This week</span>
-            <h2 class="section-title">Next Event</h2>
+            <span class="section-kicker">{{ i18n "home_this_week" }}</span>
+            <h2 class="section-title">{{ i18n "home_next_event" }}</h2>
         </div>
         {{ range $upcoming }}
+        {{ $event := .page }}
         <div class="next-event-card">
             <div class="next-event-main">
-                <span class="badge">Confirmed session</span>
-                <h3>{{ .Title }}</h3>
-                <p class="next-event-summary">{{ .Summary }}</p>
+                <span class="badge">{{ i18n "home_confirmed_session" }}</span>
+                <h3>{{ $event.Title }}</h3>
+                <p class="next-event-summary">{{ $event.Summary }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Date</strong> {{ .Date.Format "Friday, January 2, 2006" }}</span>
-                    <span><strong>Time</strong> {{ .Params.time }}</span>
-                    <span><strong>Venue</strong> {{ .Params.venue }}</span>
-                    <span><strong>Table focus</strong> {{ .Params.level_focus }}</span>
-                    <span><strong>Topic</strong> {{ .Params.topic_of_week }}</span>
+                    <span><strong>{{ i18n "label_date" }}</strong> {{ .displayDate | time.Format ":date_full" }}</span>
+                    <span><strong>{{ i18n "label_time" }}</strong> {{ $event.Params.time }}</span>
+                    <span><strong>{{ i18n "label_venue" }}</strong> {{ $event.Params.venue }}</span>
+                    <span><strong>{{ i18n "label_table_focus" }}</strong> {{ $event.Params.level_focus }}</span>
+                    <span><strong>{{ i18n "label_topic" }}</strong> {{ $event.Params.topic_of_week }}</span>
                 </div>
             </div>
             <div class="next-event-side">
                 <div class="mini-panel">
-                    <h4>What to expect</h4>
+                    <h4>{{ i18n "home_expect_title" }}</h4>
                     <ul class="plain-list">
-                        <li>Warm-up mingling and seating help from hosts.</li>
-                        <li>English and Vietnamese blocks with table rotations.</li>
-                        <li>Printed topic prompts for learners who want structure.</li>
+                        <li>{{ i18n "home_expect_1" }}</li>
+                        <li>{{ i18n "home_expect_2" }}</li>
+                        <li>{{ i18n "home_expect_3" }}</li>
                     </ul>
                 </div>
                 <div class="hero-buttons hero-buttons-left">
-                    <a href="{{ .RelPermalink }}" class="button button-primary">Event Details</a>
+                    <a href="{{ $event.RelPermalink }}" class="button button-primary">{{ i18n "home_event_details" }}</a>
                     <a href="{{ partial "community_link.html" (dict "kind" "zalo") }}" target="_blank" rel="noopener" class="button button-secondary">{{ site.Params.community.zaloLabel }}</a>
                 </div>
             </div>
@@ -102,12 +135,12 @@
         {{ else }}
         <div class="next-event-card">
             <div class="next-event-main">
-                <span class="badge">Weekly meetup</span>
-                <h3>Friday cafe session</h3>
-                <p class="next-event-summary">The next event is being finalized. Join the community chat to get the venue as soon as it is posted.</p>
+                <span class="badge">{{ i18n "home_weekly_meetup" }}</span>
+                <h3>{{ i18n "home_friday_session" }}</h3>
+                <p class="next-event-summary">{{ i18n "home_event_pending_short" }}</p>
             </div>
             <div class="hero-buttons hero-buttons-left">
-                <a href="{{ "/join/" | relLangURL }}" class="button button-primary">Join the Community</a>
+                <a href="{{ "/join/" | relLangURL }}" class="button button-primary">{{ i18n "home_join_community" }}</a>
             </div>
         </div>
         {{ end }}
@@ -115,74 +148,75 @@
 
     <section class="home-section">
         <div class="section-heading">
-            <span class="section-kicker">Simple rhythm</span>
-            <h2 class="section-title">How It Works</h2>
+            <span class="section-kicker">{{ i18n "home_simple_rhythm" }}</span>
+            <h2 class="section-title">{{ i18n "home_how_it_works" }}</h2>
         </div>
         <div class="grid-3">
             <div class="grid-item">
                 <span class="card-step">1</span>
-                <h3>Join the chat</h3>
-                <p>Weekly venue announcements, last-minute updates, and host support all happen inside the Zalo and WhatsApp groups.</p>
+                <h3>{{ i18n "home_step_1_title" }}</h3>
+                <p>{{ i18n "home_step_1_body" }}</p>
             </div>
             <div class="grid-item">
                 <span class="card-step">2</span>
-                <h3>Prep with the topic</h3>
-                <p>Each week includes three conversation patterns, example prompts, and a short word list that people can use immediately from a phone screen.</p>
+                <h3>{{ i18n "home_step_2_title" }}</h3>
+                <p>{{ i18n "home_step_2_body" }}</p>
             </div>
             <div class="grid-item">
                 <span class="card-step">3</span>
-                <h3>Rotate and practice</h3>
-                <p>Tables are mixed intentionally so locals and international members both get useful speaking time instead of one drifting conversation.</p>
+                <h3>{{ i18n "home_step_3_title" }}</h3>
+                <p>{{ i18n "home_step_3_body" }}</p>
             </div>
         </div>
     </section>
 
     <section class="home-section social-proof-section">
         <div class="section-heading">
-            <span class="section-kicker">Why members return</span>
-            <h2 class="section-title">Why It Feels Different</h2>
+            <span class="section-kicker">{{ i18n "home_why_return" }}</span>
+            <h2 class="section-title">{{ i18n "home_why_different" }}</h2>
         </div>
         <div class="proof-grid">
             <div class="proof-story-card">
-                <span class="badge">Learning-focused</span>
-                <h3>Not a generic expat meetup</h3>
-                <p>Each session is built around one topic, clear host guidance, and balanced Vietnamese and English time.</p>
+                <span class="badge">{{ i18n "home_learning_focused" }}</span>
+                <h3>{{ i18n "home_learning_focused_title" }}</h3>
+                <p>{{ i18n "home_learning_focused_body" }}</p>
             </div>
             <div class="proof-story-card">
-                <span class="badge">Da Nang-specific</span>
-                <h3>Quiet cafes, local learners, regular rhythm</h3>
-                <p>Friday evenings in central Da Nang with a mix of Vietnamese locals, long-term residents, and motivated travelers.</p>
+                <span class="badge">{{ i18n "home_dn_specific" }}</span>
+                <h3>{{ i18n "home_dn_specific_title" }}</h3>
+                <p>{{ i18n "home_dn_specific_body" }}</p>
             </div>
             <div class="proof-story-card">
-                <span class="badge">Starter-friendly</span>
-                <h3>You do not need to improvise</h3>
-                <p>Hosts can suggest a table, starter questions are ready, and each topic page is built for quick QR-code use at the cafe.</p>
+                <span class="badge">{{ i18n "home_starter_friendly" }}</span>
+                <h3>{{ i18n "home_starter_friendly_title" }}</h3>
+                <p>{{ i18n "home_starter_friendly_body" }}</p>
             </div>
         </div>
         <div class="quote-grid">
             <div class="quote-card">
-                <p>"I came for Vietnamese practice and stayed because the format is calm and actually useful."</p>
-                <span>Regular learner, Friday cafe table</span>
+                <p>{{ i18n "home_quote_1" }}</p>
+                <span>{{ i18n "home_quote_1_source" }}</span>
             </div>
             <div class="quote-card">
-                <p>"The topic cards make it much easier to talk to new people instead of defaulting to the same small talk."</p>
-                <span>English learner, central Da Nang</span>
+                <p>{{ i18n "home_quote_2" }}</p>
+                <span>{{ i18n "home_quote_2_source" }}</span>
             </div>
         </div>
     </section>
 
     <section class="home-section">
         <div class="section-heading">
-            <span class="section-kicker">Proof of activity</span>
-            <h2 class="section-title">Recent Sessions</h2>
+            <span class="section-kicker">{{ i18n "home_recent_proof" }}</span>
+            <h2 class="section-title">{{ i18n "home_recent_sessions" }}</h2>
         </div>
         <div class="session-grid">
             {{ range $pastEvents }}
-            <a class="session-card" href="{{ .RelPermalink }}">
-                <span class="badge">{{ .Date.Format "Jan 2" }}</span>
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Params.recap_highlight | default .Summary }}</p>
-                <span class="session-link">Read recap</span>
+            {{ $event := .page }}
+            <a class="session-card" href="{{ $event.RelPermalink }}">
+                <span class="badge">{{ .displayDate | time.Format ":date_medium" }}</span>
+                <h3>{{ $event.Title }}</h3>
+                <p>{{ $event.Params.recap_highlight | default $event.Summary }}</p>
+                <span class="session-link">{{ i18n "home_read_recap" }}</span>
             </a>
             {{ end }}
         </div>
@@ -190,8 +224,8 @@
 
     <section class="home-section topic-preview">
         <div class="section-heading">
-            <span class="section-kicker">Prep before Friday</span>
-            <h2 class="section-title">Featured Topic Page</h2>
+            <span class="section-kicker">{{ i18n "home_prep_before" }}</span>
+            <h2 class="section-title">{{ i18n "home_featured_topic" }}</h2>
         </div>
         {{ range $featuredTopic }}
         <div class="topic-spotlight">
@@ -200,16 +234,16 @@
                 <h3>{{ .Title }}</h3>
                 <p>{{ .Params.summary }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Format</strong> Three patterns, prompts, and vocabulary</span>
-                    <span><strong>Best for</strong> QR-code table practice</span>
+                    <span><strong>{{ i18n "home_format" }}</strong> {{ i18n "home_format_detail" }}</span>
+                    <span><strong>{{ i18n "home_best_for" }}</strong> {{ i18n "home_best_for_detail" }}</span>
                 </div>
             </div>
             <div class="mini-panel">
-                <h4>Why this topic works</h4>
-                <p>People can see the pattern, copy one sentence into a notebook, and start speaking without waiting for a full lesson.</p>
+                <h4>{{ i18n "home_topic_why_title" }}</h4>
+                <p>{{ i18n "home_topic_why_body" }}</p>
                 <div class="hero-buttons hero-buttons-left">
-                    <a href="{{ .RelPermalink }}" class="button button-primary">Open Topic Page</a>
-                    <a href="{{ "/resources/" | relLangURL }}" class="button button-outline">Browse Resources</a>
+                    <a href="{{ .RelPermalink }}" class="button button-primary">{{ i18n "home_open_topic" }}</a>
+                    <a href="{{ "/resources/" | relLangURL }}" class="button button-outline">{{ i18n "home_browse_resources" }}</a>
                 </div>
             </div>
         </div>

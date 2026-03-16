@@ -1,0 +1,15 @@
+{{- $page := . -}}
+{{- $displayDate := $page.Date -}}
+
+{{- if $page.Params.recurring_weekly -}}
+  {{- $nextDate := $page.Date -}}
+  {{- range seq 1 1040 -}}
+    {{- if ge $nextDate.Unix now.Unix -}}
+      {{- break -}}
+    {{- end -}}
+    {{- $nextDate = $nextDate.AddDate 0 0 7 -}}
+  {{- end -}}
+  {{- $displayDate = $nextDate -}}
+{{- end -}}
+
+{{- return $displayDate -}}

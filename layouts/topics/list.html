@@ -13,18 +13,18 @@
     {{ range first 1 $featured }}
     <section class="topic-spotlight">
         <div class="topic-spotlight-copy">
-            <span class="badge">Featured this week</span>
+            <span class="badge">{{ i18n "topics_featured_badge" }}</span>
             <h2>{{ .Title }}</h2>
             <p>{{ .Params.summary | default .Summary }}</p>
             <div class="inline-meta-list">
-                <span><strong>Track</strong> {{ .Params.track }}</span>
-                <span><strong>Patterns</strong> {{ len .Params.patterns_used }} core patterns</span>
+                <span><strong>{{ i18n "topics_track" }}</strong> {{ .Params.track }}</span>
+                <span><strong>{{ i18n "topics_patterns" }}</strong> {{ len .Params.patterns_used }} {{ i18n "topics_patterns_detail" }}</span>
             </div>
         </div>
         <div class="mini-panel">
-            <h3>Why this topic works</h3>
-            <p>People scan one QR code, see three patterns, a few prompts, and a short word list. That is enough to start speaking immediately.</p>
-            <a href="{{ .RelPermalink }}" class="button button-primary">Open Featured Topic</a>
+            <h3>{{ i18n "topics_why_title" }}</h3>
+            <p>{{ i18n "topics_why_body" }}</p>
+            <a href="{{ .RelPermalink }}" class="button button-primary">{{ i18n "topics_open_featured" }}</a>
         </div>
     </section>
     {{ end }}
@@ -38,13 +38,13 @@
                         <span class="badge">{{ .Params.track }}</span>
                         <h3>{{ .Title }}</h3>
                     </div>
-                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
+                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Patterns</strong> {{ len .Params.patterns_used }}</span>
-                    <span><strong>Vocabulary</strong> {{ len .Params.vocabulary }} words</span>
-                    <span><strong>Best use</strong> Table rotation topic</span>
+                    <span><strong>{{ i18n "topics_patterns" }}</strong> {{ len .Params.patterns_used }}</span>
+                    <span><strong>{{ i18n "topics_vocab" }}</strong> {{ len .Params.vocabulary }} {{ i18n "words_label" }}</span>
+                    <span><strong>{{ i18n "topics_best_use" }}</strong> {{ i18n "topics_best_use_detail" }}</span>
                 </div>
             </article>
             {{ end }}

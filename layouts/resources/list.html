@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 {{ $pages := where site.RegularPages "Type" "resources" }}
+{{ $beginners := where $pages "Params.resource_type" "starter" }}
 {{ $patterns := where $pages "Params.resource_type" "pattern" }}
 {{ $vocabulary := where $pages "Params.resource_type" "vocabulary" }}
 
@@ -12,9 +13,33 @@
     </header>
 
     <section class="resource-group">
-        <span class="section-kicker">Grammar engines</span>
-        <h2>Core Patterns</h2>
-        <p class="section-intro">Each meetup can run on three to five sentence patterns. Open a pattern, read two examples, and start talking.</p>
+        <span class="section-kicker">{{ i18n "resource_group_beginner_kicker" }}</span>
+        <h2>{{ i18n "resource_group_beginner_title" }}</h2>
+        <p class="section-intro">{{ i18n "resource_group_beginner_intro" }}</p>
+        <div class="resource-grid">
+            {{ range sort $beginners "Weight" "asc" }}
+            <article class="card resource-card">
+                <div class="resource-card-header">
+                    <div>
+                        <span class="badge">{{ .Params.pattern_band | default (i18n "resource_group_beginner_title") }}</span>
+                        <h3>{{ .Title }}</h3>
+                    </div>
+                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
+                </div>
+                <p>{{ .Params.summary | default .Summary }}</p>
+                <div class="resource-stat-row">
+                    <span class="resource-stat"><strong>{{ i18n "beginner_first_questions" }}</strong> {{ len .Params.first_questions }}</span>
+                    <span class="resource-stat"><strong>{{ i18n "beginner_best_for" }}</strong> {{ i18n "beginner_best_for_detail" }}</span>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </section>
+
+    <section class="resource-group">
+        <span class="section-kicker">{{ i18n "resource_group_patterns_kicker" }}</span>
+        <h2>{{ i18n "resource_group_patterns_title" }}</h2>
+        <p class="section-intro">{{ i18n "resource_group_patterns_intro" }}</p>
         <div class="resource-grid">
             {{ range sort $patterns "Weight" "asc" }}
             <article class="card resource-card">
@@ -23,18 +48,18 @@
                         <span class="badge">{{ .Params.pattern_band }}</span>
                         <h3>{{ .Title }}</h3>
                     </div>
-                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
+                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
                 <div class="resource-preview-block">
-                    <p class="resource-preview-label">Vietnamese pattern</p>
+                    <p class="resource-preview-label">{{ i18n "pattern_preview_target_label" }}</p>
                     <div class="resource-preview-template">{{ .Params.template }}</div>
-                    <p class="resource-preview-label">Literal English</p>
+                    <p class="resource-preview-label">{{ i18n "pattern_preview_support_label" }}</p>
                     <div class="resource-preview-translation">{{ .Params.literal_translation }}</div>
                 </div>
                 <div class="resource-stat-row">
-                    <span class="resource-stat"><strong>Prompts</strong> {{ len .Params.prompts }}</span>
-                    <span class="resource-stat"><strong>Examples</strong> {{ len .Params.examples }}</span>
+                    <span class="resource-stat"><strong>{{ i18n "prompts_label" }}</strong> {{ len .Params.prompts }}</span>
+                    <span class="resource-stat"><strong>{{ i18n "examples_label" }}</strong> {{ len .Params.examples }}</span>
                 </div>
             </article>
             {{ end }}
@@ -42,23 +67,23 @@
     </section>
 
     <section class="resource-group">
-        <span class="section-kicker">Word banks</span>
-        <h2>Core Vocabulary</h2>
-        <p class="section-intro">Small vocabulary sets that support the pattern pages without overwhelming people at the table.</p>
+        <span class="section-kicker">{{ i18n "resource_group_vocab_kicker" }}</span>
+        <h2>{{ i18n "resource_group_vocab_title" }}</h2>
+        <p class="section-intro">{{ i18n "resource_group_vocab_intro" }}</p>
         <div class="resource-grid">
             {{ range sort $vocabulary "Weight" "asc" }}
             <article class="card resource-card">
                 <div class="resource-card-header">
                     <div>
-                        <span class="badge">Core Vocabulary</span>
+                        <span class="badge">{{ i18n "resource_group_vocab_title" }}</span>
                         <h3>{{ .Title }}</h3>
                     </div>
-                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">Open</a>
+                    <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
                 <div class="resource-stat-row">
-                    <span class="resource-stat"><strong>Words</strong> {{ len .Params.words }}</span>
-                    <span class="resource-stat"><strong>Drill</strong> One quick practice set</span>
+                    <span class="resource-stat"><strong>{{ i18n "words_label" }}</strong> {{ len .Params.words }}</span>
+                    <span class="resource-stat"><strong>{{ i18n "drill_label" }}</strong> {{ i18n "drill_detail" }}</span>
                 </div>
             </article>
             {{ end }}

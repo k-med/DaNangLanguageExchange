@@ -6,16 +6,26 @@ description: "Join the official Zalo or WhatsApp group, see the Friday cafe deta
 
 <div class="page-shell">
 
-Da Nang Language Exchange is free to join. The only thing you need to do before your first meetup is join one of the official chat groups so you can see the confirmed cafe, topic of the week, and any host updates.
+Da Nang Language Exchange is free to join. Before your first meetup, join one of the official community groups so you can see the confirmed cafe, topic of the week, and any host updates.
+
+<div class="expectations-box">
+  <h2 style="margin-top: 0;">Join the Da Nang English-Vietnamese Language Exchange</h2>
+  <p>This community is for people in Da Nang who genuinely want to practice Vietnamese and English and attend language exchange meetups.</p>
+  <p>When you join, please introduce yourself in the group.</p>
+  <ul>
+    <li>Foreign members are encouraged to try introducing themselves in Vietnamese.</li>
+    <li>Vietnamese members are encouraged to introduce themselves in English.</li>
+  </ul>
+</div>
 
 <div class="join-cta-container">
-  <a href="https://zalo.me/g/danangexchange" target="_blank" rel="noopener" class="button button-primary join-cta-card">
-    <strong>Join Zalo Group</strong>
-    <br><small>Best for locals and regular Da Nang members</small>
-  </a>
-  <a href="https://chat.whatsapp.com/danangexchange" target="_blank" rel="noopener" class="button button-secondary join-cta-card">
-    <strong>Join WhatsApp Group</strong>
+  <a href="https://chat.whatsapp.com/JVoJ9gkDnDiLFhRJUtK69Q" target="_blank" rel="noopener" class="button button-secondary join-cta-card">
+    <strong>Join WhatsApp Community</strong>
     <br><small>Best for travelers and international members</small>
+  </a>
+  <a href="https://zalo.me/g/xu7qnpyhfqi9gkkwrh1t" target="_blank" rel="noopener" class="button button-primary join-cta-card">
+    <strong>Join Zalo Community</strong>
+    <br><small>Best for locals and regular Da Nang members</small>
   </a>
 </div>
 
@@ -51,6 +61,7 @@ Da Nang Language Exchange is free to join. The only thing you need to do before 
 ## Prepare Before Friday
 
 <div class="prep-actions">
+  <a href="/resources/beginner-start/" class="button button-primary">Start From Zero</a>
   <a href="/topics/" class="button button-outline">View Weekly Conversation Topics</a>
   <a href="/resources/" class="button button-secondary">Browse Core Resources</a>
 </div>

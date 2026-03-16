@@ -1,0 +1,274 @@
+- id: home_hero_kicker
+  translation: "Friday cafe practice in Da Nang"
+- id: home_hero_title
+  translation: "Structured Vietnamese-English conversation for people who actually want to improve."
+- id: home_hero_subtitle
+  translation: "A calm weekly club with small-group rotations, balanced English and Vietnamese time, and QR-friendly topic pages built around reusable conversation patterns."
+- id: home_join_next
+  translation: "Join the Next Session"
+- id: home_see_events
+  translation: "See Upcoming Events"
+- id: home_every_friday
+  translation: "Every Friday"
+- id: home_every_friday_detail
+  translation: "7:00 PM to 9:00 PM"
+- id: home_quiet_format
+  translation: "Quiet cafe format"
+- id: home_quiet_format_detail
+  translation: "Drink purchase only, no ticket fee"
+- id: home_pattern_tables
+  translation: "Pattern-based tables"
+- id: home_pattern_tables_detail
+  translation: "Three patterns per table, clear host guidance"
+- id: home_photo_tables
+  translation: "Central Da Nang cafe tables"
+- id: home_photo_topics
+  translation: "Topic sheets"
+- id: home_photo_energy
+  translation: "Friday energy"
+- id: home_next_meetup
+  translation: "Next meetup"
+- id: home_open_event
+  translation: "Open Event Details"
+- id: home_weekly_meetup
+  translation: "Weekly meetup"
+- id: home_friday_session
+  translation: "Friday cafe session"
+- id: home_event_pending
+  translation: "The next event is being finalized. Join the community chat to get the confirmed venue first."
+- id: home_join_community
+  translation: "Join the Community"
+- id: home_this_week
+  translation: "This week"
+- id: home_next_event
+  translation: "Next Event"
+- id: home_confirmed_session
+  translation: "Confirmed session"
+- id: label_date
+  translation: "Date"
+- id: label_time
+  translation: "Time"
+- id: label_venue
+  translation: "Venue"
+- id: label_table_focus
+  translation: "Table focus"
+- id: label_topic
+  translation: "Topic"
+- id: home_expect_title
+  translation: "What to expect"
+- id: home_expect_1
+  translation: "Warm-up mingling and seating help from hosts."
+- id: home_expect_2
+  translation: "English and Vietnamese blocks with table rotations."
+- id: home_expect_3
+  translation: "Printed topic prompts for learners who want structure."
+- id: home_event_details
+  translation: "Event Details"
+- id: home_event_pending_short
+  translation: "The next event is being finalized. Join the community chat to get the venue as soon as it is posted."
+- id: home_simple_rhythm
+  translation: "Simple rhythm"
+- id: home_how_it_works
+  translation: "How It Works"
+- id: home_step_1_title
+  translation: "Join the chat"
+- id: home_step_1_body
+  translation: "Weekly venue announcements, last-minute updates, and host support all happen inside the Zalo and WhatsApp groups."
+- id: home_step_2_title
+  translation: "Prep with the topic"
+- id: home_step_2_body
+  translation: "Each week includes three conversation patterns, example prompts, and a short word list that people can use immediately from a phone screen."
+- id: home_step_3_title
+  translation: "Rotate and practice"
+- id: home_step_3_body
+  translation: "Tables are mixed intentionally so locals and international members both get useful speaking time instead of one drifting conversation."
+- id: home_why_return
+  translation: "Why members return"
+- id: home_why_different
+  translation: "Why It Feels Different"
+- id: home_learning_focused
+  translation: "Learning-focused"
+- id: home_learning_focused_title
+  translation: "Not a generic expat meetup"
+- id: home_learning_focused_body
+  translation: "Each session is built around one topic, clear host guidance, and balanced Vietnamese and English time."
+- id: home_dn_specific
+  translation: "Da Nang-specific"
+- id: home_dn_specific_title
+  translation: "Quiet cafes, local learners, regular rhythm"
+- id: home_dn_specific_body
+  translation: "Friday evenings in central Da Nang with a mix of Vietnamese locals, long-term residents, and motivated travelers."
+- id: home_starter_friendly
+  translation: "Starter-friendly"
+- id: home_starter_friendly_title
+  translation: "You do not need to improvise"
+- id: home_starter_friendly_body
+  translation: "Hosts can suggest a table, starter questions are ready, and each topic page is built for quick QR-code use at the cafe."
+- id: home_quote_1
+  translation: "\"I came for Vietnamese practice and stayed because the format is calm and actually useful.\""
+- id: home_quote_1_source
+  translation: "Regular learner, Friday cafe table"
+- id: home_quote_2
+  translation: "\"The topic cards make it much easier to talk to new people instead of defaulting to the same small talk.\""
+- id: home_quote_2_source
+  translation: "English learner, central Da Nang"
+- id: home_recent_proof
+  translation: "Proof of activity"
+- id: home_recent_sessions
+  translation: "Recent Sessions"
+- id: home_read_recap
+  translation: "Read recap"
+- id: home_prep_before
+  translation: "Prep before Friday"
+- id: home_featured_topic
+  translation: "Featured Topic Page"
+- id: home_format
+  translation: "Format"
+- id: home_format_detail
+  translation: "Three patterns, prompts, and vocabulary"
+- id: home_best_for
+  translation: "Best for"
+- id: home_best_for_detail
+  translation: "QR-code table practice"
+- id: home_topic_why_title
+  translation: "Why this topic works"
+- id: home_topic_why_body
+  translation: "People can see the pattern, copy one sentence into a notebook, and start speaking without waiting for a full lesson."
+- id: home_open_topic
+  translation: "Open Topic Page"
+- id: home_browse_resources
+  translation: "Browse Resources"
+- id: resource_group_patterns_kicker
+  translation: "Grammar engines"
+- id: resource_group_patterns_title
+  translation: "Core Patterns"
+- id: resource_group_patterns_intro
+  translation: "Each meetup can run on three to five sentence patterns. Open a pattern, read two examples, and start talking."
+- id: resource_group_vocab_kicker
+  translation: "Word banks"
+- id: resource_group_vocab_title
+  translation: "Core Vocabulary"
+- id: resource_group_vocab_intro
+  translation: "Small vocabulary sets that support the pattern pages without overwhelming people at the table."
+- id: resource_group_beginner_kicker
+  translation: "Zero-start help"
+- id: resource_group_beginner_title
+  translation: "Beginner Starting Point"
+- id: resource_group_beginner_intro
+  translation: "A friendly first stop for members who need a few reliable questions before they join a real table conversation."
+- id: beginner_best_for
+  translation: "Best for"
+- id: beginner_best_for_detail
+  translation: "First meetup confidence"
+- id: beginner_first_questions
+  translation: "First questions"
+- id: home_beginner_cta
+  translation: "New to both languages? Start here with the easiest first questions before your first meetup."
+- id: home_beginner_button
+  translation: "Open Beginner Starting Point"
+- id: open_label
+  translation: "Open"
+- id: pattern_preview_target_label
+  translation: "Vietnamese pattern"
+- id: pattern_preview_support_label
+  translation: "Literal English"
+- id: prompts_label
+  translation: "Prompts"
+- id: examples_label
+  translation: "Examples"
+- id: words_label
+  translation: "Words"
+- id: drill_label
+  translation: "Drill"
+- id: drill_detail
+  translation: "One quick practice set"
+- id: template_heading
+  translation: "Template"
+- id: support_heading
+  translation: "Literal English"
+- id: practice_question_label
+  translation: "Practice question"
+- id: quick_drill_heading
+  translation: "Quick Drill"
+- id: extra_notes_heading
+  translation: "Teaching notes"
+- id: swap_language_heading
+  translation: "Switch language"
+- id: swap_language_body
+  translation: "Use the matched page when the meetup swaps languages so the exercise stays intuitive for the next round."
+- id: switch_to_label
+  translation: "Open"
+- id: topic_pack_label
+  translation: "Topic Pack"
+- id: meetup_use_intro
+  translation: "Use this at the meetup:"
+- id: meetup_use_body
+  translation: "each table takes these three patterns, speaks for 20 minutes, then rotates."
+- id: topic_patterns_today
+  translation: "Patterns Used Today"
+- id: topic_example_prompts
+  translation: "Example Prompts"
+- id: topic_vocabulary
+  translation: "Vocabulary"
+- id: topic_meetup_flow
+  translation: "Meetup Flow"
+- id: topic_flow_note
+  translation: "Rotate groups every 20 minutes. Run one Vietnamese-only round and one English-only round."
+- id: topic_host_prompts
+  translation: "Host Prompts"
+- id: topic_pro_tip
+  translation: "Pro tip"
+- id: topic_notebook_title
+  translation: "Bring a small notebook"
+- id: topic_notebook_1
+  translation: "Read the topic page before the meetup."
+- id: topic_notebook_2
+  translation: "Copy the patterns into your notebook."
+- id: topic_notebook_3
+  translation: "Write three example sentences before you arrive."
+- id: topic_notebook_body
+  translation: "You will speak more confidently during the exchange."
+- id: topics_featured_badge
+  translation: "Featured this week"
+- id: topics_track
+  translation: "Track"
+- id: topics_patterns
+  translation: "Patterns"
+- id: topics_patterns_detail
+  translation: "core patterns"
+- id: topics_why_title
+  translation: "Why this topic works"
+- id: topics_why_body
+  translation: "People scan one QR code, see three patterns, a few prompts, and a short word list. That is enough to start speaking immediately."
+- id: topics_open_featured
+  translation: "Open Featured Topic"
+- id: topics_vocab
+  translation: "Vocabulary"
+- id: topics_best_use
+  translation: "Best use"
+- id: topics_best_use_detail
+  translation: "Table rotation topic"
+- id: events_current_schedule
+  translation: "Current schedule"
+- id: events_upcoming
+  translation: "Upcoming"
+- id: events_open_event
+  translation: "Open Event"
+- id: events_none_upcoming
+  translation: "No future sessions are posted yet. Join the community chat for the next Friday announcement."
+- id: events_recent_proof
+  translation: "Recent proof"
+- id: events_past
+  translation: "Past Events"
+- id: events_recap
+  translation: "Recap"
+- id: events_hosts
+  translation: "Hosts"
+- id: events_read_recap
+  translation: "Read Recap"
+- id: event_meta_title
+  translation: "Session details"
+- id: event_map
+  translation: "Map"
+- id: page_language_switch
+  translation: "Matched page"

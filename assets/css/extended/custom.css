@@ -172,6 +172,48 @@ small {
     color: var(--secondary);
 }
 
+.page-language-switch {
+    margin-top: 1.25rem;
+    padding: 1rem 1.1rem;
+    border: 1px solid rgba(220, 204, 191, 0.9);
+    border-radius: var(--radius-md);
+    background: rgba(255, 253, 249, 0.92);
+}
+
+.page-language-switch-label {
+    display: block;
+    font-size: 0.78rem;
+    font-weight: 800;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--accent);
+}
+
+.page-language-switch-copy {
+    margin: 0.45rem 0 0.85rem;
+    color: var(--secondary);
+}
+
+.page-language-switch-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.starter-answer-block + .starter-answer-block {
+    margin-top: 1.6rem;
+    padding-top: 1.4rem;
+    border-top: 1px solid rgba(220, 204, 191, 0.8);
+}
+
+.starter-answer-block h3 {
+    margin-bottom: 0.55rem;
+}
+
+.starter-answer-block p {
+    margin-bottom: 0.9rem;
+}
+
 .hero-shell,
 .next-event-card,
 .topic-spotlight,
@@ -366,10 +408,30 @@ small {
     background:
         linear-gradient(135deg, rgba(42, 111, 151, 0.22), rgba(184, 106, 79, 0.18)),
         linear-gradient(180deg, #d9c8b6, #f2e6d9);
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-photo-large {
     min-height: 210px;
+}
+
+.hero-photo-tables {
+    background-image:
+        linear-gradient(135deg, rgba(42, 111, 151, 0.22), rgba(184, 106, 79, 0.18)),
+        url('/images/central-da-nang-cafe-tables.jpg');
+}
+
+.hero-photo-topics {
+    background-image:
+        linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.14)),
+        url('/images/topic-sheets.jpg');
+}
+
+.hero-photo-energy {
+    background-image:
+        linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.16)),
+        url('/images/friday-afternoon-energy.jpg');
 }
 
 .hero-photo::after {

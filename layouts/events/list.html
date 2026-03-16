@@ -1,7 +1,20 @@
 {{ define "main" }}
 
-{{ $upcoming := sort (where .RegularPages "Date" "ge" now) "Date" "asc" }}
-{{ $past := sort (where .RegularPages "Date" "lt" now) "Date" "desc" }}
+{{ $upcomingItems := slice }}
+{{ $pastItems := slice }}
+{{ range .RegularPages }}
+    {{ $displayDate := partial "event_display_date.html" . }}
+    {{ $eventItem := dict "page" . "displayDate" $displayDate }}
+    {{ if .Params.recurring_weekly }}
+        {{ $upcomingItems = $upcomingItems | append $eventItem }}
+    {{ else if ge $displayDate.Unix now.Unix }}
+        {{ $upcomingItems = $upcomingItems | append $eventItem }}
+    {{ else }}
+        {{ $pastItems = $pastItems | append $eventItem }}
+    {{ end }}
+{{ end }}
+{{ $upcoming := sort $upcomingItems "displayDate" "asc" }}
+{{ $past := sort $pastItems "displayDate" "desc" }}
 
 <section class="main">
     <header class="page-header">
@@ -11,49 +24,51 @@
     </header>
 
     <section class="event-stack-card">
-        <span class="section-kicker">Current schedule</span>
-        <h2>Upcoming</h2>
+        <span class="section-kicker">{{ i18n "events_current_schedule" }}</span>
+        <h2>{{ i18n "events_upcoming" }}</h2>
         {{ if gt (len $upcoming) 0 }}
         <div class="event-stack">
             {{ range $upcoming }}
+            {{ $event := .page }}
             <article class="card event-card">
-                <span class="badge">Upcoming</span>
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Params.summary | default .Summary }}</p>
+                <span class="badge">{{ i18n "events_upcoming" }}</span>
+                <h3>{{ $event.Title }}</h3>
+                <p>{{ $event.Params.summary | default $event.Summary }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Date</strong> {{ .Date.Format "Monday, Jan 2, 2006" }}</span>
-                    <span><strong>Time</strong> {{ .Params.time }}</span>
-                    <span><strong>Venue</strong> {{ .Params.venue }}</span>
-                    <span><strong>Topic</strong> {{ .Params.topic_of_week }}</span>
+                    <span><strong>{{ i18n "label_date" }}</strong> {{ .displayDate | time.Format ":date_full" }}</span>
+                    <span><strong>{{ i18n "label_time" }}</strong> {{ $event.Params.time }}</span>
+                    <span><strong>{{ i18n "label_venue" }}</strong> {{ $event.Params.venue }}</span>
+                    <span><strong>{{ i18n "label_topic" }}</strong> {{ $event.Params.topic_of_week }}</span>
                 </div>
                 <div class="card-actions">
-                    <a href="{{ .RelPermalink }}" class="button button-primary">Open Event</a>
+                    <a href="{{ $event.RelPermalink }}" class="button button-primary">{{ i18n "events_open_event" }}</a>
                 </div>
             </article>
             {{ end }}
         </div>
         {{ else }}
-        <p>No future sessions are posted yet. Join the community chat for the next Friday announcement.</p>
+        <p>{{ i18n "events_none_upcoming" }}</p>
         {{ end }}
     </section>
 
     <section class="event-stack-card home-section">
-        <span class="section-kicker">Recent proof</span>
-        <h2>Past Events</h2>
+        <span class="section-kicker">{{ i18n "events_recent_proof" }}</span>
+        <h2>{{ i18n "events_past" }}</h2>
         <div class="event-stack">
             {{ range $past }}
+            {{ $event := .page }}
             <article class="card event-card">
-                <span class="badge">Recap</span>
-                <h3>{{ .Title }}</h3>
-                <p>{{ .Params.recap_highlight | default (.Params.summary | default .Summary) }}</p>
+                <span class="badge">{{ i18n "events_recap" }}</span>
+                <h3>{{ $event.Title }}</h3>
+                <p>{{ $event.Params.recap_highlight | default ($event.Params.summary | default $event.Summary) }}</p>
                 <div class="inline-meta-list">
-                    <span><strong>Date</strong> {{ .Date.Format "Jan 2, 2006" }}</span>
-                    <span><strong>Venue</strong> {{ .Params.venue }}</span>
-                    <span><strong>Table focus</strong> {{ .Params.level_focus }}</span>
-                    <span><strong>Hosts</strong> {{ .Params.host_names }}</span>
+                    <span><strong>{{ i18n "label_date" }}</strong> {{ .displayDate | time.Format ":date_medium" }}</span>
+                    <span><strong>{{ i18n "label_venue" }}</strong> {{ $event.Params.venue }}</span>
+                    <span><strong>{{ i18n "label_table_focus" }}</strong> {{ $event.Params.level_focus }}</span>
+                    <span><strong>{{ i18n "events_hosts" }}</strong> {{ $event.Params.host_names }}</span>
                 </div>
                 <div class="card-actions">
-                    <a href="{{ .RelPermalink }}" class="button button-outline">Read Recap</a>
+                    <a href="{{ $event.RelPermalink }}" class="button button-outline">{{ i18n "events_read_recap" }}</a>
                 </div>
             </article>
             {{ end }}

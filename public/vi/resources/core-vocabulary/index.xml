@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Từ vựng cốt lõi on CLB Trao Đổi Ngôn Ngữ Đà Nẵng</title>
+    <link>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/</link>
+    <description>Recent content in Từ vựng cốt lõi on CLB Trao Đổi Ngôn Ngữ Đà Nẵng</description>
+    <image>
+      <title>CLB Trao Đổi Ngôn Ngữ Đà Nẵng</title>
+      <url>https://dananglanguageexchange.pages.dev/images/banner.jpg</url>
+      <link>https://dananglanguageexchange.pages.dev/images/banner.jpg</link>
+    </image>
+    <generator>Hugo -- 0.157.0</generator>
+    <language>vi-VN</language>
+    <lastBuildDate>Thu, 12 Mar 2026 10:13:00 +0700</lastBuildDate>
+    <atom:link href="https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Động từ hằng ngày</title>
+      <link>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/daily-verbs/</link>
+      <pubDate>Thu, 12 Mar 2026 10:10:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/daily-verbs/</guid>
+      <description>Những động từ tần suất cao để ghép nhanh vào các mẫu câu tiếng Anh cơ bản.</description>
+    </item>
+    <item>
+      <title>Danh từ thường gặp</title>
+      <link>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/daily-nouns/</link>
+      <pubDate>Thu, 12 Mar 2026 10:11:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/daily-nouns/</guid>
+      <description>Danh từ nền để nói về quán cà phê, thành phố, thói quen và các buổi giao lưu.</description>
+    </item>
+    <item>
+      <title>Cụm từ chỉ thời gian</title>
+      <link>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/time-words/</link>
+      <pubDate>Thu, 12 Mar 2026 10:12:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/time-words/</guid>
+      <description>Cụm từ giúp người học nói về lịch sinh hoạt, kế hoạch và tần suất một cách rõ hơn.</description>
+    </item>
+    <item>
+      <title>Từ nối câu</title>
+      <link>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/connectors/</link>
+      <pubDate>Thu, 12 Mar 2026 10:13:00 +0700</pubDate>
+      <guid>https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/connectors/</guid>
+      <description>Những từ nối có tần suất cao giúp câu trả lời dài và tự nhiên hơn.</description>
+    </item>
+  </channel>
+</rss>

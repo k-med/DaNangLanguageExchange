@@ -1,12 +1,12 @@
 baseURL = 'https://dananglanguageexchange.pages.dev/'
-languageCode = 'en-us'
+buildFuture = true
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
 title = 'Da Nang Language Exchange Club'
 theme = 'PaperMod'
 
 [params]
   env = 'production'
-  title = 'Da Nang Language Exchange Club'
-  description = 'Weekly Vietnamese-English cafe meetups in Da Nang with structured conversation practice, beginner support, and real local community.'
   author = 'Da Nang Language Exchange'
   images = ['/images/banner.jpg']
   defaultTheme = 'light'
@@ -20,61 +20,138 @@ theme = 'PaperMod'
   displayFullLangName = true
   productionHost = 'https://dananglanguageexchange.pages.dev'
 
-  [params.community]
-    zaloLabel = 'Join Zalo Group'
-    zaloUrl = 'https://zalo.me/g/danangexchange'
-    whatsappLabel = 'Join WhatsApp Group'
-    whatsappUrl = 'https://chat.whatsapp.com/danangexchange'
-    contactNote = 'For now, the fastest way to reach the organizers is through the community chat groups.'
+[languages]
+  [languages.en]
+    languageCode = 'en-US'
+    languageName = 'English'
+    title = 'Da Nang Language Exchange Club'
+    weight = 1
 
-  [params.profileMode]
-    enabled = false # We'll use a custom homepage, but can fallback on this
-    title = 'Da Nang Language Exchange'
-    subtitle = 'Practice Vietnamese and English, meet new friends, and learn together.'
-    imageUrl = 'favicon.ico'
-    imageWidth = 120
-    imageHeight = 120
-    imageTitle = 'Language Exchange Logo'
-    
-  [params.homeInfoParams]
-    Title = "Welcome to the Da Nang Language Exchange Club"
-    Content = "We are an active, in-person community for foreigners learning Vietnamese and locals practicing English. Let's talk!"
+    [languages.en.params]
+      title = 'Da Nang Language Exchange Club'
+      description = 'Weekly Vietnamese-English cafe meetups in Da Nang with structured conversation practice, beginner support, and real local community.'
 
-[[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+      [languages.en.params.community]
+        zaloLabel = 'Join Zalo Group'
+        zaloUrl = 'https://zalo.me/g/xu7qnpyhfqi9gkkwrh1t'
+        whatsappLabel = 'Join WhatsApp Group'
+        whatsappUrl = 'https://chat.whatsapp.com/JVoJ9gkDnDiLFhRJUtK69Q'
+        contactNote = 'For now, the fastest way to reach the organizers is through the community chat groups.'
 
-[[menu.main]]
-    identifier = "events"
-    name = "Events"
-    url = "/events/"
-    weight = 20
+      [languages.en.params.profileMode]
+        enabled = false
+        title = 'Da Nang Language Exchange'
+        subtitle = 'Practice Vietnamese and English, meet new friends, and learn together.'
+        imageUrl = 'favicon.ico'
+        imageWidth = 120
+        imageHeight = 120
+        imageTitle = 'Language Exchange Logo'
 
-[[menu.main]]
-    identifier = "resources"
-    name = "Resources"
-    url = "/resources/"
-    weight = 30
+      [languages.en.params.homeInfoParams]
+        Title = "Welcome to the Da Nang Language Exchange Club"
+        Content = "We are an active, in-person community for foreigners learning Vietnamese and locals practicing English. Let's talk!"
 
-[[menu.main]]
-    identifier = "topics"
-    name = "Topics"
-    url = "/topics/"
-    weight = 40
+    [[languages.en.menu.main]]
+      identifier = 'about'
+      name = 'About'
+      url = '/about/'
+      weight = 10
 
-[[menu.main]]
-    identifier = "gallery"
-    name = "Gallery"
-    url = "/gallery/"
-    weight = 50
+    [[languages.en.menu.main]]
+      identifier = 'events'
+      name = 'Events'
+      url = '/events/'
+      weight = 20
 
-[[menu.main]]
-    identifier = "join"
-    name = "Join Us"
-    url = "/join/"
-    weight = 60
+    [[languages.en.menu.main]]
+      identifier = 'resources'
+      name = 'Resources'
+      url = '/resources/'
+      weight = 30
+
+    [[languages.en.menu.main]]
+      identifier = 'topics'
+      name = 'Topics'
+      url = '/topics/'
+      weight = 40
+
+    [[languages.en.menu.main]]
+      identifier = 'gallery'
+      name = 'Gallery'
+      url = '/gallery/'
+      weight = 50
+
+    [[languages.en.menu.main]]
+      identifier = 'join'
+      name = 'Join Us'
+      url = '/join/'
+      weight = 60
+
+  [languages.vi]
+    languageCode = 'vi-VN'
+    languageName = 'Tiếng Việt'
+    title = 'CLB Trao Đổi Ngôn Ngữ Đà Nẵng'
+    weight = 2
+
+    [languages.vi.params]
+      title = 'CLB Trao Đổi Ngôn Ngữ Đà Nẵng'
+      description = 'Các buổi giao lưu Anh-Việt hằng tuần tại Đà Nẵng với cấu trúc rõ ràng, hỗ trợ người mới và tài liệu dùng ngay tại bàn.'
+
+      [languages.vi.params.community]
+        zaloLabel = 'Vào nhóm Zalo'
+        zaloUrl = 'https://zalo.me/g/xu7qnpyhfqi9gkkwrh1t'
+        whatsappLabel = 'Vào nhóm WhatsApp'
+        whatsappUrl = 'https://chat.whatsapp.com/JVoJ9gkDnDiLFhRJUtK69Q'
+        contactNote = 'Hiện tại cách nhanh nhất để liên hệ ban tổ chức là qua các nhóm chat cộng đồng.'
+
+      [languages.vi.params.profileMode]
+        enabled = false
+        title = 'Trao Đổi Ngôn Ngữ Đà Nẵng'
+        subtitle = 'Luyện tiếng Anh, luyện tiếng Việt và kết nối với những người muốn học thật.'
+        imageUrl = 'favicon.ico'
+        imageWidth = 120
+        imageHeight = 120
+        imageTitle = 'Logo Language Exchange'
+
+      [languages.vi.params.homeInfoParams]
+        Title = 'Chào mừng đến với CLB Trao Đổi Ngôn Ngữ Đà Nẵng'
+        Content = 'Đây là cộng đồng gặp mặt trực tiếp dành cho người Việt luyện tiếng Anh và người nước ngoài luyện tiếng Việt.'
+
+    [[languages.vi.menu.main]]
+      identifier = 'about'
+      name = 'Giới thiệu'
+      url = '/about/'
+      weight = 10
+
+    [[languages.vi.menu.main]]
+      identifier = 'events'
+      name = 'Sự kiện'
+      url = '/events/'
+      weight = 20
+
+    [[languages.vi.menu.main]]
+      identifier = 'resources'
+      name = 'Tài liệu'
+      url = '/resources/'
+      weight = 30
+
+    [[languages.vi.menu.main]]
+      identifier = 'topics'
+      name = 'Chủ đề'
+      url = '/topics/'
+      weight = 40
+
+    [[languages.vi.menu.main]]
+      identifier = 'gallery'
+      name = 'Không khí'
+      url = '/gallery/'
+      weight = 50
+
+    [[languages.vi.menu.main]]
+      identifier = 'join'
+      name = 'Tham gia'
+      url = '/join/'
+      weight = 60
 
 [taxonomies]
   tag = 'tags'

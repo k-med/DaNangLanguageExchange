@@ -11,8 +11,8 @@ Have a venue suggestion, a topic idea, or a question before your first meetup?
 The organizers currently handle club communication inside the community chat groups so updates stay in one place.
 
 <div style="display: flex; gap: 1rem; flex-wrap: wrap; margin: 2rem 0;">
-  <a href="https://zalo.me/g/danangexchange" target="_blank" rel="noopener" class="button button-primary">Message Us On Zalo</a>
-  <a href="https://chat.whatsapp.com/danangexchange" target="_blank" rel="noopener" class="button button-secondary">Message Us On WhatsApp</a>
+  <a href="https://zalo.me/g/xu7qnpyhfqi9gkkwrh1t" target="_blank" rel="noopener" class="button button-primary">Message Us On Zalo</a>
+  <a href="https://chat.whatsapp.com/JVoJ9gkDnDiLFhRJUtK69Q" target="_blank" rel="noopener" class="button button-secondary">Message Us On WhatsApp</a>
 </div>
 
 ## Best Reasons To Reach Out

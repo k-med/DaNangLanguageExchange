@@ -1,0 +1,274 @@
+- id: home_hero_kicker
+  translation: "Luyện nói ở quán cà phê mỗi thứ Sáu tại Đà Nẵng"
+- id: home_hero_title
+  translation: "Giao lưu Anh-Việt có cấu trúc rõ ràng cho những ai muốn tiến bộ thật."
+- id: home_hero_subtitle
+  translation: "CLB gặp hằng tuần theo nhóm nhỏ, có đổi bàn theo vòng, thời lượng cân bằng cho cả tiếng Anh và tiếng Việt, cùng trang chủ đề có thể quét QR và dùng ngay tại bàn."
+- id: home_join_next
+  translation: "Tham gia buổi tiếp theo"
+- id: home_see_events
+  translation: "Xem sự kiện sắp tới"
+- id: home_every_friday
+  translation: "Mỗi thứ Sáu"
+- id: home_every_friday_detail
+  translation: "19:00 đến 21:00"
+- id: home_quiet_format
+  translation: "Mô hình quán yên tĩnh"
+- id: home_quiet_format_detail
+  translation: "Chỉ cần gọi đồ uống, không thu phí"
+- id: home_pattern_tables
+  translation: "Bàn theo mẫu câu"
+- id: home_pattern_tables_detail
+  translation: "Mỗi bàn dùng ba mẫu câu và có host dẫn"
+- id: home_photo_tables
+  translation: "Bàn nhỏ ở quán cà phê trung tâm Đà Nẵng"
+- id: home_photo_topics
+  translation: "Phiếu chủ đề"
+- id: home_photo_energy
+  translation: "Không khí thứ Sáu"
+- id: home_next_meetup
+  translation: "Buổi sắp tới"
+- id: home_open_event
+  translation: "Xem chi tiết sự kiện"
+- id: home_weekly_meetup
+  translation: "Lịch giao lưu hằng tuần"
+- id: home_friday_session
+  translation: "Buổi cà phê thứ Sáu"
+- id: home_event_pending
+  translation: "Sự kiện tiếp theo đang được chốt. Vào nhóm cộng đồng để nhận địa điểm sớm nhất."
+- id: home_join_community
+  translation: "Vào cộng đồng"
+- id: home_this_week
+  translation: "Tuần này"
+- id: home_next_event
+  translation: "Sự kiện sắp tới"
+- id: home_confirmed_session
+  translation: "Buổi đã xác nhận"
+- id: label_date
+  translation: "Ngày"
+- id: label_time
+  translation: "Giờ"
+- id: label_venue
+  translation: "Địa điểm"
+- id: label_table_focus
+  translation: "Trọng tâm bàn"
+- id: label_topic
+  translation: "Chủ đề"
+- id: home_expect_title
+  translation: "Bạn sẽ gặp gì"
+- id: home_expect_1
+  translation: "Có host đón người mới và hỗ trợ xếp bàn từ lúc vào."
+- id: home_expect_2
+  translation: "Có phần riêng cho tiếng Anh và tiếng Việt, giữa buổi có đổi bàn."
+- id: home_expect_3
+  translation: "Có gợi ý in sẵn cho người muốn nói theo khung rõ ràng."
+- id: home_event_details
+  translation: "Chi tiết sự kiện"
+- id: home_event_pending_short
+  translation: "Sự kiện tiếp theo đang được chốt. Vào nhóm cộng đồng để nhận địa điểm ngay khi được đăng."
+- id: home_simple_rhythm
+  translation: "Nhịp tham gia rất đơn giản"
+- id: home_how_it_works
+  translation: "CLB vận hành như thế nào"
+- id: home_step_1_title
+  translation: "Vào nhóm chat"
+- id: home_step_1_body
+  translation: "Thông báo địa điểm, cập nhật phút cuối và hướng dẫn từ host đều nằm trong nhóm Zalo và WhatsApp."
+- id: home_step_2_title
+  translation: "Xem chủ đề trước"
+- id: home_step_2_body
+  translation: "Mỗi tuần đều có ba mẫu hội thoại, câu gợi ý và một danh sách từ ngắn để có thể mở lời ngay trên điện thoại."
+- id: home_step_3_title
+  translation: "Đổi bàn và luyện nói"
+- id: home_step_3_body
+  translation: "Bạn được xếp có chủ đích để người Việt và người nước ngoài đều có thời gian nói hữu ích."
+- id: home_why_return
+  translation: "Vì sao mọi người quay lại"
+- id: home_why_different
+  translation: "Điểm khác biệt của CLB"
+- id: home_learning_focused
+  translation: "Tập trung vào học"
+- id: home_learning_focused_title
+  translation: "Không phải buổi xã giao chung chung"
+- id: home_learning_focused_body
+  translation: "Mỗi buổi đều xoay quanh một chủ đề, có host dẫn nhịp và có thời gian riêng cho cả tiếng Anh lẫn tiếng Việt."
+- id: home_dn_specific
+  translation: "Rất Đà Nẵng"
+- id: home_dn_specific_title
+  translation: "Quán yên, người học thật, lịch đều"
+- id: home_dn_specific_body
+  translation: "Tối thứ Sáu tại trung tâm Đà Nẵng với sự tham gia của người Việt, người sống lâu năm và một số du khách có động lực học."
+- id: home_starter_friendly
+  translation: "Thân thiện với người mới"
+- id: home_starter_friendly_title
+  translation: "Không cần tự ứng biến"
+- id: home_starter_friendly_body
+  translation: "Host có thể xếp bàn phù hợp, câu hỏi mở đầu đã sẵn và mỗi trang chủ đề đều tối ưu cho việc quét QR tại quán."
+- id: home_quote_1
+  translation: "\"Mình đến để luyện tiếng Anh và ở lại vì format này rất dễ chịu và thực sự hiệu quả.\""
+- id: home_quote_1_source
+  translation: "Thành viên quay lại, bàn tối thứ Sáu"
+- id: home_quote_2
+  translation: "\"Thẻ gợi ý giúp mình bắt chuyện với người mới dễ hơn, không bị mắc kẹt ở mấy câu xã giao quen thuộc.\""
+- id: home_quote_2_source
+  translation: "Người học tiếng Anh, trung tâm Đà Nẵng"
+- id: home_recent_proof
+  translation: "Minh chứng hoạt động"
+- id: home_recent_sessions
+  translation: "Các buổi gần đây"
+- id: home_read_recap
+  translation: "Đọc tổng kết"
+- id: home_prep_before
+  translation: "Chuẩn bị trước thứ Sáu"
+- id: home_featured_topic
+  translation: "Trang chủ đề nổi bật"
+- id: home_format
+  translation: "Cấu trúc"
+- id: home_format_detail
+  translation: "Ba mẫu, câu gợi ý và từ vựng"
+- id: home_best_for
+  translation: "Hợp nhất cho"
+- id: home_best_for_detail
+  translation: "Thực hành tại bàn bằng QR"
+- id: home_topic_why_title
+  translation: "Vì sao chủ đề này hiệu quả"
+- id: home_topic_why_body
+  translation: "Chỉ cần thấy mẫu câu, chép một câu vào sổ và bắt đầu nói mà không cần chờ một bài học dài."
+- id: home_open_topic
+  translation: "Mở trang chủ đề"
+- id: home_browse_resources
+  translation: "Xem tài liệu"
+- id: resource_group_patterns_kicker
+  translation: "Khung câu giao tiếp"
+- id: resource_group_patterns_title
+  translation: "Mẫu câu cốt lõi"
+- id: resource_group_patterns_intro
+  translation: "Một buổi giao lưu chỉ cần ba đến năm mẫu câu. Mở một trang, xem ví dụ và bắt đầu nói."
+- id: resource_group_vocab_kicker
+  translation: "Cụm từ nhanh"
+- id: resource_group_vocab_title
+  translation: "Từ vựng cốt lõi"
+- id: resource_group_vocab_intro
+  translation: "Bộ từ vựng gọn nhẹ để bổ trợ cho trang mẫu câu mà vẫn dễ dùng ngay tại bàn."
+- id: resource_group_beginner_kicker
+  translation: "Hỗ trợ từ con số 0"
+- id: resource_group_beginner_title
+  translation: "Điểm bắt đầu cho người mới"
+- id: resource_group_beginner_intro
+  translation: "Điểm vào thân thiện cho thành viên chưa biết bắt đầu từ đâu và chỉ cần vài câu hỏi thật cơ bản trước khi vào bàn nói chuyện."
+- id: beginner_best_for
+  translation: "Phù hợp nhất cho"
+- id: beginner_best_for_detail
+  translation: "Buổi đầu tiên"
+- id: beginner_first_questions
+  translation: "Câu hỏi đầu tiên"
+- id: home_beginner_cta
+  translation: "Nếu bạn mới hoàn toàn, hãy bắt đầu từ đây với những câu hỏi dễ nhất trước buổi đầu tiên."
+- id: home_beginner_button
+  translation: "Mở điểm bắt đầu cho người mới"
+- id: open_label
+  translation: "Mở"
+- id: pattern_preview_target_label
+  translation: "Mẫu tiếng Anh"
+- id: pattern_preview_support_label
+  translation: "Giải thích cho người Việt"
+- id: prompts_label
+  translation: "Câu gợi ý"
+- id: examples_label
+  translation: "Ví dụ"
+- id: words_label
+  translation: "Từ"
+- id: drill_label
+  translation: "Bài tập nhanh"
+- id: drill_detail
+  translation: "Một bài luyện ngắn"
+- id: template_heading
+  translation: "Mẫu câu"
+- id: support_heading
+  translation: "Giải thích hỗ trợ"
+- id: practice_question_label
+  translation: "Câu hỏi luyện"
+- id: quick_drill_heading
+  translation: "Bài khởi động nhanh"
+- id: extra_notes_heading
+  translation: "Lưu ý dạy học"
+- id: swap_language_heading
+  translation: "Đổi ngôn ngữ"
+- id: swap_language_body
+  translation: "Khi chuyển sang phần thực hành của ngôn ngữ còn lại, mở trang tương ứng để người ở bàn tiếp theo vẫn có bài luyện đúng với nền của họ."
+- id: switch_to_label
+  translation: "Mở trang đối ứng"
+- id: topic_pack_label
+  translation: "Bộ chủ đề"
+- id: meetup_use_intro
+  translation: "Cách dùng tại buổi giao lưu:"
+- id: meetup_use_body
+  translation: "mỗi bàn lấy ba mẫu này, nói trong 20 phút rồi đổi bàn."
+- id: topic_patterns_today
+  translation: "Mẫu câu dùng hôm nay"
+- id: topic_example_prompts
+  translation: "Câu gợi ý mẫu"
+- id: topic_vocabulary
+  translation: "Từ vựng"
+- id: topic_meetup_flow
+  translation: "Cách triển khai tại bàn"
+- id: topic_flow_note
+  translation: "Đổi nhóm mỗi 20 phút. Chạy một vòng chỉ tiếng Anh và một vòng chỉ tiếng Việt."
+- id: topic_host_prompts
+  translation: "Câu dẫn của host"
+- id: topic_pro_tip
+  translation: "Mẹo nhỏ"
+- id: topic_notebook_title
+  translation: "Mang theo một cuốn sổ nhỏ"
+- id: topic_notebook_1
+  translation: "Đọc trang chủ đề trước khi đến."
+- id: topic_notebook_2
+  translation: "Chép các mẫu câu vào sổ."
+- id: topic_notebook_3
+  translation: "Tự viết ba câu ví dụ trước khi đến."
+- id: topic_notebook_body
+  translation: "Bạn sẽ nói tự tin hơn trong buổi giao lưu."
+- id: topics_featured_badge
+  translation: "Nổi bật tuần này"
+- id: topics_track
+  translation: "Track"
+- id: topics_patterns
+  translation: "Mẫu"
+- id: topics_patterns_detail
+  translation: "mẫu cốt lõi"
+- id: topics_why_title
+  translation: "Vì sao chủ đề này hiệu quả"
+- id: topics_why_body
+  translation: "Chỉ cần quét một mã QR, thấy ba mẫu câu, vài câu gợi ý và một danh sách từ ngắn là đã đủ để bắt đầu nói."
+- id: topics_open_featured
+  translation: "Mở chủ đề nổi bật"
+- id: topics_vocab
+  translation: "Từ vựng"
+- id: topics_best_use
+  translation: "Dùng tốt nhất cho"
+- id: topics_best_use_detail
+  translation: "Chủ đề để đổi bàn"
+- id: events_current_schedule
+  translation: "Lịch hiện tại"
+- id: events_upcoming
+  translation: "Sắp tới"
+- id: events_open_event
+  translation: "Mở sự kiện"
+- id: events_none_upcoming
+  translation: "Chưa có buổi tương lai nào được đăng. Vào nhóm cộng đồng để nhận thông báo thứ Sáu tiếp theo."
+- id: events_recent_proof
+  translation: "Tổng kết gần đây"
+- id: events_past
+  translation: "Các buổi đã diễn ra"
+- id: events_recap
+  translation: "Tổng kết"
+- id: events_hosts
+  translation: "Host"
+- id: events_read_recap
+  translation: "Đọc tổng kết"
+- id: event_meta_title
+  translation: "Thông tin buổi gặp"
+- id: event_map
+  translation: "Bản đồ"
+- id: page_language_switch
+  translation: "Trang đối ứng"

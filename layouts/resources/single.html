@@ -5,52 +5,115 @@
         {{ partial "breadcrumbs.html" . }}
         <h1>{{ .Title }}</h1>
         {{ with .Params.summary }}<p class="section-intro">{{ . }}</p>{{ end }}
+        {{ partial "translation_list.html" . }}
     </header>
 
     <section class="resource-detail-shell">
-        {{ if eq .Params.resource_type "pattern" }}
+        {{ if eq .Params.resource_type "starter" }}
+        <div class="pattern-hero">
+            <span class="badge">{{ .Params.pattern_band | default (i18n "resource_group_beginner_title") }}</span>
+            <h2>{{ .Params.hero_heading | default (i18n "resource_group_beginner_title") }}</h2>
+            <div class="pattern-template">{{ .Params.hero_text }}</div>
+        </div>
+
+        {{ with .Params.first_questions }}
+        <section class="card detail-card">
+            <h3>{{ i18n "beginner_first_questions" }}</h3>
+            <ul class="plain-list">
+                {{ range . }}
+                <li class="bilingual-item">
+                    <span class="bilingual-item-vi">{{ or .target .vi }}</span>
+                    <span class="bilingual-item-en">{{ or .support .en }}</span>
+                </li>
+                {{ end }}
+            </ul>
+        </section>
+        {{ end }}
+
+        {{ with .Params.answer_blocks }}
+        <section class="card detail-card">
+            {{ range . }}
+            <div class="starter-answer-block">
+                <h3>{{ .question }}</h3>
+                <p><strong>{{ .answer_label | default "Simple answer" }}:</strong> {{ .answer }}</p>
+                {{ with .vocab }}
+                <div class="vocabulary-chip-row">
+                    {{ range . }}
+                    <span class="vocab-chip vocab-chip-bilingual">
+                        <span class="vocab-chip-vi">{{ .term }}</span>
+                        <span class="vocab-chip-en">{{ .meaning }}</span>
+                    </span>
+                    {{ end }}
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </section>
+        {{ end }}
+
+        {{ with .Params.starter_tips }}
+        <section class="card detail-card">
+            <h3>{{ i18n "topic_pro_tip" }}</h3>
+            <ul class="plain-list">
+                {{ range . }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </section>
+        {{ end }}
+        {{ else if eq .Params.resource_type "pattern" }}
         <div class="pattern-hero">
             <span class="badge">{{ .Params.pattern_band }}</span>
-            <h2>Template</h2>
+            <h2>{{ i18n "template_heading" }}</h2>
             <div class="pattern-template">{{ .Params.template }}</div>
             <div class="literal-translation-card">
-                <span class="literal-label">Literal English</span>
+                <span class="literal-label">{{ i18n "support_heading" }}</span>
                 <p>{{ .Params.literal_translation }}</p>
             </div>
             <div class="inline-meta-list">
-                <span><strong>Practice question</strong> {{ .Params.practice_question }}</span>
+                <span><strong>{{ i18n "practice_question_label" }}</strong> {{ .Params.practice_question }}</span>
             </div>
         </div>
 
         <div class="resource-detail-grid">
             <section class="card detail-card">
-                <h3>Examples</h3>
+                <h3>{{ i18n "examples_label" }}</h3>
                 <ul class="plain-list">
                     {{ range .Params.examples }}
                     <li class="bilingual-item">
-                        <span class="bilingual-item-vi">{{ .vi }}</span>
-                        <span class="bilingual-item-en">{{ .en }}</span>
+                        <span class="bilingual-item-vi">{{ or .target .vi }}</span>
+                        <span class="bilingual-item-en">{{ or .support .en }}</span>
                     </li>
                     {{ end }}
                 </ul>
             </section>
 
             <section class="card detail-card">
-                <h3>Prompts</h3>
+                <h3>{{ i18n "prompts_label" }}</h3>
                 <ul class="plain-list">
                     {{ range .Params.prompts }}
                     <li class="bilingual-item">
-                        <span class="bilingual-item-vi">{{ .vi }}</span>
-                        <span class="bilingual-item-en">{{ .en }}</span>
+                        <span class="bilingual-item-vi">{{ or .target .vi }}</span>
+                        <span class="bilingual-item-en">{{ or .support .en }}</span>
                     </li>
                     {{ end }}
                 </ul>
             </section>
         </div>
+        {{ with .Params.teaching_notes }}
+        <section class="card detail-card">
+            <h3>{{ i18n "extra_notes_heading" }}</h3>
+            <ul class="plain-list">
+                {{ range . }}
+                <li>{{ . }}</li>
+                {{ end }}
+            </ul>
+        </section>
+        {{ end }}
         {{ else if eq .Params.resource_type "vocabulary" }}
         <div class="pattern-hero">
-            <span class="badge">Core Vocabulary</span>
-            <h2>Quick Drill</h2>
+            <span class="badge">{{ i18n "resource_group_vocab_title" }}</span>
+            <h2>{{ i18n "quick_drill_heading" }}</h2>
             <div class="pattern-template">{{ .Params.quick_drill }}</div>
         </div>
 
