@@ -10,7 +10,7 @@
         {{ $upcomingEvents = $upcomingEvents | append $eventItem }}
     {{ else if ge $displayDate.Unix now.Unix }}
         {{ $upcomingEvents = $upcomingEvents | append $eventItem }}
-    {{ else }}
+    {{ else if .Params.show_in_past_events }}
         {{ $pastEventItems = $pastEventItems | append $eventItem }}
     {{ end }}
 {{ end }}
@@ -20,7 +20,7 @@
 {{ $beginnerStart := first 1 (where (where site.RegularPages "Type" "resources") "Params.resource_type" "starter") }}
 
 <main class="main home-main">
-    <section class="hero-shell">
+    <section class="hero-shell home-priority-block">
         <div class="hero-copy">
             <span class="hero-kicker">{{ i18n "home_hero_kicker" }}</span>
             <h1 class="hero-title">{{ i18n "home_hero_title" }}</h1>
@@ -29,7 +29,7 @@
                 <a href="{{ "/join/" | relLangURL }}" class="button button-primary">{{ i18n "home_join_next" }}</a>
                 <a href="{{ "/events/" | relLangURL }}" class="button button-secondary">{{ i18n "home_see_events" }}</a>
             </div>
-            <div class="hero-proof-strip">
+            <div class="hero-proof-strip mobile-compact-facts">
                 <div class="proof-chip">
                     <strong>{{ i18n "home_every_friday" }}</strong>
                     <span>{{ i18n "home_every_friday_detail" }}</span>
@@ -81,7 +81,7 @@
     </section>
 
     {{ range $beginnerStart }}
-    <section class="home-section">
+    <section class="home-section home-secondary-section home-how-it-works">
         <div class="topic-spotlight">
             <div class="topic-spotlight-copy">
                 <span class="badge">{{ i18n "resource_group_beginner_kicker" }}</span>
@@ -128,7 +128,6 @@
                 </div>
                 <div class="hero-buttons hero-buttons-left">
                     <a href="{{ $event.RelPermalink }}" class="button button-primary">{{ i18n "home_event_details" }}</a>
-                    <a href="{{ partial "community_link.html" (dict "kind" "zalo") }}" target="_blank" rel="noopener" class="button button-secondary">{{ site.Params.community.zaloLabel }}</a>
                 </div>
             </div>
         </div>
@@ -170,7 +169,7 @@
         </div>
     </section>
 
-    <section class="home-section social-proof-section">
+    <section class="home-section social-proof-section home-low-priority">
         <div class="section-heading">
             <span class="section-kicker">{{ i18n "home_why_return" }}</span>
             <h2 class="section-title">{{ i18n "home_why_different" }}</h2>
@@ -204,7 +203,8 @@
         </div>
     </section>
 
-    <section class="home-section">
+    {{ if gt (len $pastEvents) 0 }}
+    <section class="home-section home-low-priority">
         <div class="section-heading">
             <span class="section-kicker">{{ i18n "home_recent_proof" }}</span>
             <h2 class="section-title">{{ i18n "home_recent_sessions" }}</h2>
@@ -221,8 +221,9 @@
             {{ end }}
         </div>
     </section>
+    {{ end }}
 
-    <section class="home-section topic-preview">
+    <section class="home-section topic-preview home-priority-block">
         <div class="section-heading">
             <span class="section-kicker">{{ i18n "home_prep_before" }}</span>
             <h2 class="section-title">{{ i18n "home_featured_topic" }}</h2>

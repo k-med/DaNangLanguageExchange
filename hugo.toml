@@ -2,7 +2,7 @@ baseURL = 'https://dananglanguageexchange.pages.dev/'
 buildFuture = true
 defaultContentLanguage = 'en'
 defaultContentLanguageInSubdir = false
-title = 'Da Nang Language Exchange Club'
+title = 'Da Nang Language Exchange'
 theme = 'PaperMod'
 
 [params]
@@ -24,11 +24,11 @@ theme = 'PaperMod'
   [languages.en]
     languageCode = 'en-US'
     languageName = 'English'
-    title = 'Da Nang Language Exchange Club'
+    title = 'Da Nang Language Exchange'
     weight = 1
 
     [languages.en.params]
-      title = 'Da Nang Language Exchange Club'
+      title = 'Da Nang Language Exchange'
       description = 'Weekly Vietnamese-English cafe meetups in Da Nang with structured conversation practice, beginner support, and real local community.'
 
       [languages.en.params.community]
@@ -48,19 +48,19 @@ theme = 'PaperMod'
         imageTitle = 'Language Exchange Logo'
 
       [languages.en.params.homeInfoParams]
-        Title = "Welcome to the Da Nang Language Exchange Club"
+        Title = "Welcome to Da Nang Language Exchange"
         Content = "We are an active, in-person community for foreigners learning Vietnamese and locals practicing English. Let's talk!"
-
-    [[languages.en.menu.main]]
-      identifier = 'about'
-      name = 'About'
-      url = '/about/'
-      weight = 10
 
     [[languages.en.menu.main]]
       identifier = 'events'
       name = 'Events'
       url = '/events/'
+      weight = 10
+
+    [[languages.en.menu.main]]
+      identifier = 'join'
+      name = 'Join Us'
+      url = '/join/'
       weight = 20
 
     [[languages.en.menu.main]]
@@ -76,25 +76,19 @@ theme = 'PaperMod'
       weight = 40
 
     [[languages.en.menu.main]]
-      identifier = 'gallery'
-      name = 'Gallery'
-      url = '/gallery/'
+      identifier = 'about'
+      name = 'About'
+      url = '/about/'
       weight = 50
-
-    [[languages.en.menu.main]]
-      identifier = 'join'
-      name = 'Join Us'
-      url = '/join/'
-      weight = 60
 
   [languages.vi]
     languageCode = 'vi-VN'
     languageName = 'Tiếng Việt'
-    title = 'CLB Trao Đổi Ngôn Ngữ Đà Nẵng'
+    title = 'Trao Đổi Ngôn Ngữ Đà Nẵng'
     weight = 2
 
     [languages.vi.params]
-      title = 'CLB Trao Đổi Ngôn Ngữ Đà Nẵng'
+      title = 'Trao Đổi Ngôn Ngữ Đà Nẵng'
       description = 'Các buổi giao lưu Anh-Việt hằng tuần tại Đà Nẵng với cấu trúc rõ ràng, hỗ trợ người mới và tài liệu dùng ngay tại bàn.'
 
       [languages.vi.params.community]
@@ -114,19 +108,19 @@ theme = 'PaperMod'
         imageTitle = 'Logo Language Exchange'
 
       [languages.vi.params.homeInfoParams]
-        Title = 'Chào mừng đến với CLB Trao Đổi Ngôn Ngữ Đà Nẵng'
+        Title = 'Chào mừng đến với Trao Đổi Ngôn Ngữ Đà Nẵng'
         Content = 'Đây là cộng đồng gặp mặt trực tiếp dành cho người Việt luyện tiếng Anh và người nước ngoài luyện tiếng Việt.'
-
-    [[languages.vi.menu.main]]
-      identifier = 'about'
-      name = 'Giới thiệu'
-      url = '/about/'
-      weight = 10
 
     [[languages.vi.menu.main]]
       identifier = 'events'
       name = 'Sự kiện'
       url = '/events/'
+      weight = 10
+
+    [[languages.vi.menu.main]]
+      identifier = 'join'
+      name = 'Tham gia'
+      url = '/join/'
       weight = 20
 
     [[languages.vi.menu.main]]
@@ -142,16 +136,10 @@ theme = 'PaperMod'
       weight = 40
 
     [[languages.vi.menu.main]]
-      identifier = 'gallery'
-      name = 'Không khí'
-      url = '/gallery/'
+      identifier = 'about'
+      name = 'Giới thiệu'
+      url = '/about/'
       weight = 50
-
-    [[languages.vi.menu.main]]
-      identifier = 'join'
-      name = 'Tham gia'
-      url = '/join/'
-      weight = 60
 
 [taxonomies]
   tag = 'tags'

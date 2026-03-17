@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 
-<title>Danh từ thường gặp | CLB Trao Đổi Ngôn Ngữ Đà Nẵng</title>
+<title>Danh từ thường gặp | Trao Đổi Ngôn Ngữ Đà Nẵng</title>
 <meta name="keywords" content="">
 <meta name="description" content="Danh từ nền để nói về quán cà phê, thành phố, thói quen và các buổi giao lưu.">
 <meta name="author" content="Da Nang Language Exchange">
 <link rel="canonical" href="https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/daily-nouns/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.678d1d54c6287af8308e7916de2ef3294a1605120281bd72d6b1b7627e66c097.css" integrity="sha256-Z40dVMYoevgwjnkW3i7zKUoWBRICgb1y1rG3Yn5mwJc=" rel="preload stylesheet" as="style"><link rel="icon" href="https://dananglanguageexchange.pages.dev/favicon.ico">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.13df0c7ace11c30a39d96ba0bed385df02b0fc73abd751a1ec6189fcad75631c.css" integrity="sha256-E98Mes4Rwwo52WugvtOF3wKw/HOr11Gh7GGJ/K11Yxw=" rel="preload stylesheet" as="style"><link rel="icon" href="https://dananglanguageexchange.pages.dev/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://dananglanguageexchange.pages.dev/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://dananglanguageexchange.pages.dev/favicon-32x32.png">
 <link rel="apple-touch-icon" href="https://dananglanguageexchange.pages.dev/apple-touch-icon.png">
@@ -29,7 +29,7 @@
         }
     </style>
 </noscript><meta property="og:url" content="https://dananglanguageexchange.pages.dev/vi/resources/core-vocabulary/daily-nouns/">
-  <meta property="og:site_name" content="CLB Trao Đổi Ngôn Ngữ Đà Nẵng">
+  <meta property="og:site_name" content="Trao Đổi Ngôn Ngữ Đà Nẵng">
   <meta property="og:title" content="Danh từ thường gặp">
   <meta property="og:description" content="Danh từ nền để nói về quán cà phê, thành phố, thói quen và các buổi giao lưu.">
   <meta property="og:locale" content="vi-VN">
@@ -95,7 +95,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "CLB Trao Đổi Ngôn Ngữ Đà Nẵng",
+    "name": "Trao Đổi Ngôn Ngữ Đà Nẵng",
     "logo": {
       "@type": "ImageObject",
       "url": "https://dananglanguageexchange.pages.dev/favicon.ico"
@@ -108,25 +108,26 @@
     <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="/vi/" accesskey="h" title="CLB Trao Đổi Ngôn Ngữ Đà Nẵng (Alt + H)">CLB Trao Đổi Ngôn Ngữ Đà Nẵng</a>
+            <a href="/vi/" accesskey="h" title="Trao Đổi Ngôn Ngữ Đà Nẵng (Alt + H)">Trao Đổi Ngôn Ngữ Đà Nẵng</a>
             <div class="logo-switches">
                     <ul class="lang-switch"><li>|</li>
                         <li>
                             <a href="https://dananglanguageexchange.pages.dev/resources/core-vocabulary/daily-nouns/" title="English"
-                                aria-label="English">English</a>
+                                aria-label="English">
+                                <span class="lang-flag" aria-hidden="true">🇬🇧</span>English</a>
                         </li>
                     </ul>
             </div>
         </div>
         <ul id="menu">
             <li>
-                <a href="/vi/about/" title="Giới thiệu">
-                    <span>Giới thiệu</span>
+                <a href="/vi/events/" title="Sự kiện">
+                    <span>Sự kiện</span>
                 </a>
             </li>
             <li>
-                <a href="/vi/events/" title="Sự kiện">
-                    <span>Sự kiện</span>
+                <a href="/vi/join/" title="Tham gia">
+                    <span>Tham gia</span>
                 </a>
             </li>
             <li>
@@ -140,13 +141,8 @@
                 </a>
             </li>
             <li>
-                <a href="/vi/gallery/" title="Không khí">
-                    <span>Không khí</span>
-                </a>
-            </li>
-            <li>
-                <a href="/vi/join/" title="Tham gia">
-                    <span>Tham gia</span>
+                <a href="/vi/about/" title="Giới thiệu">
+                    <span>Giới thiệu</span>
                 </a>
             </li>
         </ul>
@@ -233,7 +229,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2026 <a href="/vi/">CLB Trao Đổi Ngôn Ngữ Đà Nẵng</a></span> · 
+        <span>&copy; 2026 <a href="/vi/">Trao Đổi Ngôn Ngữ Đà Nẵng</a></span> · 
 
     <span>
         Powered by
@@ -250,13 +246,20 @@
 <script>
     let menu = document.getElementById('menu');
     if (menu) {
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
+        const isMobileMenu = window.matchMedia('(max-width: 720px)').matches;
+        const menuStorageKey = `menu-scroll-position:${window.location.pathname}`;
 
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        if (isMobileMenu) {
+            menu.scrollLeft = 0;
+        } else {
+            const scrollPosition = sessionStorage.getItem(menuStorageKey);
+            if (scrollPosition) {
+                menu.scrollLeft = parseInt(scrollPosition, 10);
+            }
+
+            menu.onscroll = function () {
+                sessionStorage.setItem(menuStorageKey, menu.scrollLeft);
+            }
         }
     }
 

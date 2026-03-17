@@ -35,13 +35,20 @@
 <script>
     let menu = document.getElementById('menu');
     if (menu) {
-        const scrollPosition = localStorage.getItem("menu-scroll-position");
-        if (scrollPosition) {
-            menu.scrollLeft = parseInt(scrollPosition, 10);
-        }
+        const isMobileMenu = window.matchMedia('(max-width: 720px)').matches;
+        const menuStorageKey = `menu-scroll-position:${window.location.pathname}`;
 
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        if (isMobileMenu) {
+            menu.scrollLeft = 0;
+        } else {
+            const scrollPosition = sessionStorage.getItem(menuStorageKey);
+            if (scrollPosition) {
+                menu.scrollLeft = parseInt(scrollPosition, 10);
+            }
+
+            menu.onscroll = function () {
+                sessionStorage.setItem(menuStorageKey, menu.scrollLeft);
+            }
         }
     }
 

@@ -11,12 +11,12 @@
     </header>
 
     {{ range first 1 $featured }}
-    <section class="topic-spotlight">
+    <section class="topic-spotlight home-priority-block">
         <div class="topic-spotlight-copy">
             <span class="badge">{{ i18n "topics_featured_badge" }}</span>
             <h2>{{ .Title }}</h2>
             <p>{{ .Params.summary | default .Summary }}</p>
-            <div class="inline-meta-list">
+            <div class="inline-meta-list resource-mobile-meta">
                 <span><strong>{{ i18n "topics_track" }}</strong> {{ .Params.track }}</span>
                 <span><strong>{{ i18n "topics_patterns" }}</strong> {{ len .Params.patterns_used }} {{ i18n "topics_patterns_detail" }}</span>
             </div>
@@ -32,7 +32,7 @@
     <section class="home-section">
         <div class="topic-card-grid">
             {{ range sort $rest "Weight" "asc" }}
-            <article class="topic-card">
+            <article class="topic-card topic-card-mobile">
                 <div class="topic-card-header">
                     <div>
                         <span class="badge">{{ .Params.track }}</span>
@@ -41,7 +41,7 @@
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
-                <div class="inline-meta-list">
+                <div class="inline-meta-list resource-mobile-meta topic-mobile-meta">
                     <span><strong>{{ i18n "topics_patterns" }}</strong> {{ len .Params.patterns_used }}</span>
                     <span><strong>{{ i18n "topics_vocab" }}</strong> {{ len .Params.vocabulary }} {{ i18n "words_label" }}</span>
                     <span><strong>{{ i18n "topics_best_use" }}</strong> {{ i18n "topics_best_use_detail" }}</span>

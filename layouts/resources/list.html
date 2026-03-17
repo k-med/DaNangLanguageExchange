@@ -12,13 +12,13 @@
         {{ with .Description }}<p class="section-intro">{{ . }}</p>{{ end }}
     </header>
 
-    <section class="resource-group">
+    <section class="resource-group resource-group-beginner">
         <span class="section-kicker">{{ i18n "resource_group_beginner_kicker" }}</span>
         <h2>{{ i18n "resource_group_beginner_title" }}</h2>
         <p class="section-intro">{{ i18n "resource_group_beginner_intro" }}</p>
         <div class="resource-grid">
             {{ range sort $beginners "Weight" "asc" }}
-            <article class="card resource-card">
+            <article class="card resource-card resource-card-beginner">
                 <div class="resource-card-header">
                     <div>
                         <span class="badge">{{ .Params.pattern_band | default (i18n "resource_group_beginner_title") }}</span>
@@ -27,7 +27,7 @@
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
-                <div class="resource-stat-row">
+                <div class="resource-stat-row resource-mobile-meta">
                     <span class="resource-stat"><strong>{{ i18n "beginner_first_questions" }}</strong> {{ len .Params.first_questions }}</span>
                     <span class="resource-stat"><strong>{{ i18n "beginner_best_for" }}</strong> {{ i18n "beginner_best_for_detail" }}</span>
                 </div>
@@ -36,13 +36,13 @@
         </div>
     </section>
 
-    <section class="resource-group">
+    <section class="resource-group resource-group-patterns">
         <span class="section-kicker">{{ i18n "resource_group_patterns_kicker" }}</span>
         <h2>{{ i18n "resource_group_patterns_title" }}</h2>
         <p class="section-intro">{{ i18n "resource_group_patterns_intro" }}</p>
         <div class="resource-grid">
             {{ range sort $patterns "Weight" "asc" }}
-            <article class="card resource-card">
+            <article class="card resource-card resource-card-pattern">
                 <div class="resource-card-header">
                     <div>
                         <span class="badge">{{ .Params.pattern_band }}</span>
@@ -51,13 +51,13 @@
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
-                <div class="resource-preview-block">
+                <div class="resource-preview-block resource-mobile-secondary">
                     <p class="resource-preview-label">{{ i18n "pattern_preview_target_label" }}</p>
                     <div class="resource-preview-template">{{ .Params.template }}</div>
                     <p class="resource-preview-label">{{ i18n "pattern_preview_support_label" }}</p>
                     <div class="resource-preview-translation">{{ .Params.literal_translation }}</div>
                 </div>
-                <div class="resource-stat-row">
+                <div class="resource-stat-row resource-mobile-meta">
                     <span class="resource-stat"><strong>{{ i18n "prompts_label" }}</strong> {{ len .Params.prompts }}</span>
                     <span class="resource-stat"><strong>{{ i18n "examples_label" }}</strong> {{ len .Params.examples }}</span>
                 </div>
@@ -66,13 +66,13 @@
         </div>
     </section>
 
-    <section class="resource-group">
+    <section class="resource-group resource-group-vocab">
         <span class="section-kicker">{{ i18n "resource_group_vocab_kicker" }}</span>
         <h2>{{ i18n "resource_group_vocab_title" }}</h2>
         <p class="section-intro">{{ i18n "resource_group_vocab_intro" }}</p>
         <div class="resource-grid">
             {{ range sort $vocabulary "Weight" "asc" }}
-            <article class="card resource-card">
+            <article class="card resource-card resource-card-vocab">
                 <div class="resource-card-header">
                     <div>
                         <span class="badge">{{ i18n "resource_group_vocab_title" }}</span>
@@ -81,7 +81,7 @@
                     <a href="{{ .RelPermalink }}" class="button button-small button-outline">{{ i18n "open_label" }}</a>
                 </div>
                 <p>{{ .Params.summary | default .Summary }}</p>
-                <div class="resource-stat-row">
+                <div class="resource-stat-row resource-mobile-meta">
                     <span class="resource-stat"><strong>{{ i18n "words_label" }}</strong> {{ len .Params.words }}</span>
                     <span class="resource-stat"><strong>{{ i18n "drill_label" }}</strong> {{ i18n "drill_detail" }}</span>
                 </div>
