@@ -22,6 +22,8 @@
 
 html {
     scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
 }
 
 body {
@@ -1104,9 +1106,12 @@ small {
 
     .hero-title {
         margin-top: 0.6rem;
-        font-size: clamp(2.55rem, 11vw, 3.4rem);
-        line-height: 0.97;
-        max-width: 10ch;
+        font-size: clamp(2.15rem, 8.6vw, 2.8rem);
+        line-height: 1;
+        max-width: none;
+        text-wrap: balance;
+        overflow-wrap: normal;
+        word-break: normal;
     }
 
     .hero-subtitle,
@@ -1514,11 +1519,11 @@ small {
     }
 
     .logo a {
-        font-size: 0.9rem;
+        font-size: 0.86rem;
     }
 
     .lang-switch a {
-        font-size: 0.9rem;
+        font-size: 0.86rem;
     }
 
     .lang-flag {
@@ -1527,7 +1532,8 @@ small {
     }
 
     .hero-title {
-        font-size: clamp(2.1rem, 10.3vw, 2.8rem);
+        font-size: clamp(1.95rem, 8.4vw, 2.45rem);
+        line-height: 1.01;
     }
 
     .hero-subtitle {
