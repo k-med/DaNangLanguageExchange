@@ -21,11 +21,15 @@
 - id: home_pattern_tables_detail
   translation: "Mỗi bàn dùng ba mẫu câu và có host dẫn"
 - id: home_photo_tables
-  translation: "Bàn nhỏ ở quán cà phê trung tâm Đà Nẵng"
+  translation: "Toàn cảnh buổi tối thứ Sáu"
 - id: home_photo_topics
-  translation: "Phiếu chủ đề"
+  translation: "Các bàn hội thoại nhỏ"
 - id: home_photo_energy
-  translation: "Không khí thứ Sáu"
+  translation: "Góc cửa sổ yên hơn"
+- id: home_last_session_badge
+  translation: "Buổi thứ Sáu gần nhất"
+- id: home_view_last_session
+  translation: "Xem tổng kết"
 - id: home_next_meetup
   translation: "Buổi sắp tới"
 - id: home_open_event

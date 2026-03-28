@@ -21,11 +21,15 @@
 - id: home_pattern_tables_detail
   translation: "Three patterns per table, clear host guidance"
 - id: home_photo_tables
-  translation: "Central Da Nang cafe tables"
+  translation: "Friday session overview"
 - id: home_photo_topics
-  translation: "Topic sheets"
+  translation: "Small-group tables"
 - id: home_photo_energy
-  translation: "Friday energy"
+  translation: "Window-side conversation"
+- id: home_last_session_badge
+  translation: "Last Friday session"
+- id: home_view_last_session
+  translation: "View recap"
 - id: home_next_meetup
   translation: "Next meetup"
 - id: home_open_event

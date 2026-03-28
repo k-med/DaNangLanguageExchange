@@ -441,6 +441,14 @@ small {
     background-position: center;
 }
 
+.hero-photo-link {
+    display: block;
+}
+
+.hero-photo-link:hover {
+    transform: translateY(-2px);
+}
+
 .hero-photo-large {
     min-height: 210px;
 }
@@ -448,19 +456,19 @@ small {
 .hero-photo-tables {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.22), rgba(184, 106, 79, 0.18)),
-        url('/images/central-da-nang-cafe-tables.jpg');
+        url('/images/Friday270326-Group-Tables.jpeg');
 }
 
 .hero-photo-topics {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.14)),
-        url('/images/topic-sheets.jpg');
+        url('/images/Friday270326-Group-Tables2.jpeg');
 }
 
 .hero-photo-energy {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.16)),
-        url('/images/friday-afternoon-energy.jpg');
+        url('/images/Friday270326-Group-Tables3.jpeg');
 }
 
 .hero-photo::after {
@@ -479,6 +487,74 @@ small {
     color: #fff;
     font-weight: 700;
     max-width: 12ch;
+}
+
+.hero-recap-link {
+    display: block;
+    margin-top: 0.9rem;
+    padding: 1rem 1rem 1.05rem;
+    border-radius: calc(var(--radius-md) - 4px);
+    color: inherit;
+    background: rgba(255, 250, 245, 0.92);
+    border: 1px solid rgba(220, 204, 191, 0.82);
+}
+
+.hero-recap-link:hover {
+    color: inherit;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-card);
+}
+
+.hero-recap-link h3 {
+    margin: 0.55rem 0 0.45rem;
+    font-size: 1.08rem;
+}
+
+.hero-recap-link p {
+    margin: 0;
+    color: var(--secondary);
+}
+
+.hero-recap-meta {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-size: 0.92rem;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.photo-gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 1.1rem;
+    margin: 2rem 0 1.6rem;
+}
+
+.photo-gallery-card {
+    background: rgba(255, 255, 255, 0.74);
+    border: 1px solid rgba(220, 204, 191, 0.82);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-card);
+    overflow: hidden;
+}
+
+.photo-gallery-card img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.photo-gallery-copy {
+    padding: 1rem 1rem 1.1rem;
+}
+
+.photo-gallery-copy h3 {
+    margin: 0 0 0.4rem;
+}
+
+.photo-gallery-copy p {
+    margin: 0;
 }
 
 .hero-event-spotlight,

@@ -16,6 +16,7 @@
 {{ end }}
 {{ $upcoming := first 1 (sort $upcomingEvents "displayDate" "asc") }}
 {{ $pastEvents := first 3 (sort $pastEventItems "displayDate" "desc") }}
+{{ $latestPast := first 1 (sort $pastEventItems "displayDate" "desc") }}
 {{ $featuredTopic := first 1 (where (where site.RegularPages "Type" "topics") ".Params.featured" true) }}
 {{ $beginnerStart := first 1 (where (where site.RegularPages "Type" "resources") "Params.resource_type" "starter") }}
 
@@ -47,6 +48,22 @@
 
         <aside class="hero-panel">
             <div class="hero-photo-card">
+                {{ range $latestPast }}
+                {{ $event := .page }}
+                <a class="hero-photo hero-photo-large hero-photo-tables hero-photo-link" href="{{ $event.RelPermalink }}">
+                    <span>{{ i18n "home_photo_tables" }}</span>
+                </a>
+                <div class="hero-photo-row">
+                    <a class="hero-photo hero-photo-small hero-photo-topics hero-photo-link" href="{{ $event.RelPermalink }}"><span>{{ i18n "home_photo_topics" }}</span></a>
+                    <a class="hero-photo hero-photo-small hero-photo-energy hero-photo-link" href="{{ $event.RelPermalink }}"><span>{{ i18n "home_photo_energy" }}</span></a>
+                </div>
+                <a class="hero-recap-link" href="{{ $event.RelPermalink }}">
+                    <span class="badge">{{ i18n "home_last_session_badge" }}</span>
+                    <h3>{{ $event.Title }}</h3>
+                    <p>{{ $event.Params.recap_highlight | default $event.Summary }}</p>
+                    <span class="hero-recap-meta">{{ .displayDate | time.Format ":date_medium" }} · {{ i18n "home_view_last_session" }}</span>
+                </a>
+                {{ else }}
                 <div class="hero-photo hero-photo-large hero-photo-tables">
                     <span>{{ i18n "home_photo_tables" }}</span>
                 </div>
@@ -54,6 +71,7 @@
                     <div class="hero-photo hero-photo-small hero-photo-topics"><span>{{ i18n "home_photo_topics" }}</span></div>
                     <div class="hero-photo hero-photo-small hero-photo-energy"><span>{{ i18n "home_photo_energy" }}</span></div>
                 </div>
+                {{ end }}
             </div>
 
             {{ range $upcoming }}

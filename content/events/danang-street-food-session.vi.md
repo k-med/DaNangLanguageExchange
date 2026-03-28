@@ -2,13 +2,14 @@
 title: "Buổi street food Đà Nẵng"
 date: 2026-02-27T19:00:00+07:00
 draft: false
+show_in_past_events: true
 venue: "The Local Beans Cafe, near Dragon Bridge, Da Nang"
 map_link: "https://maps.google.com/?q=Dragon+Bridge+Da+Nang"
 time: "7:00 PM - 9:00 PM"
 level_focus: "Bàn sở thích, ý kiến và lý do-kết quả"
 venue_status: "Đã diễn ra"
 topic_of_week: "Món ăn đường phố, văn hóa quán cà phê và những món địa phương yêu thích"
-host_names: "Daisy và Kade"
+host_names: "Daisy, Kade và Tina"
 capacity_target: "20 người"
 recap_highlight: "Từ vựng về đồ ăn lên rất tốt, và không khí quán giúp người học tiếng Anh và tiếng Việt dễ hòa vào nhau."
 summary: "Một buổi cà phê sôi nổi nhưng vẫn có cấu trúc, xoay quanh văn hóa ẩm thực Đà Nẵng, chia sẻ gợi ý món và từ vựng gọi món."

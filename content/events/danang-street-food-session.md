@@ -2,13 +2,14 @@
 title: "Da Nang Street Food Session"
 date: 2026-02-27T19:00:00+07:00
 draft: false
+show_in_past_events: true
 venue: "The Local Beans Cafe, near Dragon Bridge, Da Nang"
 map_link: "https://maps.google.com/?q=Dragon+Bridge+Da+Nang"
 time: "7:00 PM - 9:00 PM"
 level_focus: "Preference, opinion, and cause-result tables"
 venue_status: "Completed"
 topic_of_week: "Street food, cafe culture, and favorite local dishes"
-host_names: "Daisy and Kade"
+host_names: "Daisy, Kade, and Tina"
 capacity_target: "20 people"
 recap_highlight: "Food vocabulary landed well, and the cafe atmosphere made it easy for Vietnamese and English speakers to mix naturally."
 summary: "A lively but still structured cafe session centered on Da Nang food culture, recommendation sharing, and practical ordering vocabulary."
