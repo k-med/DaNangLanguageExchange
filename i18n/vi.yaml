@@ -21,11 +21,11 @@
 - id: home_pattern_tables_detail
   translation: "Mỗi bàn dùng ba mẫu câu và có host dẫn"
 - id: home_photo_tables
-  translation: "Toàn cảnh buổi tối thứ Sáu"
+  translation: "Buổi thứ Sáu gần nhất ở An Hoi"
 - id: home_photo_topics
-  translation: "Các bàn hội thoại nhỏ"
+  translation: "Các bàn nhỏ trong sân"
 - id: home_photo_energy
-  translation: "Góc cửa sổ yên hơn"
+  translation: "Không khí đèn lồng buổi tối"
 - id: home_last_session_badge
   translation: "Buổi thứ Sáu gần nhất"
 - id: home_view_last_session

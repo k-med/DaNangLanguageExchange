@@ -8,7 +8,7 @@ time: "7:00 PM - 9:00 PM"
 level_focus: "Starter, conversation, and story tables"
 venue_status: "Rotating Friday cafe location"
 topic_of_week: "Food, dining, and favorite Da Nang spots"
-host_names: "Daisy, Kade, and Tina"
+host_names: "Daisy and Kade"
 capacity_target: "18 to 24 people"
 recap_highlight: "Hosts are running a food-and-cafe topic night with beginner prompt sheets and deliberate table rotations."
 summary: "A structured Friday night session with English and Vietnamese practice, small-group rotations, and a food topic page built around three reusable conversation patterns."
@@ -26,7 +26,7 @@ This is the next public session for the Da Nang Language Exchange Club.
 ## Practical Details
 
 - **Venue:** Check WhatsApp or Zalo for this Friday's cafe location. We rotate between suitable cafes in Da Nang.
-- **Hosts:** Daisy, Kade, and Tina.
+- **Hosts:** Daisy and Kade.
 - **Capacity target:** 18 to 24 members so tables stay manageable.
 - **Best for:** Learners who want a calm, structured session rather than a free-form social meetup.
 

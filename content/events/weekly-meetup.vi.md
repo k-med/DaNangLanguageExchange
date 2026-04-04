@@ -8,7 +8,7 @@ time: "7:00 PM - 9:00 PM"
 level_focus: "Bàn khởi động, hội thoại và kể chuyện"
 venue_status: "Địa điểm quán cà phê luân phiên mỗi thứ Sáu"
 topic_of_week: "Đồ ăn, ăn uống và những địa điểm yêu thích ở Đà Nẵng"
-host_names: "Daisy, Kade và Tina"
+host_names: "Daisy và Kade"
 capacity_target: "18 đến 24 người"
 recap_highlight: "Host sẽ chạy một đêm chủ đề về đồ ăn và quán cà phê, có câu gợi ý cho người mới và đổi bàn có chủ đích."
 summary: "Buổi tối thứ Sáu có cấu trúc rõ ràng với phần tiếng Anh và tiếng Việt tách riêng, nhóm nhỏ luân chuyển, và trang chủ đề về đồ ăn xoay quanh ba mẫu hội thoại có thể dùng lại nhiều lần."
@@ -26,7 +26,7 @@ summary: "Buổi tối thứ Sáu có cấu trúc rõ ràng với phần tiếng
 ## Thông tin thực tế
 
 - **Địa điểm:** Xem WhatsApp hoặc Zalo để biết quán cà phê của thứ Sáu này. Bọn mình luân phiên giữa những quán phù hợp ở Đà Nẵng.
-- **Host:** Daisy, Kade và Tina.
+- **Host:** Daisy và Kade.
 - **Sức chứa mục tiêu:** 18 đến 24 thành viên để bàn vẫn dễ quản lý.
 - **Phù hợp với:** Người muốn một buổi yên, có cấu trúc thay vì một buổi xã giao tự do.
 

@@ -21,11 +21,11 @@
 - id: home_pattern_tables_detail
   translation: "Three patterns per table, clear host guidance"
 - id: home_photo_tables
-  translation: "Friday session overview"
+  translation: "Last Friday at An Hoi"
 - id: home_photo_topics
-  translation: "Small-group tables"
+  translation: "Cozy courtyard tables"
 - id: home_photo_energy
-  translation: "Window-side conversation"
+  translation: "Lantern-lit atmosphere"
 - id: home_last_session_badge
   translation: "Last Friday session"
 - id: home_view_last_session

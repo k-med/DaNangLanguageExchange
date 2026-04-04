@@ -263,7 +263,7 @@
                 />
   </url><url>
     <loc>https://dananglanguageexchange.pages.dev/</loc>
-    <lastmod>2026-03-27T19:00:00+07:00</lastmod>
+    <lastmod>2026-04-03T19:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
@@ -276,7 +276,7 @@
                 />
   </url><url>
     <loc>https://dananglanguageexchange.pages.dev/events/</loc>
-    <lastmod>2026-03-27T19:00:00+07:00</lastmod>
+    <lastmod>2026-04-03T19:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="vi-VN"
@@ -286,6 +286,19 @@
                 rel="alternate"
                 hreflang="en-US"
                 href="https://dananglanguageexchange.pages.dev/events/"
+                />
+  </url><url>
+    <loc>https://dananglanguageexchange.pages.dev/events/friday-april-03-2026-an-hoi-cafe/</loc>
+    <lastmod>2026-04-03T19:00:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi-VN"
+                href="https://dananglanguageexchange.pages.dev/vi/events/friday-april-03-2026-an-hoi-cafe/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en-US"
+                href="https://dananglanguageexchange.pages.dev/events/friday-april-03-2026-an-hoi-cafe/"
                 />
   </url><url>
     <loc>https://dananglanguageexchange.pages.dev/events/weekly-meetup/</loc>

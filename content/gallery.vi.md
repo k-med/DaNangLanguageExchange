@@ -6,30 +6,37 @@ description: "Những ghi chú về không khí và minh chứng xã hội để
 
 <div class="page-shell">
 
-## Buổi thứ Sáu, ngày 27 tháng 3 năm 2026
+## Buổi thứ Sáu ngày 3 tháng 4 năm 2026 tại An Hoi Cafe
 
-Đây là ảnh từ buổi tối thứ Sáu ngày 27 tháng 3 năm 2026. Bộ ảnh này cho thấy đúng cảm giác mà người mới thường muốn kiểm chứng trước khi đến: nhiều bàn nhỏ, đủ yên để nghe nhau, và không khí quán cà phê dễ nói chuyện thay vì một đám đông ồn ào.
+Đây là ảnh từ buổi tối thứ Sáu ngày 3 tháng 4 năm 2026 tại An Hoi Cafe. Buổi này có cảm giác thân mật hơn tuần trước: khoảng 12 người, không gian sân ngoài trời thoải mái, và nhịp rất dễ chịu để người mới hòa vào cuộc trò chuyện.
 
 <div class="photo-gallery-grid">
   <figure class="photo-gallery-card">
-    <img src="/images/Friday270326-Group-Tables.jpeg" alt="Nhiều bàn hội thoại nhỏ trong buổi Da Nang Language Exchange tối thứ Sáu ngày 27 tháng 3 năm 2026." loading="lazy">
+    <img src="/images/april-03-2026-an-hoi-overview.jpg" alt="Các bàn hội thoại nhỏ trong buổi Da Nang Language Exchange tối thứ Sáu ngày 3 tháng 4 năm 2026 tại An Hoi Cafe." loading="lazy">
     <figcaption class="photo-gallery-copy">
-      <h3>Toàn cảnh căn phòng</h3>
-      <p>Minh chứng rõ nhất cho format của CLB: nhiều bàn chạy song song và vẫn đủ khoảng cách để nói chuyện thật sự.</p>
+      <h3>Bố cục sân ngoài trời rất ấm</h3>
+      <p>Cách bố trí ở An Hoi giúp buổi tối vừa thoáng vừa dễ nói chuyện, các bàn có đủ khoảng cách mà vẫn giữ được cảm giác chung của cả nhóm.</p>
     </figcaption>
   </figure>
   <figure class="photo-gallery-card">
-    <img src="/images/Friday270326-Group-Tables2.jpeg" alt="Các nhóm nhỏ đang nói chuyện trong quán ở buổi tối thứ Sáu ngày 27 tháng 3 năm 2026." loading="lazy">
+    <img src="/images/april-03-2026-an-hoi-wide.jpg" alt="Góc nhìn rộng của buổi giao lưu ngôn ngữ tối thứ Sáu ngày 3 tháng 4 năm 2026 tại An Hoi Cafe." loading="lazy">
     <figcaption class="photo-gallery-copy">
-      <h3>Đông nhưng vẫn dễ theo</h3>
-      <p>Đây là kiểu năng lượng mà bọn mình muốn giữ: nhiều bàn đang chạy, có thể đổi nhóm, nhưng không có bàn nào nuốt trọn cả căn phòng.</p>
+      <h3>Không khí tối thứ Sáu rất dễ chịu</h3>
+      <p>Với khoảng 12 người tham gia, buổi vẫn đủ vui và có sức sống nhưng không hề bị chật hay quá ồn.</p>
     </figcaption>
   </figure>
   <figure class="photo-gallery-card">
-    <img src="/images/Friday270326-Group-Tables3.jpeg" alt="Góc nhìn qua cửa kính vào buổi giao lưu ngôn ngữ tối thứ Sáu ngày 27 tháng 3 năm 2026 ở Đà Nẵng." loading="lazy">
+    <img src="/images/april-03-2026-an-hoi-lanterns.jpg" alt="Đèn lồng, mặt nước và khu ngồi ngoài trời trong buổi giao lưu ngôn ngữ tối thứ Sáu ngày 3 tháng 4 năm 2026 tại An Hoi Cafe." loading="lazy">
     <figcaption class="photo-gallery-copy">
-      <h3>Không khí quán yên</h3>
-      <p>Một góc ảnh giàu không khí hơn, giúp người xem hình dung rõ nhịp của buổi tối nếu họ còn đang cân nhắc liệu mình có thấy thoải mái khi tham gia hay không.</p>
+      <h3>Không khí tạo cảm giác rất dễ vào</h3>
+      <p>Ánh sáng và khu sân ngoài trời làm cho buổi giao lưu mềm hơn và thân thiện hơn, nhất là với người mới đến trong thời gian báo gấp.</p>
+    </figcaption>
+  </figure>
+  <figure class="photo-gallery-card">
+    <img src="/images/april-03-2026-an-hoi-water.jpg" alt="Góc nhìn buổi tối qua khu hồ nước của buổi Da Nang Language Exchange ngày 3 tháng 4 năm 2026 tại An Hoi Cafe." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>Một venue mà mọi người thật sự thích</h3>
+      <p>Khu ngoài trời tạo cho buổi tối một dấu ấn riêng, còn đội ngũ nhân viên phục vụ rất tốt giúp trải nghiệm tổng thể dễ chịu hơn hẳn.</p>
     </figcaption>
   </figure>
 </div>
@@ -38,19 +45,19 @@ description: "Những ghi chú về không khí và minh chứng xã hội để
 
 <div class="proof-grid" style="margin-top: 2rem;">
   <div class="proof-story-card">
-    <span class="badge">Nhiều bàn nhỏ</span>
-    <h3>Mọi người thật sự có lượt nói</h3>
-    <p>Căn phòng vận hành tốt nhất khi cuộc trò chuyện được chia đều ở nhiều bàn thay vì dồn hết thành một vòng nói chuyện lớn.</p>
+    <span class="badge">Buổi tối thư giãn</span>
+    <h3>Ít người hơn đôi khi lại là lợi thế</h3>
+    <p>Với khoảng 12 người, ai cũng có nhiều không gian hơn để nói, đổi bàn tự nhiên và vào nhịp mà không bị áp lực.</p>
   </div>
   <div class="proof-story-card">
-    <span class="badge">Không khí dễ vào</span>
-    <h3>Thân thiện với người mới mà không bị gò bó</h3>
-    <p>Người mới có thể đến với chút lo lắng, được xếp vào bàn phù hợp, rồi vào nhịp dần mà không cần phải giao tiếp xã hội quá đà ngay từ đầu.</p>
+    <span class="badge">Nhiều gương mặt mới</span>
+    <h3>Báo gấp nhưng vẫn đón được người mới</h3>
+    <p>Dù địa điểm được báo hơi muộn, buổi vẫn có sự kết hợp tốt giữa thành viên mới và thành viên quay lại, và giữ được không khí thân thiện suốt tối.</p>
   </div>
   <div class="proof-story-card">
-    <span class="badge">Lượng người hợp lý</span>
-    <h3>Đủ đông để đổi bàn, không quá đông để vỡ nhịp</h3>
-    <p>Những buổi tốt nhất có đủ thành viên để làm mới cuộc trò chuyện qua các lần đổi bàn nhưng vẫn giữ cho từng nhóm dễ nghe và dễ theo.</p>
+    <span class="badge">Phục vụ tốt</span>
+    <h3>Venue hỗ trợ tốt sẽ nâng cả buổi lên</h3>
+    <p>Đội ngũ ở An Hoi Cafe hỗ trợ rất nhiệt tình, và chủ quán còn dành ưu đãi giảm 10% nên buổi tối càng dễ giới thiệu với thành viên hơn.</p>
   </div>
 </div>
 
@@ -58,6 +65,6 @@ description: "Những ghi chú về không khí và minh chứng xã hội để
 
 - Ảnh cho thấy format của CLB là thật, mới và đang hoạt động đều.
 - Ảnh giúp người mới hình dung căn phòng trước khi họ đến.
-- Ảnh hỗ trợ đúng cho lời hứa trên trang chủ rằng buổi giao lưu chạy theo nhiều bàn nhỏ chứ không phải một buổi mixer ồn ào.
+- Ảnh cũng cho thấy những venue khác nhau vẫn có thể giữ đúng tinh thần giao lưu nhẹ, có học và dễ tham gia của CLB.
 
 </div>

@@ -6,30 +6,37 @@ description: "Atmosphere notes and social proof that show what Da Nang Language 
 
 <div class="page-shell">
 
-## Friday, March 27, 2026 Session
+## Friday, April 3, 2026 At An Hoi Cafe
 
-These photos are from the Friday, March 27, 2026 session. They show the room the way first-time members usually hope it will feel: several small tables, enough space to hear each other, and a calm cafe atmosphere instead of one loud crowd.
+These photos are from the Friday, April 3, 2026 session at An Hoi Cafe. The night had a more intimate feel than the week before: around 12 people, a relaxed outdoor courtyard, and the kind of easy atmosphere that helps new members settle in fast.
 
 <div class="photo-gallery-grid">
   <figure class="photo-gallery-card">
-    <img src="/images/Friday270326-Group-Tables.jpeg" alt="Several small conversation tables during the Friday, March 27, 2026 Da Nang Language Exchange session." loading="lazy">
+    <img src="/images/april-03-2026-an-hoi-overview.jpg" alt="Small conversation tables during the Friday, April 3, 2026 Da Nang Language Exchange session at An Hoi Cafe." loading="lazy">
     <figcaption class="photo-gallery-copy">
-      <h3>Wide room view</h3>
-      <p>The clearest proof of the format: multiple tables running at once, with enough distance between groups for real conversation practice.</p>
+      <h3>Cozy outdoor setup</h3>
+      <p>The An Hoi layout made the session feel open and relaxed, with enough separation between tables for real conversation without losing the group energy.</p>
     </figcaption>
   </figure>
   <figure class="photo-gallery-card">
-    <img src="/images/Friday270326-Group-Tables2.jpeg" alt="Active small-group conversations across the cafe during the Friday, March 27, 2026 session." loading="lazy">
+    <img src="/images/april-03-2026-an-hoi-wide.jpg" alt="A wide courtyard view of the Friday, April 3, 2026 language exchange at An Hoi Cafe." loading="lazy">
     <figcaption class="photo-gallery-copy">
-      <h3>Busy, but still manageable</h3>
-      <p>This is the kind of room energy we want: active tables, visible rotations, and no single group dominating the whole session.</p>
+      <h3>Relaxed Friday night energy</h3>
+      <p>With about 12 people, the evening stayed social and comfortable rather than crowded, which helped conversations flow naturally.</p>
     </figcaption>
   </figure>
   <figure class="photo-gallery-card">
-    <img src="/images/Friday270326-Group-Tables3.jpeg" alt="A window-side view into the Friday, March 27, 2026 language exchange session in Da Nang." loading="lazy">
+    <img src="/images/april-03-2026-an-hoi-lanterns.jpg" alt="Lanterns, water, and outdoor seating at the Friday, April 3, 2026 language exchange session at An Hoi Cafe." loading="lazy">
     <figcaption class="photo-gallery-copy">
-      <h3>Quiet cafe atmosphere</h3>
-      <p>A more atmospheric angle that helps people picture the actual tone of the night, especially if they are deciding whether the meetup will feel comfortable.</p>
+      <h3>Atmosphere matters</h3>
+      <p>The lighting and courtyard setting gave the whole meetup a softer, more welcoming tone, especially for people joining at short notice.</p>
+    </figcaption>
+  </figure>
+  <figure class="photo-gallery-card">
+    <img src="/images/april-03-2026-an-hoi-water.jpg" alt="An evening waterside view across the Friday, April 3, 2026 Da Nang Language Exchange session at An Hoi Cafe." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>A venue people actually enjoyed</h3>
+      <p>The outdoor area gave us a strong visual identity for the night, and the exceptional staff service made the whole session run more smoothly once people arrived.</p>
     </figcaption>
   </figure>
 </div>
@@ -38,19 +45,19 @@ These photos are from the Friday, March 27, 2026 session. They show the room the
 
 <div class="proof-grid" style="margin-top: 2rem;">
   <div class="proof-story-card">
-    <span class="badge">Small tables</span>
-    <h3>People actually get speaking time</h3>
-    <p>The room works best when conversations stay distributed across several tables instead of collapsing into one big social circle.</p>
+    <span class="badge">Relaxed night</span>
+    <h3>Smaller turnout can be a strength</h3>
+    <p>With around 12 people, everyone had more space to talk, rotate naturally, and settle into conversations without pressure.</p>
   </div>
   <div class="proof-story-card">
-    <span class="badge">Calm energy</span>
-    <h3>Starter-friendly without feeling stiff</h3>
-    <p>People can arrive a little nervous, get seated at a suitable table, and still ease into the room without needing to perform socially right away.</p>
+    <span class="badge">New faces</span>
+    <h3>Short notice, still a warm welcome</h3>
+    <p>Even though the venue announcement came too late, the group still drew a strong mix of new and returning members and kept the energy friendly all evening.</p>
   </div>
   <div class="proof-story-card">
-    <span class="badge">Real turnout</span>
-    <h3>Enough people for rotation, not so many it breaks</h3>
-    <p>The best sessions have enough members to refresh conversations through table changes while still keeping each group easy to hear and follow.</p>
+    <span class="badge">Good service</span>
+    <h3>Venue support changes the feel of the night</h3>
+    <p>An Hoi Cafe staff were exceptionally helpful, and the owner offered a 10% discount, which made the night feel generous and easy to recommend.</p>
   </div>
 </div>
 
@@ -58,6 +65,6 @@ These photos are from the Friday, March 27, 2026 session. They show the room the
 
 - They show the format is real, current, and active.
 - They help first-time members picture the room before they arrive.
-- They support the homepage claim that the meetup runs as small-group cafe tables rather than a loud mixer.
+- They show that different venue styles can still support the same relaxed, learning-first meetup format.
 
 </div>

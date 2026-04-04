@@ -456,19 +456,19 @@ small {
 .hero-photo-tables {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.22), rgba(184, 106, 79, 0.18)),
-        url('/images/Friday270326-Group-Tables.jpeg');
+        url('/images/april-03-2026-an-hoi-overview.jpg');
 }
 
 .hero-photo-topics {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.14)),
-        url('/images/Friday270326-Group-Tables2.jpeg');
+        url('/images/april-03-2026-an-hoi-wide.jpg');
 }
 
 .hero-photo-energy {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.16)),
-        url('/images/Friday270326-Group-Tables3.jpeg');
+        url('/images/april-03-2026-an-hoi-water.jpg');
 }
 
 .hero-photo::after {
@@ -813,6 +813,58 @@ small {
 .resource-single,
 .topic-single {
     max-width: 1100px;
+}
+
+.event-single {
+    max-width: 1120px;
+}
+
+.event-single-layout {
+    display: grid;
+    gap: 1.3rem;
+    margin-top: 1.6rem;
+}
+
+.event-summary-card {
+    padding: 1.6rem;
+}
+
+.event-content-card {
+    padding: 0;
+    overflow: hidden;
+}
+
+.event-content-card > *:first-child {
+    margin-top: 0;
+}
+
+.event-content-card .photo-gallery-grid:first-child,
+.event-content-card p:first-child,
+.event-content-card h2:first-child {
+    margin-top: 0;
+}
+
+.event-content-card {
+    padding: 1.6rem;
+}
+
+.event-content-card h2 {
+    margin-top: 2rem;
+}
+
+.event-content-card p,
+.event-content-card li {
+    max-width: 70ch;
+}
+
+.event-content-card .photo-gallery-grid,
+.event-content-card .quote-grid {
+    max-width: none;
+}
+
+.event-content-card .photo-gallery-grid + h2,
+.event-content-card .quote-grid + h2 {
+    margin-top: 2.2rem;
 }
 
 .resource-detail-shell,
