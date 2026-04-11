@@ -73,6 +73,92 @@
 
 </script>
 
+<script>
+    (() => {
+        const galleryLinks = Array.from(document.querySelectorAll('.photo-gallery-card img'))
+            .filter((img) => !img.closest('a'))
+            .map((img) => {
+                const wrapper = document.createElement('a');
+                wrapper.href = img.currentSrc || img.src;
+                wrapper.className = 'photo-gallery-link';
+                wrapper.setAttribute('aria-label', img.alt || 'Open image');
+                img.parentNode.insertBefore(wrapper, img);
+                wrapper.appendChild(img);
+                return wrapper;
+            });
+
+        const clickableImages = [
+            ...galleryLinks,
+            ...document.querySelectorAll('.photo-gallery-card a[href$=".jpg"], .photo-gallery-card a[href$=".jpeg"], .photo-gallery-card a[href$=".png"], .photo-gallery-card a[href$=".webp"]')
+        ];
+
+        if (!clickableImages.length) {
+            return;
+        }
+
+        const lightbox = document.createElement('div');
+        lightbox.className = 'image-lightbox';
+        lightbox.innerHTML = `
+            <div class="image-lightbox__dialog" role="dialog" aria-modal="true" aria-label="Expanded image view">
+                <button type="button" class="image-lightbox__close" aria-label="Close image view">&times;</button>
+                <img class="image-lightbox__image" alt="">
+                <p class="image-lightbox__caption" hidden></p>
+            </div>
+        `;
+
+        document.body.appendChild(lightbox);
+
+        const imageEl = lightbox.querySelector('.image-lightbox__image');
+        const captionEl = lightbox.querySelector('.image-lightbox__caption');
+        const closeButton = lightbox.querySelector('.image-lightbox__close');
+        let lastTrigger = null;
+
+        const closeLightbox = () => {
+            lightbox.classList.remove('is-open');
+            document.body.classList.remove('lightbox-open');
+            if (lastTrigger) {
+                lastTrigger.focus();
+            }
+        };
+
+        const openLightbox = (link) => {
+            const img = link.querySelector('img');
+            imageEl.src = link.href;
+            imageEl.alt = img ? img.alt : '';
+
+            const caption = img && img.alt ? img.alt : '';
+            captionEl.textContent = caption;
+            captionEl.hidden = !caption;
+
+            lastTrigger = link;
+            lightbox.classList.add('is-open');
+            document.body.classList.add('lightbox-open');
+            closeButton.focus();
+        };
+
+        clickableImages.forEach((link) => {
+            link.addEventListener('click', (event) => {
+                event.preventDefault();
+                openLightbox(link);
+            });
+        });
+
+        closeButton.addEventListener('click', closeLightbox);
+
+        lightbox.addEventListener('click', (event) => {
+            if (event.target === lightbox) {
+                closeLightbox();
+            }
+        });
+
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape' && lightbox.classList.contains('is-open')) {
+                closeLightbox();
+            }
+        });
+    })();
+</script>
+
 {{- if (not site.Params.disableScrollToTop) }}
 <script>
     var mybutton = document.getElementById("top-link");
