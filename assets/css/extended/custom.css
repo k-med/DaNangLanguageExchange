@@ -456,19 +456,19 @@ small {
 .hero-photo-tables {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.22), rgba(184, 106, 79, 0.18)),
-        url('/images/april-03-2026-an-hoi-overview.jpg');
+        url('/images/Final-2026-04-11/april-10-2026-group-overview-1.jpeg');
 }
 
 .hero-photo-topics {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.14)),
-        url('/images/april-03-2026-an-hoi-wide.jpg');
+        url('/images/Final-2026-04-11/april-10-2026-group-overview-3.jpeg');
 }
 
 .hero-photo-energy {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.16)),
-        url('/images/april-03-2026-an-hoi-water.jpg');
+        url('/images/Final-2026-04-11/april-10-2026-conversation-portrait-2.jpeg');
 }
 
 .hero-photo::after {
