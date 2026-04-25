@@ -456,19 +456,19 @@ small {
 .hero-photo-tables {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.22), rgba(184, 106, 79, 0.18)),
-        url('/images/260417/WhatsApp Image 2026-04-18 at 7.05.13 AM (1).jpeg');
+        url('/images/260424/9931be61-6930-45e9-8b8c-7a2c202fd720.jpeg');
 }
 
 .hero-photo-topics {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.14)),
-        url('/images/Friday270326-Group-Tables2.jpeg');
+        url('/images/260424/WhatsApp Image 2026-04-25 at 9.27.35 AsMs.jpeg');
 }
 
 .hero-photo-energy {
     background-image:
         linear-gradient(135deg, rgba(42, 111, 151, 0.18), rgba(184, 106, 79, 0.16)),
-        url('/images/Final-2026-04-11/april-10-2026-conversation-portrait-2.jpeg');
+        url('/images/260424/CANVA-1---4ce28eef-97f9-41bc-ae4b-84ae0721f44d.jpg');
 }
 
 .hero-photo::after {
