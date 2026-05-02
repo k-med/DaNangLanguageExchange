@@ -6,6 +6,34 @@ description: "Atmosphere notes and social proof that show what Da Nang Language 
 
 <div class="page-shell">
 
+## Friday, May 1, 2026 At Heaven Coffee
+
+These photos are from the Friday, May 1, 2026 meetup at Heaven Coffee. It was a smaller 7 to 9 PM holiday-week group, with relaxed outdoor tables and focused English and Vietnamese conversation.
+
+<div class="photo-gallery-grid">
+  <figure class="photo-gallery-card">
+    <img src="/images/260501/1-WhatsApp Image 2026-05-02 at 1.39.06 PM (15).jpeg" alt="A wide outdoor view of the Friday, May 1, 2026 Da Nang Language Exchange meetup at Heaven Coffee." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>Quiet holiday-week setup</h3>
+      <p>The smaller group gave everyone more space and made the evening feel calm from the start.</p>
+    </figcaption>
+  </figure>
+  <figure class="photo-gallery-card">
+    <img src="/images/260501/1-WhatsApp Image 2026-05-02 at 1.39.06 PM (2).jpeg" alt="Two members practicing together at an outdoor table during the May 1, 2026 language exchange in Da Nang." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>More speaking time</h3>
+      <p>Pairs and small tables gave each person more chances to speak, listen, and ask for help.</p>
+    </figcaption>
+  </figure>
+  <figure class="photo-gallery-card">
+    <img src="/images/260501/1-WhatsApp Image 2026-05-02 at 1.39.06 PM (7).jpeg" alt="A focused conversation beside the Heaven Coffee sign during the Friday, May 1, 2026 language exchange meetup." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>Heaven Coffee setting</h3>
+      <p>The venue's outdoor tables and relaxed atmosphere helped keep the focus on real conversation practice.</p>
+    </figcaption>
+  </figure>
+</div>
+
 ## Friday, April 3, 2026 At An Hoi Cafe
 
 These photos are from the Friday, April 3, 2026 session at An Hoi Cafe. The night had a more intimate feel than the week before: around 12 people, a relaxed outdoor courtyard, and the kind of easy atmosphere that helps new members settle in fast.

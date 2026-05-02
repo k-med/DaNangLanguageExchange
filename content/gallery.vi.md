@@ -6,6 +6,34 @@ description: "Những ghi chú về không khí và minh chứng xã hội để
 
 <div class="page-shell">
 
+## Tối thứ Sáu ngày 1 tháng 5 năm 2026 tại Heaven Coffee
+
+Những ảnh này từ buổi giao lưu tối thứ Sáu ngày 1 tháng 5 năm 2026 tại Heaven Coffee. Đây là nhóm nhỏ hơn trong kỳ nghỉ lễ, diễn ra từ 7 đến 9 giờ tối, với bàn ngoài trời thoải mái và phần luyện tiếng Anh - tiếng Việt khá tập trung.
+
+<div class="photo-gallery-grid">
+  <figure class="photo-gallery-card">
+    <img src="/images/260501/1-WhatsApp Image 2026-05-02 at 1.39.06 PM (15).jpeg" alt="Góc rộng ngoài trời của buổi Da Nang Language Exchange ngày 1 tháng 5 năm 2026 tại Heaven Coffee." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>Nhóm nhỏ trong tuần nghỉ lễ</h3>
+      <p>Nhóm nhỏ hơn cho mọi người thêm không gian và làm buổi tối có cảm giác yên hơn ngay từ đầu.</p>
+    </figcaption>
+  </figure>
+  <figure class="photo-gallery-card">
+    <img src="/images/260501/1-WhatsApp Image 2026-05-02 at 1.39.06 PM (2).jpeg" alt="Hai thành viên luyện nói cùng nhau tại bàn ngoài trời trong buổi giao lưu ngày 1 tháng 5 năm 2026 ở Đà Nẵng." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>Nhiều thời gian nói hơn</h3>
+      <p>Luyện theo cặp và bàn nhỏ giúp mỗi người có thêm cơ hội nói, nghe và hỏi khi cần hỗ trợ.</p>
+    </figcaption>
+  </figure>
+  <figure class="photo-gallery-card">
+    <img src="/images/260501/1-WhatsApp Image 2026-05-02 at 1.39.06 PM (7).jpeg" alt="Một cuộc trò chuyện tập trung bên cạnh bảng hiệu Heaven Coffee trong buổi giao lưu ngôn ngữ ngày 1 tháng 5 năm 2026." loading="lazy">
+    <figcaption class="photo-gallery-copy">
+      <h3>Không gian Heaven Coffee</h3>
+      <p>Các bàn ngoài trời và không khí thoải mái của quán giúp mọi người giữ trọng tâm vào việc luyện hội thoại thật.</p>
+    </figcaption>
+  </figure>
+</div>
+
 ## Buổi thứ Sáu ngày 3 tháng 4 năm 2026 tại An Hoi Cafe
 
 Đây là ảnh từ buổi tối thứ Sáu ngày 3 tháng 4 năm 2026 tại An Hoi Cafe. Buổi này có cảm giác thân mật hơn tuần trước: khoảng 12 người, không gian sân ngoài trời thoải mái, và nhịp rất dễ chịu để người mới hòa vào cuộc trò chuyện.
